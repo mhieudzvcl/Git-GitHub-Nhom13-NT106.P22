@@ -44,9 +44,9 @@
 ## 👥 Thành viên nhóm  
 | Họ và tên            | MSSV      | Email                   |  
 |--------------------- |-----------|-------------------------|  
-| Huỳnh Minh Hiếu       | 23520477   | 23520477@gm.edu.vn       |  
-| Đỗ Trần Tuấn Kiệt     | 23520811   | 23520811@gm.edu.vn       |  
-| Nguyễn Huỳnh Nhật Huy | 23520612   | 23520612@gm.edu.vn       |  
+| Huỳnh Minh Hiếu       | 23520477   | 23520477@gm.uit.edu.vn       |  
+| Đỗ Trần Tuấn Kiệt     | 23520811   | 23520811@gm.uit.edu.vn       |  
+| Nguyễn Huỳnh Nhật Huy | 23520612   | 23520612@gm.uit.edu.vn       |  
 
 ---
 
