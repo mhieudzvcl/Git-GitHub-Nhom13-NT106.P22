@@ -6,7 +6,7 @@
 **Mã môn học:** NT106.P22.ANTT  
 **Dự án:** 🎶 VibraSound "Ứng dụng nghe nhạc và xem video cùng bạn bè qua mạng LAN."  
 <br><br>
-<img src="https://github.com/mhieudzvcl/Git-GitHub-Nhom13-NT106.P22/blob/main/VSLOGO.png" alt="Logo" width="800px" height="800px" /> 
+<img src="https://github.com/mhieudzvcl/Git-GitHub-Nhom13-NT106.P22/blob/main/VSLOGO.png" alt="Logo" width="1000px" height="600px" /> 
 ---
 
 ## 📝 Giới thiệu  
