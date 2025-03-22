@@ -25,6 +25,8 @@
 - Đồng bộ với thời gian thực.  
 
 ---
+## 🚀 Function divide/Use Case Diagram
+<img src="https://github.com/mhieudzvcl/Git-GitHub-Nhom13-NT106.P22/blob/main/Use%20case.png" alt="ảnh minh họa" width="1000px" height="600px" />
 
 ## 🛠️ Công cụ hỗ trợ  
 - C# .NET Framework  
