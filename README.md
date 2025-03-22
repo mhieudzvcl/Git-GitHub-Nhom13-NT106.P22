@@ -6,7 +6,7 @@
 **Mã môn học:** NT106.P22.ANTT  
 **Dự án:** 🎶 VibraSound "Ứng dụng nghe nhạc và xem video cùng bạn bè qua mạng LAN."  
 <br><br>
-<img src="https://github.com/mhieudzvcl/Git-GitHub-Nhom13-NT106.P22/blob/main/Logo.png" alt="Logo" width="1200px" height="800px" /> 
+<img src="https://github.com/mhieudzvcl/Git-GitHub-Nhom13-NT106.P22/blob/main/Assets/Logo.png" alt="Logo" width="1200px" height="800px" /> 
 ---
 
 ## 📝 Giới thiệu  
@@ -26,7 +26,7 @@
 
 ---
 ## 🚀 Function divide/Use Case Diagram
-<img src="https://github.com/mhieudzvcl/Git-GitHub-Nhom13-NT106.P22/blob/main/Use%20case.png" alt="ảnh minh họa" width="1200px" height="600px" />
+<img src="https://github.com/mhieudzvcl/Git-GitHub-Nhom13-NT106.P22/blob/main/Assets/Use%20case.png" alt="ảnh minh họa" width="1200px" height="600px" />
 
 ## 🛠️ Công cụ hỗ trợ  
 - C# .NET Framework  
