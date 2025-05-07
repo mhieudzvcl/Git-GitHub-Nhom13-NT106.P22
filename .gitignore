@@ -1,0 +1,16 @@
+# Bỏ các thư mục build và VS tạm
+.vs/
+bin/
+obj/
+packages/
+
+# Bỏ các file VS người dùng
+*.user
+*.suo
+
+# Bỏ file tạm và build
+*.exe
+*.dll
+*.cache
+*.log
+*.tmp
