@@ -12,6 +12,9 @@ using Newtonsoft.Json.Linq;
 using System.IO;
 using Guna.UI2.WinForms;
 using static System.Net.WebRequestMethods;
+using System.Web.UI.WebControls;
+//using Setting_UI;
+
 
 namespace Login_or_Signup
 {
@@ -109,8 +112,8 @@ namespace Login_or_Signup
                 playlistPanel.Visible = true;
 
                 Guna2PictureBox pictureBox = FindControlRecursive(playlistPanel, $"picturebox{index}") as Guna2PictureBox;
-                Label label = FindControlRecursive(playlistPanel, $"label{index}") as Label;
-                Label labelDesc = FindControlRecursive(playlistPanel, $"labelDesc{index}") as Label;
+                System.Windows.Forms.Label label = FindControlRecursive(playlistPanel, $"label{index}") as System.Windows.Forms.Label;
+                System.Windows.Forms.Label labelDesc = FindControlRecursive(playlistPanel, $"labelDesc{index}") as System.Windows.Forms.Label;
 
                 if (pictureBox != null && label != null && labelDesc != null)
                 {
@@ -119,7 +122,7 @@ namespace Login_or_Signup
                         byte[] imageBytes = await client.GetByteArrayAsync(imageUrl);
                         using (var ms = new MemoryStream(imageBytes))
                         {
-                            pictureBox.Image = Image.FromStream(ms);
+                            pictureBox.Image = System.Drawing.Image.FromStream(ms);
                             pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
                         }
                     }
@@ -414,8 +417,8 @@ namespace Login_or_Signup
                 artistPanel.Visible = true;
 
                 Guna2CirclePictureBox pictureBox = FindControlRecursive(artistPanel, $"picArtist{index}") as Guna2CirclePictureBox;
-                Label nameLabel = FindControlRecursive(artistPanel, $"lblArtist{index}") as Label;
-                Label fanLabel = FindControlRecursive(artistPanel, $"lblFan{index}") as Label;
+                System.Windows.Forms.Label nameLabel = FindControlRecursive(artistPanel, $"lblArtist{index}") as System.Windows.Forms.Label;
+                System.Windows.Forms.Label fanLabel = FindControlRecursive(artistPanel, $"lblFan{index}") as System.Windows.Forms.Label;
 
                 if (pictureBox != null && nameLabel != null && fanLabel != null)
                 {
@@ -424,7 +427,7 @@ namespace Login_or_Signup
                         byte[] imageBytes = await client.GetByteArrayAsync(imageUrl);
                         using (var ms = new MemoryStream(imageBytes))
                         {
-                            pictureBox.Image = Image.FromStream(ms);
+                            pictureBox.Image = System.Drawing.Image.FromStream(ms);
                             pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
                         }
                     }
@@ -533,8 +536,8 @@ namespace Login_or_Signup
                 panel.Visible = true;
 
                 Guna2PictureBox pictureBox = FindControlRecursive(panel, $"picAlbum{index}") as Guna2PictureBox;
-                Label lblTitle = FindControlRecursive(panel, $"lblAlbumName{index}") as Label;
-                Label lblFans = FindControlRecursive(panel, $"lblAlbumFan{index}") as Label;
+                System.Windows.Forms.Label lblTitle = FindControlRecursive(panel, $"lblAlbumName{index}") as System.Windows.Forms.Label;
+                System.Windows.Forms.Label lblFans = FindControlRecursive(panel, $"lblAlbumFan{index}") as System.Windows.Forms.Label;
 
                 if (pictureBox != null && lblTitle != null && lblFans != null)
                 {
@@ -543,7 +546,7 @@ namespace Login_or_Signup
                         byte[] imageBytes = await client.GetByteArrayAsync(imageUrl);
                         using (var ms = new MemoryStream(imageBytes))
                         {
-                            pictureBox.Image = Image.FromStream(ms);
+                            pictureBox.Image = System.Drawing.Image.FromStream(ms);
                             pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
                         }
                     }
@@ -567,6 +570,27 @@ namespace Login_or_Signup
             int newScroll = panelCoverAlbums.HorizontalScroll.Value + 400;
             if (newScroll > maxScroll) newScroll = maxScroll;
             panelCoverAlbums.AutoScrollPosition = new Point(newScroll, 0);
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            MainPanel.Visible = false;           
+            //panelSetting.Visible = true;
+            //panelSetting.Dock = DockStyle.Fill;
+            guna2Transition1.ShowSync(panelSetting);
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            MainPanel.Visible = true;
+            panelSetting.Visible = false;
+            guna2Transition1.HideSync(panelSetting);
+            guna2Transition1.ShowSync(mainButton);
+        }      
+
+        private void mainButton_Click(object sender, EventArgs e)
+        {
+            changeInfo.Visible = !changeInfo.Visible;
         }
     }
 }
