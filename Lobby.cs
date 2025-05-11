@@ -568,6 +568,70 @@ namespace Login_or_Signup
             if (newScroll > maxScroll) newScroll = maxScroll;
             panelCoverAlbums.AutoScrollPosition = new Point(newScroll, 0);
         }
+
+        private void guna2GradientPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel8_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+
+
+        private void btnCreateRoom_Click(object sender, EventArgs e)
+        {
+            HideAllPanels();
+            CreateRoomPanel.Visible = true;
+        }
+
+        
+        private void btnJoinRoom_Click(object sender, EventArgs e)
+        {
+            HideAllPanels();
+            JoinRoomPanel.Visible = true;   
+        }
+     
+
+        private void guna2HtmlLabel10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = @"C:\Users\ADMIN\Downloads\276546_tiny.mp4";
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            HideAllPanels();
+            RoomPanel.Visible = true;
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            HideAllPanels();
+            RoomPanel.Visible = true;
+        }
+        
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            HideAllPanels();
+            HomePanel.Visible = true;
+        }
+        private void HideAllPanels()
+        {
+            CreateRoomPanel.Visible = false;
+            JoinRoomPanel.Visible = false;
+            HomePanel.Visible = false;
+
+        }
     }
 }
 
