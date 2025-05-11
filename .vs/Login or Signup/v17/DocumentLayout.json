@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\",
+  "WorkspaceRootPath": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|c:\\users\\adm\\documents\\zalo received files\\login or signup\\lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|solutionrelative:lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|solutionrelative:profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|solutionrelative:profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|e:\\2024-2025\\ltm\\\u0111\u1ED3 \u00E1n\\git-github-nhom13-nt106.p22\\lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|solutionrelative:lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|solutionrelative:profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|solutionrelative:welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|solutionrelative:lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF22D97-4775-448A-9C6C-C8C4D19F8C44}|Login or Signup.csproj|solutionrelative:profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,11 +50,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Profile.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\Profile.cs",
+              "DocumentMoniker": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\Profile.cs",
               "RelativeDocumentMoniker": "Profile.cs",
-              "ToolTip": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\Profile.cs",
+              "ToolTip": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\Profile.cs",
               "RelativeToolTip": "Profile.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAhwFYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -62,58 +62,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Profile.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\Profile.cs",
+              "DocumentMoniker": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\Profile.cs",
               "RelativeDocumentMoniker": "Profile.cs",
-              "ToolTip": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\Profile.cs [Design]",
+              "ToolTip": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\Profile.cs [Design]",
               "RelativeToolTip": "Profile.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T05:12:45.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Lobby.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\Lobby.cs",
+              "DocumentMoniker": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\Lobby.cs",
               "RelativeDocumentMoniker": "Lobby.cs",
-              "ToolTip": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\Lobby.cs*",
-              "RelativeToolTip": "Lobby.cs*",
-              "ViewState": "AgIAABMCAAAAAAAAAAAawCICAAArAAAAAAAAAA==",
+              "ToolTip": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\Lobby.cs",
+              "RelativeToolTip": "Lobby.cs",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAmwJABAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T05:10:43.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Lobby.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\Lobby.cs",
+              "DocumentMoniker": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\Lobby.cs",
               "RelativeDocumentMoniker": "Lobby.cs",
-              "ToolTip": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\Lobby.cs [Design]",
+              "ToolTip": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\Lobby.cs [Design]",
               "RelativeToolTip": "Lobby.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T05:10:37.963Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-11T05:10:37.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "WelcomeScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\WelcomeScreen.cs",
+              "DocumentMoniker": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\WelcomeScreen.cs",
               "RelativeDocumentMoniker": "WelcomeScreen.cs",
-              "ToolTip": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\WelcomeScreen.cs [Design]",
+              "ToolTip": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\WelcomeScreen.cs [Design]",
               "RelativeToolTip": "WelcomeScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T16:41:32.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\Program.cs",
+              "DocumentMoniker": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\adm\\Documents\\Zalo Received Files\\Login or Signup\\Program.cs",
+              "ToolTip": "E:\\2024-2025\\LTM\\\u0110\u1ED3 \u00E1n\\Git-GitHub-Nhom13-NT106.P22\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

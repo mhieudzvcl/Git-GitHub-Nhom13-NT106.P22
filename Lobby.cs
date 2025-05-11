@@ -36,7 +36,7 @@ namespace Login_or_Signup
             originalguna2GradientPanel4Width = guna2GradientPanel4.Width;
             await LoadDeezerPlaylistsAsync();
             await LoadDeezerTopArtistsAsync();
-            await LoadDeezerTopAlbumsAsync();
+         //S   await LoadDeezerTopAlbumsAsync();
         }
 
         public async Task LoadDeezerPlaylistsAsync()
@@ -448,99 +448,7 @@ namespace Login_or_Signup
             guna2GradientPanel4.AutoScrollPosition = new Point(newScroll, 0);
         }
 
-        public async Task LoadDeezerTopAlbumsAsync()
-        {
-            string apiUrl = "https://api.deezer.com/chart/0/albums?limit=11";
-
-            try
-            {
-                using (HttpClient client = new HttpClient())
-                {
-                    var response = await client.GetStringAsync(apiUrl);
-                    JObject json = JObject.Parse(response);
-
-                    var albums = json["data"];
-                    int count = albums.Count();
-
-                    for (int i = 0; i < count; i++)
-                    {
-                        string albumId = albums[i]["id"]?.ToString();
-                        string albumName = albums[i]["title"]?.ToString() ?? "Unknown";
-                        string imageUrl = albums[i]["cover_medium"]?.ToString() ?? "";
-
-                        // Lấy thông tin fan qua artist của album
-                        string artistId = albums[i]["artist"]?["id"]?.ToString();
-                        string fanCount = "0";
-
-                        if (!string.IsNullOrEmpty(artistId))
-                        {
-                            string detailUrl = $"https://api.deezer.com/artist/{artistId}";
-                            string detailResponse = await client.GetStringAsync(detailUrl);
-                            JObject detailJson = JObject.Parse(detailResponse);
-                            fanCount = detailJson["nb_fan"]?.ToString() ?? "0";
-                        }
-
-                        await SetAlbumToUI(i + 1, albumName, imageUrl, fanCount, true);
-                    }
-
-                    // Ẩn các panel còn lại nếu ít hơn 11
-                    for (int i = count; i < 11; i++)
-                    {
-                        await SetAlbumToUI(i + 1, "", "", "", false);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error loading albums: " + ex.Message);
-            }
-        }
-
-
-        private async Task SetAlbumToUI(int index, string albumName, string imageUrl, string fanCount, bool visible)
-        {
-            Guna2GradientPanel albumPanel = FindControlRecursive(this, $"panelAlbum{index}") as Guna2GradientPanel;
-
-            if (albumPanel != null)
-            {
-                if (!visible)
-                {
-                    albumPanel.Visible = false;
-                    var parent = albumPanel.Parent;
-                    if (parent is FlowLayoutPanel || parent is TableLayoutPanel)
-                    {
-                        parent.Controls.Remove(albumPanel);
-                    }
-                    return;
-                }
-
-                albumPanel.Visible = true;
-
-                Guna2CirclePictureBox pictureBox = FindControlRecursive(albumPanel, $"picAlbum{index}") as Guna2CirclePictureBox;
-                Label nameLabel = FindControlRecursive(albumPanel, $"lblAlbumName{index}") as Label;
-                Label fanLabel = FindControlRecursive(albumPanel, $"lblAlbumFan{index}") as Label;
-
-                if (pictureBox != null && nameLabel != null && fanLabel != null)
-                {
-                  
-                        using (HttpClient client = new HttpClient())
-                        {
-                            byte[] imageBytes = await client.GetByteArrayAsync(imageUrl);
-                            using (var ms = new MemoryStream(imageBytes))
-                            {
-                                pictureBox.Image = Image.FromStream(ms);
-                                pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-                            }
-                        }
-                    }
-                    
-
-                    nameLabel.Text = albumName;
-                    int fans = 0;
-                    int.TryParse(fanCount, out fans);
-                    fanLabel.Text = $"{fans:N0} fans";
-                }
-            }
+       
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
