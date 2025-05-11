@@ -1,0 +1,34 @@
+C:\LTMCB-Project\Login or Signup\bin\Debug\Login or Signup.exe.config
+C:\LTMCB-Project\Login or Signup\bin\Debug\Login or Signup.exe
+C:\LTMCB-Project\Login or Signup\bin\Debug\Login or Signup.pdb
+C:\LTMCB-Project\Login or Signup\bin\Debug\Guna.UI2.dll
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login or Signup.csproj.AssemblyReference.cache
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login_or_Signup.Properties.Resources.resources
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login or Signup.csproj.GenerateResource.cache
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login or Signup.csproj.CoreCompileInputs.cache
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login or.D6D973C2.Up2Date
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login or Signup.exe
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login or Signup.pdb
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login_or_Signup.WelcomeScreen.resources
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login_or_Signup.Login_SignUp.resources
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login_or_Signup.SignUp.resources
+C:\LTMCB-Project\Login or Signup\obj\Debug\Login_or_Signup.Lobby.resources
+C:\LTMCB-Project\Login or Signup\bin\Debug\Newtonsoft.Json.dll
+C:\LTMCB-Project\Login or Signup\bin\Debug\Newtonsoft.Json.xml
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login or Signup.csproj.AssemblyReference.cache
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login_or_Signup.Lobby.resources
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login_or_Signup.Login_SignUp.resources
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login_or_Signup.SignUp.resources
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login_or_Signup.WelcomeScreen.resources
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login_or_Signup.Properties.Resources.resources
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login or Signup.csproj.GenerateResource.cache
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login or Signup.csproj.CoreCompileInputs.cache
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login or Signup.exe
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login or Signup.pdb
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\bin\Debug\Login or Signup.exe.config
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\bin\Debug\Login or Signup.exe
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\bin\Debug\Login or Signup.pdb
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\bin\Debug\Guna.UI2.dll
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\bin\Debug\Newtonsoft.Json.dll
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\bin\Debug\Newtonsoft.Json.xml
+C:\Users\adm\Documents\Zalo Received Files\Login or Signup\obj\Debug\Login or.D6D973C2.Up2Date
