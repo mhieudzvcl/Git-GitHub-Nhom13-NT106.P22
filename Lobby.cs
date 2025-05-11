@@ -447,13 +447,17 @@ namespace Login_or_Signup
             if (newScroll > maxScroll) newScroll = maxScroll;
             guna2GradientPanel4.AutoScrollPosition = new Point(newScroll, 0);
         }
-
        
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
             Profile profile = new Profile();
             profile.Show();
+        }
+        
+        private void Test_nhanh()
+        {
+            //merge thanh cong
         }
     }
 }
