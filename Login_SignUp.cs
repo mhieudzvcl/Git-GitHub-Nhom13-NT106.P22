@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -64,6 +65,46 @@ namespace Login_or_Signup
             this.Close();
             SignUp signup = new SignUp();
             signup.Show();
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            string username = txtUsername.Text.Trim();
+            string password = txtPassword.Text.Trim();
+
+            // Kết nối đến SQL Server
+            string connectionString = "Data Source=localhost;Initial Catalog=VibraSound;Integrated Security=True;";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = "SELECT COUNT(*) FROM Account WHERE Username = @Username AND Password = @Password";
+                SqlCommand cmd = new SqlCommand(query, conn);
+
+                cmd.Parameters.AddWithValue("@Username", username);
+                cmd.Parameters.AddWithValue("@Password", password); // Nếu đã mã hóa thì phải hash lại ở đây
+
+                try
+                {
+                    conn.Open();
+                    int count = (int)cmd.ExecuteScalar();
+                    conn.Close();
+
+                    if (count > 0)
+                    {
+                        Lobby lobby = new Lobby();
+                        lobby.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi: " + ex.Message);
+                }
+            }
         }
     }
 }

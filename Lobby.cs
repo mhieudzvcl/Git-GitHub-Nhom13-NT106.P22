@@ -574,7 +574,8 @@ namespace Login_or_Signup
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            MainPanel.Visible = false;           
+            MainPanel.Visible = false;
+            MainPanel.Dock = DockStyle.None;
             //panelSetting.Visible = true;
             //panelSetting.Dock = DockStyle.Fill;
             guna2Transition1.ShowSync(panelSetting);
