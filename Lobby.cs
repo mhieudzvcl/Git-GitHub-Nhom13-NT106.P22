@@ -575,22 +575,42 @@ namespace Login_or_Signup
         private void btnSettings_Click(object sender, EventArgs e)
         {
             MainPanel.Visible = false;           
-            //panelSetting.Visible = true;
-            //panelSetting.Dock = DockStyle.Fill;
-            guna2Transition1.ShowSync(panelSetting);
+            panelSetting.Visible = true;
+            MainPanel.Dock = DockStyle.None;
+            panelSetting.Dock = DockStyle.Fill;
+          //  guna2Transition1.ShowSync(panelSetting);
         }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
             MainPanel.Visible = true;
             panelSetting.Visible = false;
-            guna2Transition1.HideSync(panelSetting);
-            guna2Transition1.ShowSync(mainButton);
+            panelSetting.Dock = DockStyle.None;
+            MainPanel.Dock = DockStyle.Fill;
+          //  guna2Transition1.HideSync(panelSetting);
         }      
 
         private void mainButton_Click(object sender, EventArgs e)
         {
-            changeInfo.Visible = !changeInfo.Visible;
+            
+        }
+
+        private void CirclePic_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            if(ofd.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = ofd.FileName;
+                // Thay đổi ảnh đại diện
+                CirclePic.Image = System.Drawing.Image.FromFile(filePath);
+                guna2CirclePictureBox1.Image = System.Drawing.Image.FromFile(filePath);
+                // Lưu đường dẫn ảnh vào một biến hoặc cơ sở dữ liệu nếu cần thiết
+            }
+        }
+
+        private void label40_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
