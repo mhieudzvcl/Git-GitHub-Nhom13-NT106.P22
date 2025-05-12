@@ -59,6 +59,162 @@
             this.timersidebar = new System.Windows.Forms.Timer(this.components);
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.MainPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.panelSetting = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.flowPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.mainButton = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.changeInfo = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.ngaysinh = new System.Windows.Forms.Label();
+            this.matkhau = new System.Windows.Forms.Label();
+            this.Ten = new System.Windows.Forms.Label();
+            this.panelDarkmode = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ToggleSwitch1 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label107 = new System.Windows.Forms.Label();
+            this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.label39 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel17 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientPanel18 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientPanel19 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientPanel20 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientPanel21 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientPanel22 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientPanel23 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientPanel24 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientPanel25 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientPanel26 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientPanel27 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientPanel28 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.label62 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel29 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientPanel30 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel31 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox14 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel32 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox15 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel33 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label69 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox16 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel34 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox17 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel35 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox18 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel36 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox19 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel37 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox20 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel38 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label79 = new System.Windows.Forms.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox21 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel39 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox22 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel40 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label83 = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox23 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel41 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label85 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox24 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel42 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label87 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox25 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel43 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label89 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox26 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel44 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label91 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox27 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel45 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox28 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel46 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox29 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel47 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox30 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel48 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label99 = new System.Windows.Forms.Label();
+            this.label100 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox31 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel49 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label101 = new System.Windows.Forms.Label();
+            this.label102 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox32 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel50 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label103 = new System.Windows.Forms.Label();
+            this.label104 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox33 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel51 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label105 = new System.Windows.Forms.Label();
+            this.label106 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox34 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CircleButton7 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton6 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnScrollLeftAlbum = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnScrollRightAlbum = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label38 = new System.Windows.Forms.Label();
@@ -303,160 +459,6 @@
             this.label37 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
-            this.guna2GradientPanel29 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientPanel51 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox34 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label106 = new System.Windows.Forms.Label();
-            this.label105 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel50 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox33 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label104 = new System.Windows.Forms.Label();
-            this.label103 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel49 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox32 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label102 = new System.Windows.Forms.Label();
-            this.label101 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel48 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox31 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label100 = new System.Windows.Forms.Label();
-            this.label99 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel47 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox30 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label98 = new System.Windows.Forms.Label();
-            this.label97 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel46 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox29 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label96 = new System.Windows.Forms.Label();
-            this.label95 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel45 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox28 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label94 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel44 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox27 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label92 = new System.Windows.Forms.Label();
-            this.label91 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel43 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox26 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label90 = new System.Windows.Forms.Label();
-            this.label89 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel42 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox25 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label88 = new System.Windows.Forms.Label();
-            this.label87 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel41 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox24 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label86 = new System.Windows.Forms.Label();
-            this.label85 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel40 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox23 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label84 = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel39 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox22 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label82 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel38 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox21 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label80 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel37 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox20 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel36 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox19 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel35 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox18 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label73 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel34 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox17 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label72 = new System.Windows.Forms.Label();
-            this.label71 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel33 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox16 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label70 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel32 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox15 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label68 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel31 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox14 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel30 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2GradientPanel17 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientPanel28 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel27 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel26 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel25 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel24 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel23 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel22 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel21 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel20 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel19 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel18 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.label107 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.flowPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.panelDarkmode = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2ToggleSwitch1 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.changeInfo = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.Ten = new System.Windows.Forms.Label();
-            this.matkhau = new System.Windows.Forms.Label();
-            this.ngaysinh = new System.Windows.Forms.Label();
-            this.mainButton = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.panelSetting = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.DragPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -464,6 +466,79 @@
             this.sidebar.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             this.MainPanel.SuspendLayout();
+            this.panelSetting.SuspendLayout();
+            this.guna2CustomGradientPanel1.SuspendLayout();
+            this.flowPanel.SuspendLayout();
+            this.changeInfo.SuspendLayout();
+            this.panelDarkmode.SuspendLayout();
+            this.guna2GradientPanel17.SuspendLayout();
+            this.guna2GradientPanel18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
+            this.guna2GradientPanel19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            this.guna2GradientPanel20.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
+            this.guna2GradientPanel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
+            this.guna2GradientPanel22.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
+            this.guna2GradientPanel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
+            this.guna2GradientPanel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
+            this.guna2GradientPanel25.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
+            this.guna2GradientPanel26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
+            this.guna2GradientPanel27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
+            this.guna2GradientPanel28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).BeginInit();
+            this.guna2GradientPanel29.SuspendLayout();
+            this.guna2GradientPanel30.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
+            this.guna2GradientPanel31.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).BeginInit();
+            this.guna2GradientPanel32.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).BeginInit();
+            this.guna2GradientPanel33.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).BeginInit();
+            this.guna2GradientPanel34.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox17)).BeginInit();
+            this.guna2GradientPanel35.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox18)).BeginInit();
+            this.guna2GradientPanel36.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox19)).BeginInit();
+            this.guna2GradientPanel37.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox20)).BeginInit();
+            this.guna2GradientPanel38.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).BeginInit();
+            this.guna2GradientPanel39.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).BeginInit();
+            this.guna2GradientPanel40.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox23)).BeginInit();
+            this.guna2GradientPanel41.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox24)).BeginInit();
+            this.guna2GradientPanel42.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox25)).BeginInit();
+            this.guna2GradientPanel43.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox26)).BeginInit();
+            this.guna2GradientPanel44.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox27)).BeginInit();
+            this.guna2GradientPanel45.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox28)).BeginInit();
+            this.guna2GradientPanel46.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox29)).BeginInit();
+            this.guna2GradientPanel47.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox30)).BeginInit();
+            this.guna2GradientPanel48.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox31)).BeginInit();
+            this.guna2GradientPanel49.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox32)).BeginInit();
+            this.guna2GradientPanel50.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox33)).BeginInit();
+            this.guna2GradientPanel51.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox34)).BeginInit();
             this.panelCoverAlbums.SuspendLayout();
             this.panelAlbum11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAlbum11)).BeginInit();
@@ -581,79 +656,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
             this.guna2GradientPanel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).BeginInit();
-            this.guna2GradientPanel29.SuspendLayout();
-            this.guna2GradientPanel51.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox34)).BeginInit();
-            this.guna2GradientPanel50.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox33)).BeginInit();
-            this.guna2GradientPanel49.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox32)).BeginInit();
-            this.guna2GradientPanel48.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox31)).BeginInit();
-            this.guna2GradientPanel47.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox30)).BeginInit();
-            this.guna2GradientPanel46.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox29)).BeginInit();
-            this.guna2GradientPanel45.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox28)).BeginInit();
-            this.guna2GradientPanel44.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox27)).BeginInit();
-            this.guna2GradientPanel43.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox26)).BeginInit();
-            this.guna2GradientPanel42.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox25)).BeginInit();
-            this.guna2GradientPanel41.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox24)).BeginInit();
-            this.guna2GradientPanel40.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox23)).BeginInit();
-            this.guna2GradientPanel39.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).BeginInit();
-            this.guna2GradientPanel38.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).BeginInit();
-            this.guna2GradientPanel37.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox20)).BeginInit();
-            this.guna2GradientPanel36.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox19)).BeginInit();
-            this.guna2GradientPanel35.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox18)).BeginInit();
-            this.guna2GradientPanel34.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox17)).BeginInit();
-            this.guna2GradientPanel33.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).BeginInit();
-            this.guna2GradientPanel32.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).BeginInit();
-            this.guna2GradientPanel31.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).BeginInit();
-            this.guna2GradientPanel30.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
-            this.guna2GradientPanel17.SuspendLayout();
-            this.guna2GradientPanel28.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).BeginInit();
-            this.guna2GradientPanel27.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
-            this.guna2GradientPanel26.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
-            this.guna2GradientPanel25.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
-            this.guna2GradientPanel24.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
-            this.guna2GradientPanel23.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
-            this.guna2GradientPanel22.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
-            this.guna2GradientPanel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
-            this.guna2GradientPanel20.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
-            this.guna2GradientPanel19.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            this.guna2GradientPanel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            this.guna2CustomGradientPanel1.SuspendLayout();
-            this.flowPanel.SuspendLayout();
-            this.panelDarkmode.SuspendLayout();
-            this.changeInfo.SuspendLayout();
-            this.panelSetting.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -1107,6 +1109,9 @@
             this.MainPanel.AutoScrollMargin = new System.Drawing.Size(15, 15);
             this.MainPanel.AutoScrollMinSize = new System.Drawing.Size(15, 15);
             this.MainPanel.BackColor = System.Drawing.Color.Black;
+            this.MainPanel.Controls.Add(this.panelSetting);
+            this.MainPanel.Controls.Add(this.guna2CircleButton7);
+            this.MainPanel.Controls.Add(this.guna2CircleButton6);
             this.MainPanel.Controls.Add(this.btnScrollLeftAlbum);
             this.MainPanel.Controls.Add(this.btnScrollRightAlbum);
             this.MainPanel.Controls.Add(this.label38);
@@ -1122,13 +1127,2147 @@
             this.MainPanel.FillColor = System.Drawing.Color.DimGray;
             this.MainPanel.FillColor2 = System.Drawing.Color.Black;
             this.MainPanel.ForeColor = System.Drawing.Color.White;
-            this.MainPanel.Location = new System.Drawing.Point(0, 0);
+            this.MainPanel.Location = new System.Drawing.Point(3, 3);
             this.MainPanel.MaximumSize = new System.Drawing.Size(1692, 716);
             this.MainPanel.MinimumSize = new System.Drawing.Size(1539, 716);
             this.MainPanel.Name = "MainPanel";
             this.MainPanel.Size = new System.Drawing.Size(1553, 716);
             this.MainPanel.TabIndex = 6;
             this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint);
+            // 
+            // panelSetting
+            // 
+            this.panelSetting.AutoScroll = true;
+            this.panelSetting.AutoScrollMargin = new System.Drawing.Size(15, 15);
+            this.panelSetting.AutoScrollMinSize = new System.Drawing.Size(15, 15);
+            this.panelSetting.BackColor = System.Drawing.Color.Black;
+            this.panelSetting.Controls.Add(this.guna2CustomGradientPanel1);
+            this.panelSetting.Controls.Add(this.label107);
+            this.panelSetting.Controls.Add(this.guna2CircleButton5);
+            this.panelSetting.Controls.Add(this.guna2CircleButton1);
+            this.panelSetting.Controls.Add(this.guna2CircleButton2);
+            this.panelSetting.Controls.Add(this.label39);
+            this.panelSetting.Controls.Add(this.guna2GradientPanel17);
+            this.panelSetting.Controls.Add(this.guna2CircleButton3);
+            this.panelSetting.Controls.Add(this.guna2CircleButton4);
+            this.panelSetting.Controls.Add(this.label62);
+            this.panelSetting.Controls.Add(this.guna2GradientPanel29);
+            this.guna2Transition1.SetDecoration(this.panelSetting, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.panelSetting.FillColor = System.Drawing.Color.DimGray;
+            this.panelSetting.FillColor2 = System.Drawing.Color.Black;
+            this.panelSetting.ForeColor = System.Drawing.Color.White;
+            this.panelSetting.Location = new System.Drawing.Point(3, 350);
+            this.panelSetting.MaximumSize = new System.Drawing.Size(1692, 716);
+            this.panelSetting.MinimumSize = new System.Drawing.Size(1539, 716);
+            this.panelSetting.Name = "panelSetting";
+            this.panelSetting.Size = new System.Drawing.Size(1553, 716);
+            this.panelSetting.TabIndex = 36;
+            // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.BorderRadius = 45;
+            this.guna2CustomGradientPanel1.Controls.Add(this.flowPanel);
+            this.guna2Transition1.SetDecoration(this.guna2CustomGradientPanel1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.RosyBrown;
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.Black;
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(72, 581);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1524, 428);
+            this.guna2CustomGradientPanel1.TabIndex = 43;
+            // 
+            // flowPanel
+            // 
+            this.flowPanel.AutoSize = true;
+            this.flowPanel.BackColor = System.Drawing.Color.Transparent;
+            this.flowPanel.Controls.Add(this.mainButton);
+            this.flowPanel.Controls.Add(this.changeInfo);
+            this.flowPanel.Controls.Add(this.panelDarkmode);
+            this.guna2Transition1.SetDecoration(this.flowPanel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.flowPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowPanel.Location = new System.Drawing.Point(507, 3);
+            this.flowPanel.Name = "flowPanel";
+            this.flowPanel.Size = new System.Drawing.Size(469, 288);
+            this.flowPanel.TabIndex = 40;
+            // 
+            // mainButton
+            // 
+            this.mainButton.Animated = true;
+            this.mainButton.AutoRoundedCorners = true;
+            this.mainButton.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.mainButton, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.mainButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.mainButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.mainButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.mainButton.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.mainButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.mainButton.FillColor = System.Drawing.Color.Blue;
+            this.mainButton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.mainButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.mainButton.ForeColor = System.Drawing.Color.White;
+            this.mainButton.IndicateFocus = true;
+            this.mainButton.Location = new System.Drawing.Point(3, 3);
+            this.mainButton.Name = "mainButton";
+            this.mainButton.Size = new System.Drawing.Size(451, 45);
+            this.mainButton.TabIndex = 14;
+            this.mainButton.Text = "Đổi thông tin";
+            this.mainButton.UseTransparentBackground = true;
+            this.mainButton.Click += new System.EventHandler(this.mainButton_Click);
+            // 
+            // changeInfo
+            // 
+            this.changeInfo.Controls.Add(this.ngaysinh);
+            this.changeInfo.Controls.Add(this.matkhau);
+            this.changeInfo.Controls.Add(this.Ten);
+            this.guna2Transition1.SetDecoration(this.changeInfo, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.changeInfo.Location = new System.Drawing.Point(3, 54);
+            this.changeInfo.Name = "changeInfo";
+            this.changeInfo.Size = new System.Drawing.Size(460, 175);
+            this.changeInfo.TabIndex = 43;
+            this.changeInfo.Visible = false;
+            // 
+            // ngaysinh
+            // 
+            this.ngaysinh.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.ngaysinh, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ngaysinh.Location = new System.Drawing.Point(26, 68);
+            this.ngaysinh.Name = "ngaysinh";
+            this.ngaysinh.Size = new System.Drawing.Size(67, 16);
+            this.ngaysinh.TabIndex = 2;
+            this.ngaysinh.Text = "Ngày sinh";
+            // 
+            // matkhau
+            // 
+            this.matkhau.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.matkhau, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.matkhau.Location = new System.Drawing.Point(26, 106);
+            this.matkhau.Name = "matkhau";
+            this.matkhau.Size = new System.Drawing.Size(61, 16);
+            this.matkhau.TabIndex = 1;
+            this.matkhau.Text = "Mật khẩu";
+            // 
+            // Ten
+            // 
+            this.Ten.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.Ten, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Ten.Location = new System.Drawing.Point(26, 38);
+            this.Ten.Name = "Ten";
+            this.Ten.Size = new System.Drawing.Size(31, 16);
+            this.Ten.TabIndex = 0;
+            this.Ten.Text = "Tên";
+            // 
+            // panelDarkmode
+            // 
+            this.panelDarkmode.BackColor = System.Drawing.Color.Transparent;
+            this.panelDarkmode.Controls.Add(this.guna2ToggleSwitch1);
+            this.panelDarkmode.Controls.Add(this.guna2TextBox2);
+            this.guna2Transition1.SetDecoration(this.panelDarkmode, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.panelDarkmode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(62)))), ((int)(((byte)(216)))));
+            this.panelDarkmode.Location = new System.Drawing.Point(3, 235);
+            this.panelDarkmode.Name = "panelDarkmode";
+            this.panelDarkmode.Size = new System.Drawing.Size(463, 45);
+            this.panelDarkmode.TabIndex = 38;
+            // 
+            // guna2ToggleSwitch1
+            // 
+            this.guna2ToggleSwitch1.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
+            this.guna2ToggleSwitch1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ToggleSwitch1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ToggleSwitch1.CheckedState.BorderRadius = 20;
+            this.guna2ToggleSwitch1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ToggleSwitch1.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.guna2ToggleSwitch1.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.guna2Transition1.SetDecoration(this.guna2ToggleSwitch1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2ToggleSwitch1.Location = new System.Drawing.Point(358, 0);
+            this.guna2ToggleSwitch1.Name = "guna2ToggleSwitch1";
+            this.guna2ToggleSwitch1.ShadowDecoration.BorderRadius = 10;
+            this.guna2ToggleSwitch1.ShadowDecoration.Color = System.Drawing.Color.White;
+            this.guna2ToggleSwitch1.Size = new System.Drawing.Size(96, 48);
+            this.guna2ToggleSwitch1.TabIndex = 2;
+            this.guna2ToggleSwitch1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2ToggleSwitch1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2ToggleSwitch1.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.guna2ToggleSwitch1.UncheckedState.InnerColor = System.Drawing.Color.White;
+            // 
+            // guna2TextBox2
+            // 
+            this.guna2TextBox2.AutoRoundedCorners = true;
+            this.guna2TextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(24)))), ((int)(((byte)(168)))));
+            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2Transition1.SetDecoration(this.guna2TextBox2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2TextBox2.DefaultText = "DarkMode";
+            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.Location = new System.Drawing.Point(0, 1);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox2.Name = "guna2TextBox2";
+            this.guna2TextBox2.PlaceholderText = "";
+            this.guna2TextBox2.SelectedText = "";
+            this.guna2TextBox2.Size = new System.Drawing.Size(352, 45);
+            this.guna2TextBox2.TabIndex = 4;
+            // 
+            // label107
+            // 
+            this.label107.AutoEllipsis = true;
+            this.label107.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label107, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label107.Font = new System.Drawing.Font("VNI-Vari", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label107.ForeColor = System.Drawing.Color.White;
+            this.label107.Location = new System.Drawing.Point(56, 11);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(259, 73);
+            this.label107.TabIndex = 42;
+            this.label107.Text = "My Profile";
+            // 
+            // guna2CircleButton5
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CircleButton5, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton5.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton5.Location = new System.Drawing.Point(633, 54);
+            this.guna2CircleButton5.Name = "guna2CircleButton5";
+            this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton5.Size = new System.Drawing.Size(213, 202);
+            this.guna2CircleButton5.TabIndex = 41;
+            this.guna2CircleButton5.Text = "guna2CircleButton5";
+            // 
+            // guna2CircleButton1
+            // 
+            this.guna2CircleButton1.Animated = true;
+            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2CircleButton1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.IndicateFocus = true;
+            this.guna2CircleButton1.Location = new System.Drawing.Point(860, 1507);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(65, 65);
+            this.guna2CircleButton1.TabIndex = 34;
+            this.guna2CircleButton1.Text = "<";
+            this.guna2CircleButton1.TextFormatNoPrefix = true;
+            this.guna2CircleButton1.UseTransparentBackground = true;
+            // 
+            // guna2CircleButton2
+            // 
+            this.guna2CircleButton2.Animated = true;
+            this.guna2CircleButton2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton2.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2CircleButton2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton2.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton2.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton2.IndicateFocus = true;
+            this.guna2CircleButton2.Location = new System.Drawing.Point(931, 1507);
+            this.guna2CircleButton2.Name = "guna2CircleButton2";
+            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton2.Size = new System.Drawing.Size(65, 65);
+            this.guna2CircleButton2.TabIndex = 35;
+            this.guna2CircleButton2.Text = ">";
+            this.guna2CircleButton2.TextFormatNoPrefix = true;
+            this.guna2CircleButton2.UseTransparentBackground = true;
+            // 
+            // label39
+            // 
+            this.label39.AutoEllipsis = true;
+            this.label39.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label39, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label39.Font = new System.Drawing.Font("Rockwell", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.BlanchedAlmond;
+            this.label39.Location = new System.Drawing.Point(23, 1517);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(539, 55);
+            this.label39.TabIndex = 33;
+            this.label39.Text = "Hot Albums";
+            // 
+            // guna2GradientPanel17
+            // 
+            this.guna2GradientPanel17.AutoScroll = true;
+            this.guna2GradientPanel17.BackColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel17.BorderRadius = 10;
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel18);
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel19);
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel20);
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel21);
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel22);
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel23);
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel24);
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel25);
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel26);
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel27);
+            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel28);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel17, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel17.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel17.FillColor2 = System.Drawing.Color.Gainsboro;
+            this.guna2GradientPanel17.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel17.Location = new System.Drawing.Point(18, 1585);
+            this.guna2GradientPanel17.Name = "guna2GradientPanel17";
+            this.guna2GradientPanel17.Size = new System.Drawing.Size(1219, 401);
+            this.guna2GradientPanel17.TabIndex = 32;
+            // 
+            // guna2GradientPanel18
+            // 
+            this.guna2GradientPanel18.BackColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel18.BorderRadius = 30;
+            this.guna2GradientPanel18.Controls.Add(this.label40);
+            this.guna2GradientPanel18.Controls.Add(this.label41);
+            this.guna2GradientPanel18.Controls.Add(this.guna2PictureBox3);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel18, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel18.Location = new System.Drawing.Point(2814, 3);
+            this.guna2GradientPanel18.Name = "guna2GradientPanel18";
+            this.guna2GradientPanel18.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel18.TabIndex = 12;
+            // 
+            // label40
+            // 
+            this.label40.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label40, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label40.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.White;
+            this.label40.Location = new System.Drawing.Point(17, 239);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(230, 46);
+            this.label40.TabIndex = 6;
+            // 
+            // label41
+            // 
+            this.label41.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label41, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label41.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label41.Location = new System.Drawing.Point(16, 286);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(233, 72);
+            this.label41.TabIndex = 5;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox3, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(17, 16);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox3.TabIndex = 1;
+            this.guna2PictureBox3.TabStop = false;
+            // 
+            // guna2GradientPanel19
+            // 
+            this.guna2GradientPanel19.BorderRadius = 30;
+            this.guna2GradientPanel19.Controls.Add(this.label42);
+            this.guna2GradientPanel19.Controls.Add(this.label43);
+            this.guna2GradientPanel19.Controls.Add(this.guna2PictureBox4);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel19, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel19.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel19.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel19.Location = new System.Drawing.Point(279, 6);
+            this.guna2GradientPanel19.Name = "guna2GradientPanel19";
+            this.guna2GradientPanel19.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel19.TabIndex = 1;
+            // 
+            // label42
+            // 
+            this.label42.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label42, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label42.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.White;
+            this.label42.Location = new System.Drawing.Point(17, 239);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(230, 46);
+            this.label42.TabIndex = 6;
+            // 
+            // label43
+            // 
+            this.label43.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label43, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label43.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label43.Location = new System.Drawing.Point(16, 283);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(233, 72);
+            this.label43.TabIndex = 5;
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox4, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(18, 16);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox4.TabIndex = 1;
+            this.guna2PictureBox4.TabStop = false;
+            // 
+            // guna2GradientPanel20
+            // 
+            this.guna2GradientPanel20.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel20.Controls.Add(this.label44);
+            this.guna2GradientPanel20.Controls.Add(this.label45);
+            this.guna2GradientPanel20.Controls.Add(this.guna2PictureBox5);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel20, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel20.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel20.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel20.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel20.Location = new System.Drawing.Point(-3, 6);
+            this.guna2GradientPanel20.Name = "guna2GradientPanel20";
+            this.guna2GradientPanel20.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel20.TabIndex = 2;
+            // 
+            // label44
+            // 
+            this.label44.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label44, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label44.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.Color.White;
+            this.label44.Location = new System.Drawing.Point(17, 239);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(230, 46);
+            this.label44.TabIndex = 5;
+            // 
+            // label45
+            // 
+            this.label45.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label45, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label45.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label45.Location = new System.Drawing.Point(16, 283);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(233, 72);
+            this.label45.TabIndex = 4;
+            // 
+            // guna2PictureBox5
+            // 
+            this.guna2PictureBox5.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox5, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox5.ImageRotate = 0F;
+            this.guna2PictureBox5.Location = new System.Drawing.Point(19, 16);
+            this.guna2PictureBox5.Name = "guna2PictureBox5";
+            this.guna2PictureBox5.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox5.TabIndex = 0;
+            this.guna2PictureBox5.TabStop = false;
+            // 
+            // guna2GradientPanel21
+            // 
+            this.guna2GradientPanel21.BorderRadius = 30;
+            this.guna2GradientPanel21.Controls.Add(this.label46);
+            this.guna2GradientPanel21.Controls.Add(this.label47);
+            this.guna2GradientPanel21.Controls.Add(this.guna2PictureBox6);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel21, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel21.Location = new System.Drawing.Point(563, 6);
+            this.guna2GradientPanel21.Name = "guna2GradientPanel21";
+            this.guna2GradientPanel21.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel21.TabIndex = 3;
+            // 
+            // label46
+            // 
+            this.label46.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label46, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label46.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.White;
+            this.label46.Location = new System.Drawing.Point(17, 239);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(230, 46);
+            this.label46.TabIndex = 6;
+            // 
+            // label47
+            // 
+            this.label47.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label47, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label47.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label47.Location = new System.Drawing.Point(15, 283);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(233, 72);
+            this.label47.TabIndex = 5;
+            // 
+            // guna2PictureBox6
+            // 
+            this.guna2PictureBox6.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox6, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox6.ImageRotate = 0F;
+            this.guna2PictureBox6.Location = new System.Drawing.Point(19, 16);
+            this.guna2PictureBox6.Name = "guna2PictureBox6";
+            this.guna2PictureBox6.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox6.TabIndex = 1;
+            this.guna2PictureBox6.TabStop = false;
+            // 
+            // guna2GradientPanel22
+            // 
+            this.guna2GradientPanel22.BackColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel22.BorderRadius = 30;
+            this.guna2GradientPanel22.Controls.Add(this.label48);
+            this.guna2GradientPanel22.Controls.Add(this.label49);
+            this.guna2GradientPanel22.Controls.Add(this.guna2PictureBox7);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel22, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel22.Location = new System.Drawing.Point(2533, 6);
+            this.guna2GradientPanel22.Name = "guna2GradientPanel22";
+            this.guna2GradientPanel22.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel22.TabIndex = 11;
+            // 
+            // label48
+            // 
+            this.label48.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label48, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label48.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.White;
+            this.label48.Location = new System.Drawing.Point(17, 239);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(230, 46);
+            this.label48.TabIndex = 6;
+            // 
+            // label49
+            // 
+            this.label49.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label49, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label49.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label49.Location = new System.Drawing.Point(13, 283);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(233, 72);
+            this.label49.TabIndex = 5;
+            // 
+            // guna2PictureBox7
+            // 
+            this.guna2PictureBox7.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox7, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox7.ImageRotate = 0F;
+            this.guna2PictureBox7.Location = new System.Drawing.Point(17, 16);
+            this.guna2PictureBox7.Name = "guna2PictureBox7";
+            this.guna2PictureBox7.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox7.TabIndex = 1;
+            this.guna2PictureBox7.TabStop = false;
+            // 
+            // guna2GradientPanel23
+            // 
+            this.guna2GradientPanel23.BorderRadius = 30;
+            this.guna2GradientPanel23.Controls.Add(this.label50);
+            this.guna2GradientPanel23.Controls.Add(this.label51);
+            this.guna2GradientPanel23.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2GradientPanel23.Controls.Add(this.guna2PictureBox8);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel23, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel23.Location = new System.Drawing.Point(848, 6);
+            this.guna2GradientPanel23.Name = "guna2GradientPanel23";
+            this.guna2GradientPanel23.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel23.TabIndex = 4;
+            // 
+            // label50
+            // 
+            this.label50.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label50, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label50.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.White;
+            this.label50.Location = new System.Drawing.Point(17, 239);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(230, 46);
+            this.label50.TabIndex = 6;
+            // 
+            // label51
+            // 
+            this.label51.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label51, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label51.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label51.Location = new System.Drawing.Point(17, 283);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(233, 72);
+            this.label51.TabIndex = 5;
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.AutoSize = false;
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2HtmlLabel2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Yu Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(-832, 272);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(230, 31);
+            this.guna2HtmlLabel2.TabIndex = 2;
+            this.guna2HtmlLabel2.Text = null;
+            // 
+            // guna2PictureBox8
+            // 
+            this.guna2PictureBox8.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox8, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox8.ImageRotate = 0F;
+            this.guna2PictureBox8.Location = new System.Drawing.Point(17, 16);
+            this.guna2PictureBox8.Name = "guna2PictureBox8";
+            this.guna2PictureBox8.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox8.TabIndex = 1;
+            this.guna2PictureBox8.TabStop = false;
+            // 
+            // guna2GradientPanel24
+            // 
+            this.guna2GradientPanel24.BackColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel24.BorderRadius = 30;
+            this.guna2GradientPanel24.Controls.Add(this.label52);
+            this.guna2GradientPanel24.Controls.Add(this.label53);
+            this.guna2GradientPanel24.Controls.Add(this.guna2PictureBox9);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel24, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel24.Location = new System.Drawing.Point(2253, 6);
+            this.guna2GradientPanel24.Name = "guna2GradientPanel24";
+            this.guna2GradientPanel24.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel24.TabIndex = 10;
+            // 
+            // label52
+            // 
+            this.label52.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label52, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label52.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.White;
+            this.label52.Location = new System.Drawing.Point(17, 239);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(230, 46);
+            this.label52.TabIndex = 6;
+            // 
+            // label53
+            // 
+            this.label53.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label53, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label53.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label53.Location = new System.Drawing.Point(16, 283);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(233, 72);
+            this.label53.TabIndex = 5;
+            // 
+            // guna2PictureBox9
+            // 
+            this.guna2PictureBox9.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox9, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox9.ImageRotate = 0F;
+            this.guna2PictureBox9.Location = new System.Drawing.Point(17, 16);
+            this.guna2PictureBox9.Name = "guna2PictureBox9";
+            this.guna2PictureBox9.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox9.TabIndex = 1;
+            this.guna2PictureBox9.TabStop = false;
+            // 
+            // guna2GradientPanel25
+            // 
+            this.guna2GradientPanel25.BackColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel25.BorderRadius = 30;
+            this.guna2GradientPanel25.Controls.Add(this.label54);
+            this.guna2GradientPanel25.Controls.Add(this.label55);
+            this.guna2GradientPanel25.Controls.Add(this.guna2PictureBox10);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel25, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel25.Location = new System.Drawing.Point(1132, 6);
+            this.guna2GradientPanel25.Name = "guna2GradientPanel25";
+            this.guna2GradientPanel25.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel25.TabIndex = 6;
+            // 
+            // label54
+            // 
+            this.label54.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label54, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label54.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.White;
+            this.label54.Location = new System.Drawing.Point(17, 239);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(230, 46);
+            this.label54.TabIndex = 6;
+            // 
+            // label55
+            // 
+            this.label55.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label55, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label55.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label55.Location = new System.Drawing.Point(13, 283);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(233, 72);
+            this.label55.TabIndex = 5;
+            // 
+            // guna2PictureBox10
+            // 
+            this.guna2PictureBox10.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox10, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox10.ImageRotate = 0F;
+            this.guna2PictureBox10.Location = new System.Drawing.Point(17, 16);
+            this.guna2PictureBox10.Name = "guna2PictureBox10";
+            this.guna2PictureBox10.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox10.TabIndex = 1;
+            this.guna2PictureBox10.TabStop = false;
+            // 
+            // guna2GradientPanel26
+            // 
+            this.guna2GradientPanel26.BackColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel26.BorderRadius = 30;
+            this.guna2GradientPanel26.Controls.Add(this.label56);
+            this.guna2GradientPanel26.Controls.Add(this.label57);
+            this.guna2GradientPanel26.Controls.Add(this.guna2PictureBox11);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel26, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel26.Location = new System.Drawing.Point(1973, 6);
+            this.guna2GradientPanel26.Name = "guna2GradientPanel26";
+            this.guna2GradientPanel26.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel26.TabIndex = 9;
+            // 
+            // label56
+            // 
+            this.label56.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label56, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label56.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.ForeColor = System.Drawing.Color.White;
+            this.label56.Location = new System.Drawing.Point(17, 239);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(230, 46);
+            this.label56.TabIndex = 6;
+            // 
+            // label57
+            // 
+            this.label57.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label57, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label57.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label57.Location = new System.Drawing.Point(17, 283);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(233, 72);
+            this.label57.TabIndex = 5;
+            // 
+            // guna2PictureBox11
+            // 
+            this.guna2PictureBox11.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox11, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox11.ImageRotate = 0F;
+            this.guna2PictureBox11.Location = new System.Drawing.Point(17, 16);
+            this.guna2PictureBox11.Name = "guna2PictureBox11";
+            this.guna2PictureBox11.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox11.TabIndex = 1;
+            this.guna2PictureBox11.TabStop = false;
+            // 
+            // guna2GradientPanel27
+            // 
+            this.guna2GradientPanel27.BackColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel27.BorderRadius = 30;
+            this.guna2GradientPanel27.Controls.Add(this.label58);
+            this.guna2GradientPanel27.Controls.Add(this.label59);
+            this.guna2GradientPanel27.Controls.Add(this.guna2PictureBox12);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel27, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel27.Location = new System.Drawing.Point(1413, 7);
+            this.guna2GradientPanel27.Name = "guna2GradientPanel27";
+            this.guna2GradientPanel27.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel27.TabIndex = 7;
+            // 
+            // label58
+            // 
+            this.label58.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label58, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label58.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.White;
+            this.label58.Location = new System.Drawing.Point(17, 239);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(230, 46);
+            this.label58.TabIndex = 6;
+            // 
+            // label59
+            // 
+            this.label59.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label59, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label59.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label59.Location = new System.Drawing.Point(16, 282);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(233, 72);
+            this.label59.TabIndex = 5;
+            // 
+            // guna2PictureBox12
+            // 
+            this.guna2PictureBox12.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox12, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox12.ImageRotate = 0F;
+            this.guna2PictureBox12.Location = new System.Drawing.Point(17, 16);
+            this.guna2PictureBox12.Name = "guna2PictureBox12";
+            this.guna2PictureBox12.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox12.TabIndex = 1;
+            this.guna2PictureBox12.TabStop = false;
+            // 
+            // guna2GradientPanel28
+            // 
+            this.guna2GradientPanel28.BackColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel28.BorderRadius = 30;
+            this.guna2GradientPanel28.Controls.Add(this.label60);
+            this.guna2GradientPanel28.Controls.Add(this.label61);
+            this.guna2GradientPanel28.Controls.Add(this.guna2PictureBox13);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel28, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel28.Location = new System.Drawing.Point(1693, 7);
+            this.guna2GradientPanel28.Name = "guna2GradientPanel28";
+            this.guna2GradientPanel28.Size = new System.Drawing.Size(265, 367);
+            this.guna2GradientPanel28.TabIndex = 8;
+            // 
+            // label60
+            // 
+            this.label60.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label60, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label60.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.ForeColor = System.Drawing.Color.White;
+            this.label60.Location = new System.Drawing.Point(17, 239);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(230, 46);
+            this.label60.TabIndex = 6;
+            // 
+            // label61
+            // 
+            this.label61.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label61, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label61.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label61.Location = new System.Drawing.Point(18, 282);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(233, 72);
+            this.label61.TabIndex = 5;
+            // 
+            // guna2PictureBox13
+            // 
+            this.guna2PictureBox13.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox13, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox13.ImageRotate = 0F;
+            this.guna2PictureBox13.Location = new System.Drawing.Point(17, 16);
+            this.guna2PictureBox13.Name = "guna2PictureBox13";
+            this.guna2PictureBox13.Size = new System.Drawing.Size(230, 220);
+            this.guna2PictureBox13.TabIndex = 1;
+            this.guna2PictureBox13.TabStop = false;
+            // 
+            // guna2CircleButton3
+            // 
+            this.guna2CircleButton3.Animated = true;
+            this.guna2CircleButton3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton3.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2CircleButton3, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton3.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton3.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton3.IndicateFocus = true;
+            this.guna2CircleButton3.Location = new System.Drawing.Point(855, 828);
+            this.guna2CircleButton3.Name = "guna2CircleButton3";
+            this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton3.Size = new System.Drawing.Size(65, 65);
+            this.guna2CircleButton3.TabIndex = 30;
+            this.guna2CircleButton3.Text = "<";
+            this.guna2CircleButton3.TextFormatNoPrefix = true;
+            this.guna2CircleButton3.UseTransparentBackground = true;
+            // 
+            // guna2CircleButton4
+            // 
+            this.guna2CircleButton4.Animated = true;
+            this.guna2CircleButton4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton4.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2CircleButton4, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton4.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CircleButton4.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton4.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton4.IndicateFocus = true;
+            this.guna2CircleButton4.Location = new System.Drawing.Point(926, 828);
+            this.guna2CircleButton4.Name = "guna2CircleButton4";
+            this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton4.Size = new System.Drawing.Size(65, 65);
+            this.guna2CircleButton4.TabIndex = 31;
+            this.guna2CircleButton4.Text = ">";
+            this.guna2CircleButton4.TextFormatNoPrefix = true;
+            this.guna2CircleButton4.UseTransparentBackground = true;
+            // 
+            // label62
+            // 
+            this.label62.AutoEllipsis = true;
+            this.label62.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label62, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label62.Font = new System.Drawing.Font("Rockwell", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.Color.BlanchedAlmond;
+            this.label62.Location = new System.Drawing.Point(13, 836);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(539, 55);
+            this.label62.TabIndex = 29;
+            this.label62.Text = "Hot Artists";
+            // 
+            // guna2GradientPanel29
+            // 
+            this.guna2GradientPanel29.AutoScroll = true;
+            this.guna2GradientPanel29.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel29.BorderRadius = 10;
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel30);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel31);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel32);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel33);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel34);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel35);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel36);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel37);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel38);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel39);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel40);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel41);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel42);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel43);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel44);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel45);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel46);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel47);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel48);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel49);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel50);
+            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel51);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel29, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel29.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel29.FillColor2 = System.Drawing.Color.Silver;
+            this.guna2GradientPanel29.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel29.Location = new System.Drawing.Point(21, 894);
+            this.guna2GradientPanel29.Name = "guna2GradientPanel29";
+            this.guna2GradientPanel29.Size = new System.Drawing.Size(1216, 598);
+            this.guna2GradientPanel29.TabIndex = 28;
+            // 
+            // guna2GradientPanel30
+            // 
+            this.guna2GradientPanel30.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel30.BorderRadius = 30;
+            this.guna2GradientPanel30.Controls.Add(this.label63);
+            this.guna2GradientPanel30.Controls.Add(this.label64);
+            this.guna2GradientPanel30.Controls.Add(this.guna2CirclePictureBox13);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel30, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel30.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel30.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel30.Location = new System.Drawing.Point(2396, 301);
+            this.guna2GradientPanel30.Name = "guna2GradientPanel30";
+            this.guna2GradientPanel30.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel30.TabIndex = 21;
+            // 
+            // label63
+            // 
+            this.label63.AutoEllipsis = true;
+            this.label63.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label63, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label63.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.Silver;
+            this.label63.Location = new System.Drawing.Point(18, 230);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(176, 28);
+            this.label63.TabIndex = 3;
+            this.label63.Text = "label20";
+            this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label64
+            // 
+            this.label64.AutoEllipsis = true;
+            this.label64.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label64, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label64.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.ForeColor = System.Drawing.Color.White;
+            this.label64.Location = new System.Drawing.Point(24, 191);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(170, 23);
+            this.label64.TabIndex = 2;
+            this.label64.Text = "label20";
+            this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox13
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox13, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox13.ImageRotate = 0F;
+            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
+            this.guna2CirclePictureBox13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox13.TabIndex = 1;
+            this.guna2CirclePictureBox13.TabStop = false;
+            // 
+            // guna2GradientPanel31
+            // 
+            this.guna2GradientPanel31.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel31.BorderRadius = 30;
+            this.guna2GradientPanel31.Controls.Add(this.label65);
+            this.guna2GradientPanel31.Controls.Add(this.label66);
+            this.guna2GradientPanel31.Controls.Add(this.guna2CirclePictureBox14);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel31, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel31.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel31.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel31.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel31.Location = new System.Drawing.Point(2161, 301);
+            this.guna2GradientPanel31.Name = "guna2GradientPanel31";
+            this.guna2GradientPanel31.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel31.TabIndex = 20;
+            // 
+            // label65
+            // 
+            this.label65.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label65, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label65.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label65.ForeColor = System.Drawing.Color.Silver;
+            this.label65.Location = new System.Drawing.Point(18, 230);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(176, 28);
+            this.label65.TabIndex = 3;
+            this.label65.Text = "label20";
+            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label66
+            // 
+            this.label66.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label66, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label66.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label66.ForeColor = System.Drawing.Color.White;
+            this.label66.Location = new System.Drawing.Point(24, 191);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(170, 23);
+            this.label66.TabIndex = 2;
+            this.label66.Text = "label20";
+            this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox14
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox14, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox14.ImageRotate = 0F;
+            this.guna2CirclePictureBox14.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox14.Name = "guna2CirclePictureBox14";
+            this.guna2CirclePictureBox14.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox14.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox14.TabIndex = 1;
+            this.guna2CirclePictureBox14.TabStop = false;
+            // 
+            // guna2GradientPanel32
+            // 
+            this.guna2GradientPanel32.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel32.BorderRadius = 30;
+            this.guna2GradientPanel32.Controls.Add(this.label67);
+            this.guna2GradientPanel32.Controls.Add(this.label68);
+            this.guna2GradientPanel32.Controls.Add(this.guna2CirclePictureBox15);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel32, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel32.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel32.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel32.Location = new System.Drawing.Point(1928, 301);
+            this.guna2GradientPanel32.Name = "guna2GradientPanel32";
+            this.guna2GradientPanel32.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel32.TabIndex = 19;
+            // 
+            // label67
+            // 
+            this.label67.AutoEllipsis = true;
+            this.label67.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label67, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label67.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label67.ForeColor = System.Drawing.Color.Silver;
+            this.label67.Location = new System.Drawing.Point(18, 230);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(176, 28);
+            this.label67.TabIndex = 3;
+            this.label67.Text = "label20";
+            this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label68
+            // 
+            this.label68.AutoEllipsis = true;
+            this.label68.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label68, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label68.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label68.ForeColor = System.Drawing.Color.White;
+            this.label68.Location = new System.Drawing.Point(24, 191);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(170, 23);
+            this.label68.TabIndex = 2;
+            this.label68.Text = "label20";
+            this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox15
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox15, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox15.ImageRotate = 0F;
+            this.guna2CirclePictureBox15.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox15.Name = "guna2CirclePictureBox15";
+            this.guna2CirclePictureBox15.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox15.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox15.TabIndex = 1;
+            this.guna2CirclePictureBox15.TabStop = false;
+            // 
+            // guna2GradientPanel33
+            // 
+            this.guna2GradientPanel33.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel33.BorderRadius = 30;
+            this.guna2GradientPanel33.Controls.Add(this.label69);
+            this.guna2GradientPanel33.Controls.Add(this.label70);
+            this.guna2GradientPanel33.Controls.Add(this.guna2CirclePictureBox16);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel33, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel33.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel33.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel33.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel33.Location = new System.Drawing.Point(1693, 301);
+            this.guna2GradientPanel33.Name = "guna2GradientPanel33";
+            this.guna2GradientPanel33.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel33.TabIndex = 18;
+            // 
+            // label69
+            // 
+            this.label69.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label69, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label69.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label69.ForeColor = System.Drawing.Color.Silver;
+            this.label69.Location = new System.Drawing.Point(18, 230);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(176, 28);
+            this.label69.TabIndex = 3;
+            this.label69.Text = "label20";
+            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label70
+            // 
+            this.label70.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label70, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label70.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.ForeColor = System.Drawing.Color.White;
+            this.label70.Location = new System.Drawing.Point(24, 191);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(170, 23);
+            this.label70.TabIndex = 2;
+            this.label70.Text = "label20";
+            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox16
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox16, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox16.ImageRotate = 0F;
+            this.guna2CirclePictureBox16.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox16.Name = "guna2CirclePictureBox16";
+            this.guna2CirclePictureBox16.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox16.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox16.TabIndex = 1;
+            this.guna2CirclePictureBox16.TabStop = false;
+            // 
+            // guna2GradientPanel34
+            // 
+            this.guna2GradientPanel34.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel34.BorderRadius = 30;
+            this.guna2GradientPanel34.Controls.Add(this.label71);
+            this.guna2GradientPanel34.Controls.Add(this.label72);
+            this.guna2GradientPanel34.Controls.Add(this.guna2CirclePictureBox17);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel34, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel34.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel34.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel34.Location = new System.Drawing.Point(1456, 301);
+            this.guna2GradientPanel34.Name = "guna2GradientPanel34";
+            this.guna2GradientPanel34.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel34.TabIndex = 17;
+            // 
+            // label71
+            // 
+            this.label71.AutoEllipsis = true;
+            this.label71.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label71, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label71.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label71.ForeColor = System.Drawing.Color.Silver;
+            this.label71.Location = new System.Drawing.Point(18, 230);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(176, 28);
+            this.label71.TabIndex = 3;
+            this.label71.Text = "label20";
+            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label72
+            // 
+            this.label72.AutoEllipsis = true;
+            this.label72.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label72, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label72.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label72.ForeColor = System.Drawing.Color.White;
+            this.label72.Location = new System.Drawing.Point(24, 191);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(170, 23);
+            this.label72.TabIndex = 2;
+            this.label72.Text = "label20";
+            this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox17
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox17, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox17.ImageRotate = 0F;
+            this.guna2CirclePictureBox17.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox17.Name = "guna2CirclePictureBox17";
+            this.guna2CirclePictureBox17.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox17.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox17.TabIndex = 1;
+            this.guna2CirclePictureBox17.TabStop = false;
+            // 
+            // guna2GradientPanel35
+            // 
+            this.guna2GradientPanel35.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel35.BorderRadius = 30;
+            this.guna2GradientPanel35.Controls.Add(this.label73);
+            this.guna2GradientPanel35.Controls.Add(this.label74);
+            this.guna2GradientPanel35.Controls.Add(this.guna2CirclePictureBox18);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel35, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel35.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel35.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel35.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel35.Location = new System.Drawing.Point(1220, 301);
+            this.guna2GradientPanel35.Name = "guna2GradientPanel35";
+            this.guna2GradientPanel35.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel35.TabIndex = 16;
+            // 
+            // label73
+            // 
+            this.label73.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label73, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label73.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label73.ForeColor = System.Drawing.Color.Silver;
+            this.label73.Location = new System.Drawing.Point(18, 230);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(176, 28);
+            this.label73.TabIndex = 3;
+            this.label73.Text = "label20";
+            this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label74
+            // 
+            this.label74.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label74, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label74.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label74.ForeColor = System.Drawing.Color.White;
+            this.label74.Location = new System.Drawing.Point(24, 191);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(170, 23);
+            this.label74.TabIndex = 2;
+            this.label74.Text = "label20";
+            this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox18
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox18, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox18.ImageRotate = 0F;
+            this.guna2CirclePictureBox18.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox18.Name = "guna2CirclePictureBox18";
+            this.guna2CirclePictureBox18.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox18.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox18.TabIndex = 1;
+            this.guna2CirclePictureBox18.TabStop = false;
+            // 
+            // guna2GradientPanel36
+            // 
+            this.guna2GradientPanel36.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel36.BorderRadius = 30;
+            this.guna2GradientPanel36.Controls.Add(this.label75);
+            this.guna2GradientPanel36.Controls.Add(this.label76);
+            this.guna2GradientPanel36.Controls.Add(this.guna2CirclePictureBox19);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel36, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel36.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel36.Location = new System.Drawing.Point(981, 301);
+            this.guna2GradientPanel36.Name = "guna2GradientPanel36";
+            this.guna2GradientPanel36.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel36.TabIndex = 15;
+            // 
+            // label75
+            // 
+            this.label75.AutoEllipsis = true;
+            this.label75.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label75, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label75.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label75.ForeColor = System.Drawing.Color.Silver;
+            this.label75.Location = new System.Drawing.Point(18, 230);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(176, 28);
+            this.label75.TabIndex = 3;
+            this.label75.Text = "label19";
+            this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label76
+            // 
+            this.label76.AutoEllipsis = true;
+            this.label76.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label76, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label76.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label76.ForeColor = System.Drawing.Color.White;
+            this.label76.Location = new System.Drawing.Point(24, 191);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(170, 23);
+            this.label76.TabIndex = 2;
+            this.label76.Text = "label19";
+            this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox19
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox19, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox19.ImageRotate = 0F;
+            this.guna2CirclePictureBox19.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox19.Name = "guna2CirclePictureBox19";
+            this.guna2CirclePictureBox19.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox19.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox19.TabIndex = 1;
+            this.guna2CirclePictureBox19.TabStop = false;
+            // 
+            // guna2GradientPanel37
+            // 
+            this.guna2GradientPanel37.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel37.BorderRadius = 30;
+            this.guna2GradientPanel37.Controls.Add(this.label77);
+            this.guna2GradientPanel37.Controls.Add(this.label78);
+            this.guna2GradientPanel37.Controls.Add(this.guna2CirclePictureBox20);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel37, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel37.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel37.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel37.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel37.Location = new System.Drawing.Point(739, 301);
+            this.guna2GradientPanel37.Name = "guna2GradientPanel37";
+            this.guna2GradientPanel37.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel37.TabIndex = 14;
+            // 
+            // label77
+            // 
+            this.label77.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label77, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label77.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label77.ForeColor = System.Drawing.Color.Silver;
+            this.label77.Location = new System.Drawing.Point(18, 230);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(176, 28);
+            this.label77.TabIndex = 3;
+            this.label77.Text = "label18";
+            this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label78
+            // 
+            this.label78.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label78, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label78.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label78.ForeColor = System.Drawing.Color.White;
+            this.label78.Location = new System.Drawing.Point(24, 191);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(170, 23);
+            this.label78.TabIndex = 2;
+            this.label78.Text = "label18";
+            this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox20
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox20, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox20.ImageRotate = 0F;
+            this.guna2CirclePictureBox20.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox20.Name = "guna2CirclePictureBox20";
+            this.guna2CirclePictureBox20.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox20.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox20.TabIndex = 1;
+            this.guna2CirclePictureBox20.TabStop = false;
+            // 
+            // guna2GradientPanel38
+            // 
+            this.guna2GradientPanel38.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel38.BorderRadius = 30;
+            this.guna2GradientPanel38.Controls.Add(this.label79);
+            this.guna2GradientPanel38.Controls.Add(this.label80);
+            this.guna2GradientPanel38.Controls.Add(this.guna2CirclePictureBox21);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel38, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel38.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel38.Location = new System.Drawing.Point(497, 301);
+            this.guna2GradientPanel38.Name = "guna2GradientPanel38";
+            this.guna2GradientPanel38.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel38.TabIndex = 13;
+            // 
+            // label79
+            // 
+            this.label79.AutoEllipsis = true;
+            this.label79.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label79, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label79.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label79.ForeColor = System.Drawing.Color.Silver;
+            this.label79.Location = new System.Drawing.Point(18, 230);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(176, 28);
+            this.label79.TabIndex = 3;
+            this.label79.Text = "label17";
+            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label80
+            // 
+            this.label80.AutoEllipsis = true;
+            this.label80.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label80, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label80.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.ForeColor = System.Drawing.Color.White;
+            this.label80.Location = new System.Drawing.Point(24, 191);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(170, 23);
+            this.label80.TabIndex = 2;
+            this.label80.Text = "label17";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox21
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox21, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox21.ImageRotate = 0F;
+            this.guna2CirclePictureBox21.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox21.Name = "guna2CirclePictureBox21";
+            this.guna2CirclePictureBox21.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox21.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox21.TabIndex = 1;
+            this.guna2CirclePictureBox21.TabStop = false;
+            // 
+            // guna2GradientPanel39
+            // 
+            this.guna2GradientPanel39.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel39.BorderRadius = 30;
+            this.guna2GradientPanel39.Controls.Add(this.label81);
+            this.guna2GradientPanel39.Controls.Add(this.label82);
+            this.guna2GradientPanel39.Controls.Add(this.guna2CirclePictureBox22);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel39, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel39.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel39.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel39.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel39.Location = new System.Drawing.Point(255, 301);
+            this.guna2GradientPanel39.Name = "guna2GradientPanel39";
+            this.guna2GradientPanel39.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel39.TabIndex = 12;
+            // 
+            // label81
+            // 
+            this.label81.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label81, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label81.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.ForeColor = System.Drawing.Color.Silver;
+            this.label81.Location = new System.Drawing.Point(18, 230);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(176, 28);
+            this.label81.TabIndex = 3;
+            this.label81.Text = "label16";
+            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label82
+            // 
+            this.label82.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label82, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label82.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.ForeColor = System.Drawing.Color.White;
+            this.label82.Location = new System.Drawing.Point(24, 191);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(170, 23);
+            this.label82.TabIndex = 2;
+            this.label82.Text = "label16";
+            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox22
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox22, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox22.ImageRotate = 0F;
+            this.guna2CirclePictureBox22.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox22.Name = "guna2CirclePictureBox22";
+            this.guna2CirclePictureBox22.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox22.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox22.TabIndex = 1;
+            this.guna2CirclePictureBox22.TabStop = false;
+            // 
+            // guna2GradientPanel40
+            // 
+            this.guna2GradientPanel40.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel40.BorderRadius = 30;
+            this.guna2GradientPanel40.Controls.Add(this.label83);
+            this.guna2GradientPanel40.Controls.Add(this.label84);
+            this.guna2GradientPanel40.Controls.Add(this.guna2CirclePictureBox23);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel40, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel40.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel40.Location = new System.Drawing.Point(16, 301);
+            this.guna2GradientPanel40.Name = "guna2GradientPanel40";
+            this.guna2GradientPanel40.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel40.TabIndex = 11;
+            // 
+            // label83
+            // 
+            this.label83.AutoEllipsis = true;
+            this.label83.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label83, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label83.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label83.ForeColor = System.Drawing.Color.Silver;
+            this.label83.Location = new System.Drawing.Point(18, 230);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(176, 28);
+            this.label83.TabIndex = 2;
+            this.label83.Text = "label15";
+            this.label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label84
+            // 
+            this.label84.AutoEllipsis = true;
+            this.label84.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label84, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label84.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label84.ForeColor = System.Drawing.Color.White;
+            this.label84.Location = new System.Drawing.Point(24, 191);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(170, 23);
+            this.label84.TabIndex = 1;
+            this.label84.Text = "label15";
+            this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox23
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox23, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox23.ImageRotate = 0F;
+            this.guna2CirclePictureBox23.Location = new System.Drawing.Point(28, 16);
+            this.guna2CirclePictureBox23.Name = "guna2CirclePictureBox23";
+            this.guna2CirclePictureBox23.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox23.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox23.TabIndex = 0;
+            this.guna2CirclePictureBox23.TabStop = false;
+            // 
+            // guna2GradientPanel41
+            // 
+            this.guna2GradientPanel41.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel41.BorderRadius = 30;
+            this.guna2GradientPanel41.Controls.Add(this.label85);
+            this.guna2GradientPanel41.Controls.Add(this.label86);
+            this.guna2GradientPanel41.Controls.Add(this.guna2CirclePictureBox24);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel41, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel41.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel41.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel41.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel41.Location = new System.Drawing.Point(2396, 18);
+            this.guna2GradientPanel41.Name = "guna2GradientPanel41";
+            this.guna2GradientPanel41.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel41.TabIndex = 10;
+            // 
+            // label85
+            // 
+            this.label85.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label85, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label85.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label85.ForeColor = System.Drawing.Color.Silver;
+            this.label85.Location = new System.Drawing.Point(18, 230);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(176, 28);
+            this.label85.TabIndex = 3;
+            this.label85.Text = "label20";
+            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label86
+            // 
+            this.label86.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label86, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label86.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label86.ForeColor = System.Drawing.Color.White;
+            this.label86.Location = new System.Drawing.Point(24, 191);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(170, 23);
+            this.label86.TabIndex = 2;
+            this.label86.Text = "label20";
+            this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox24
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox24, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox24.ImageRotate = 0F;
+            this.guna2CirclePictureBox24.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox24.Name = "guna2CirclePictureBox24";
+            this.guna2CirclePictureBox24.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox24.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox24.TabIndex = 1;
+            this.guna2CirclePictureBox24.TabStop = false;
+            // 
+            // guna2GradientPanel42
+            // 
+            this.guna2GradientPanel42.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel42.BorderRadius = 30;
+            this.guna2GradientPanel42.Controls.Add(this.label87);
+            this.guna2GradientPanel42.Controls.Add(this.label88);
+            this.guna2GradientPanel42.Controls.Add(this.guna2CirclePictureBox25);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel42, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel42.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel42.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel42.Location = new System.Drawing.Point(2161, 18);
+            this.guna2GradientPanel42.Name = "guna2GradientPanel42";
+            this.guna2GradientPanel42.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel42.TabIndex = 9;
+            // 
+            // label87
+            // 
+            this.label87.AutoEllipsis = true;
+            this.label87.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label87, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label87.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label87.ForeColor = System.Drawing.Color.Silver;
+            this.label87.Location = new System.Drawing.Point(18, 230);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(176, 28);
+            this.label87.TabIndex = 3;
+            this.label87.Text = "label20";
+            this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label88
+            // 
+            this.label88.AutoEllipsis = true;
+            this.label88.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label88, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label88.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label88.ForeColor = System.Drawing.Color.White;
+            this.label88.Location = new System.Drawing.Point(24, 191);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(170, 23);
+            this.label88.TabIndex = 2;
+            this.label88.Text = "label20";
+            this.label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox25
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox25, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox25.ImageRotate = 0F;
+            this.guna2CirclePictureBox25.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox25.Name = "guna2CirclePictureBox25";
+            this.guna2CirclePictureBox25.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox25.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox25.TabIndex = 1;
+            this.guna2CirclePictureBox25.TabStop = false;
+            // 
+            // guna2GradientPanel43
+            // 
+            this.guna2GradientPanel43.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel43.BorderRadius = 30;
+            this.guna2GradientPanel43.Controls.Add(this.label89);
+            this.guna2GradientPanel43.Controls.Add(this.label90);
+            this.guna2GradientPanel43.Controls.Add(this.guna2CirclePictureBox26);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel43, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel43.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel43.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel43.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel43.Location = new System.Drawing.Point(1928, 18);
+            this.guna2GradientPanel43.Name = "guna2GradientPanel43";
+            this.guna2GradientPanel43.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel43.TabIndex = 8;
+            // 
+            // label89
+            // 
+            this.label89.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label89, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label89.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label89.ForeColor = System.Drawing.Color.Silver;
+            this.label89.Location = new System.Drawing.Point(18, 230);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(176, 28);
+            this.label89.TabIndex = 3;
+            this.label89.Text = "label20";
+            this.label89.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label90
+            // 
+            this.label90.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label90, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label90.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label90.ForeColor = System.Drawing.Color.White;
+            this.label90.Location = new System.Drawing.Point(24, 191);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(170, 23);
+            this.label90.TabIndex = 2;
+            this.label90.Text = "label20";
+            this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox26
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox26, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox26.ImageRotate = 0F;
+            this.guna2CirclePictureBox26.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox26.Name = "guna2CirclePictureBox26";
+            this.guna2CirclePictureBox26.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox26.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox26.TabIndex = 1;
+            this.guna2CirclePictureBox26.TabStop = false;
+            // 
+            // guna2GradientPanel44
+            // 
+            this.guna2GradientPanel44.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel44.BorderRadius = 30;
+            this.guna2GradientPanel44.Controls.Add(this.label91);
+            this.guna2GradientPanel44.Controls.Add(this.label92);
+            this.guna2GradientPanel44.Controls.Add(this.guna2CirclePictureBox27);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel44, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel44.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel44.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel44.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientPanel44.Location = new System.Drawing.Point(1693, 18);
+            this.guna2GradientPanel44.Name = "guna2GradientPanel44";
+            this.guna2GradientPanel44.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel44.TabIndex = 7;
+            // 
+            // label91
+            // 
+            this.label91.AutoEllipsis = true;
+            this.label91.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label91, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label91.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label91.ForeColor = System.Drawing.Color.Silver;
+            this.label91.Location = new System.Drawing.Point(18, 230);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(176, 28);
+            this.label91.TabIndex = 3;
+            this.label91.Text = "label20";
+            this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label92
+            // 
+            this.label92.AutoEllipsis = true;
+            this.label92.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label92, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label92.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label92.ForeColor = System.Drawing.Color.White;
+            this.label92.Location = new System.Drawing.Point(24, 191);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(170, 23);
+            this.label92.TabIndex = 2;
+            this.label92.Text = "label20";
+            this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox27
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox27, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox27.ImageRotate = 0F;
+            this.guna2CirclePictureBox27.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox27.Name = "guna2CirclePictureBox27";
+            this.guna2CirclePictureBox27.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox27.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox27.TabIndex = 1;
+            this.guna2CirclePictureBox27.TabStop = false;
+            // 
+            // guna2GradientPanel45
+            // 
+            this.guna2GradientPanel45.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel45.BorderRadius = 30;
+            this.guna2GradientPanel45.Controls.Add(this.label93);
+            this.guna2GradientPanel45.Controls.Add(this.label94);
+            this.guna2GradientPanel45.Controls.Add(this.guna2CirclePictureBox28);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel45, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel45.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel45.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel45.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel45.Location = new System.Drawing.Point(1456, 18);
+            this.guna2GradientPanel45.Name = "guna2GradientPanel45";
+            this.guna2GradientPanel45.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel45.TabIndex = 6;
+            // 
+            // label93
+            // 
+            this.label93.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label93, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label93.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label93.ForeColor = System.Drawing.Color.Silver;
+            this.label93.Location = new System.Drawing.Point(18, 230);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(176, 28);
+            this.label93.TabIndex = 3;
+            this.label93.Text = "label20";
+            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label94
+            // 
+            this.label94.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label94, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label94.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label94.ForeColor = System.Drawing.Color.White;
+            this.label94.Location = new System.Drawing.Point(24, 191);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(170, 23);
+            this.label94.TabIndex = 2;
+            this.label94.Text = "label20";
+            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox28
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox28, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox28.ImageRotate = 0F;
+            this.guna2CirclePictureBox28.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox28.Name = "guna2CirclePictureBox28";
+            this.guna2CirclePictureBox28.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox28.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox28.TabIndex = 1;
+            this.guna2CirclePictureBox28.TabStop = false;
+            // 
+            // guna2GradientPanel46
+            // 
+            this.guna2GradientPanel46.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel46.BorderRadius = 30;
+            this.guna2GradientPanel46.Controls.Add(this.label95);
+            this.guna2GradientPanel46.Controls.Add(this.label96);
+            this.guna2GradientPanel46.Controls.Add(this.guna2CirclePictureBox29);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel46, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel46.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel46.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel46.Location = new System.Drawing.Point(1220, 18);
+            this.guna2GradientPanel46.Name = "guna2GradientPanel46";
+            this.guna2GradientPanel46.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel46.TabIndex = 5;
+            // 
+            // label95
+            // 
+            this.label95.AutoEllipsis = true;
+            this.label95.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label95, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label95.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label95.ForeColor = System.Drawing.Color.Silver;
+            this.label95.Location = new System.Drawing.Point(18, 230);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(176, 28);
+            this.label95.TabIndex = 3;
+            this.label95.Text = "label20";
+            this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label96
+            // 
+            this.label96.AutoEllipsis = true;
+            this.label96.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label96, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label96.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label96.ForeColor = System.Drawing.Color.White;
+            this.label96.Location = new System.Drawing.Point(24, 191);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(170, 23);
+            this.label96.TabIndex = 2;
+            this.label96.Text = "label20";
+            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox29
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox29, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox29.ImageRotate = 0F;
+            this.guna2CirclePictureBox29.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox29.Name = "guna2CirclePictureBox29";
+            this.guna2CirclePictureBox29.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox29.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox29.TabIndex = 1;
+            this.guna2CirclePictureBox29.TabStop = false;
+            // 
+            // guna2GradientPanel47
+            // 
+            this.guna2GradientPanel47.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel47.BorderRadius = 30;
+            this.guna2GradientPanel47.Controls.Add(this.label97);
+            this.guna2GradientPanel47.Controls.Add(this.label98);
+            this.guna2GradientPanel47.Controls.Add(this.guna2CirclePictureBox30);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel47, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel47.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel47.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel47.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel47.Location = new System.Drawing.Point(981, 18);
+            this.guna2GradientPanel47.Name = "guna2GradientPanel47";
+            this.guna2GradientPanel47.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel47.TabIndex = 4;
+            // 
+            // label97
+            // 
+            this.label97.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label97, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label97.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label97.ForeColor = System.Drawing.Color.Silver;
+            this.label97.Location = new System.Drawing.Point(18, 230);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(176, 28);
+            this.label97.TabIndex = 3;
+            this.label97.Text = "label19";
+            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label98
+            // 
+            this.label98.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label98, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label98.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label98.ForeColor = System.Drawing.Color.White;
+            this.label98.Location = new System.Drawing.Point(24, 191);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(170, 23);
+            this.label98.TabIndex = 2;
+            this.label98.Text = "label19";
+            this.label98.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox30
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox30, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox30.ImageRotate = 0F;
+            this.guna2CirclePictureBox30.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox30.Name = "guna2CirclePictureBox30";
+            this.guna2CirclePictureBox30.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox30.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox30.TabIndex = 1;
+            this.guna2CirclePictureBox30.TabStop = false;
+            // 
+            // guna2GradientPanel48
+            // 
+            this.guna2GradientPanel48.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel48.BorderRadius = 30;
+            this.guna2GradientPanel48.Controls.Add(this.label99);
+            this.guna2GradientPanel48.Controls.Add(this.label100);
+            this.guna2GradientPanel48.Controls.Add(this.guna2CirclePictureBox31);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel48, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel48.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel48.Location = new System.Drawing.Point(739, 18);
+            this.guna2GradientPanel48.Name = "guna2GradientPanel48";
+            this.guna2GradientPanel48.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel48.TabIndex = 3;
+            // 
+            // label99
+            // 
+            this.label99.AutoEllipsis = true;
+            this.label99.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label99, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label99.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label99.ForeColor = System.Drawing.Color.Silver;
+            this.label99.Location = new System.Drawing.Point(18, 230);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(176, 28);
+            this.label99.TabIndex = 3;
+            this.label99.Text = "label18";
+            this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label100
+            // 
+            this.label100.AutoEllipsis = true;
+            this.label100.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label100, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label100.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label100.ForeColor = System.Drawing.Color.White;
+            this.label100.Location = new System.Drawing.Point(24, 191);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(170, 23);
+            this.label100.TabIndex = 2;
+            this.label100.Text = "label18";
+            this.label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox31
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox31, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox31.ImageRotate = 0F;
+            this.guna2CirclePictureBox31.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox31.Name = "guna2CirclePictureBox31";
+            this.guna2CirclePictureBox31.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox31.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox31.TabIndex = 1;
+            this.guna2CirclePictureBox31.TabStop = false;
+            // 
+            // guna2GradientPanel49
+            // 
+            this.guna2GradientPanel49.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel49.BorderRadius = 30;
+            this.guna2GradientPanel49.Controls.Add(this.label101);
+            this.guna2GradientPanel49.Controls.Add(this.label102);
+            this.guna2GradientPanel49.Controls.Add(this.guna2CirclePictureBox32);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel49, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel49.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel49.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel49.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel49.Location = new System.Drawing.Point(497, 18);
+            this.guna2GradientPanel49.Name = "guna2GradientPanel49";
+            this.guna2GradientPanel49.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel49.TabIndex = 2;
+            // 
+            // label101
+            // 
+            this.label101.AutoEllipsis = true;
+            this.label101.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label101, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label101.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label101.ForeColor = System.Drawing.Color.Silver;
+            this.label101.Location = new System.Drawing.Point(18, 230);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(176, 28);
+            this.label101.TabIndex = 3;
+            this.label101.Text = "label17";
+            this.label101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label102
+            // 
+            this.label102.AutoEllipsis = true;
+            this.label102.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label102, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label102.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label102.ForeColor = System.Drawing.Color.White;
+            this.label102.Location = new System.Drawing.Point(24, 191);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(170, 23);
+            this.label102.TabIndex = 2;
+            this.label102.Text = "label17";
+            this.label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox32
+            // 
+            this.guna2CirclePictureBox32.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox32, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox32.ImageRotate = 0F;
+            this.guna2CirclePictureBox32.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox32.Name = "guna2CirclePictureBox32";
+            this.guna2CirclePictureBox32.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox32.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox32.TabIndex = 1;
+            this.guna2CirclePictureBox32.TabStop = false;
+            // 
+            // guna2GradientPanel50
+            // 
+            this.guna2GradientPanel50.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel50.BorderRadius = 30;
+            this.guna2GradientPanel50.Controls.Add(this.label103);
+            this.guna2GradientPanel50.Controls.Add(this.label104);
+            this.guna2GradientPanel50.Controls.Add(this.guna2CirclePictureBox33);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel50, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel50.FillColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel50.Location = new System.Drawing.Point(255, 18);
+            this.guna2GradientPanel50.Name = "guna2GradientPanel50";
+            this.guna2GradientPanel50.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel50.TabIndex = 1;
+            // 
+            // label103
+            // 
+            this.label103.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label103, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label103.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label103.ForeColor = System.Drawing.Color.Silver;
+            this.label103.Location = new System.Drawing.Point(18, 230);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(176, 28);
+            this.label103.TabIndex = 3;
+            this.label103.Text = "label16";
+            this.label103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label104
+            // 
+            this.label104.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label104, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label104.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label104.ForeColor = System.Drawing.Color.White;
+            this.label104.Location = new System.Drawing.Point(24, 191);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(170, 23);
+            this.label104.TabIndex = 2;
+            this.label104.Text = "label16";
+            this.label104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox33
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox33, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox33.ImageRotate = 0F;
+            this.guna2CirclePictureBox33.Location = new System.Drawing.Point(26, 16);
+            this.guna2CirclePictureBox33.Name = "guna2CirclePictureBox33";
+            this.guna2CirclePictureBox33.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox33.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox33.TabIndex = 1;
+            this.guna2CirclePictureBox33.TabStop = false;
+            // 
+            // guna2GradientPanel51
+            // 
+            this.guna2GradientPanel51.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel51.BorderRadius = 30;
+            this.guna2GradientPanel51.Controls.Add(this.label105);
+            this.guna2GradientPanel51.Controls.Add(this.label106);
+            this.guna2GradientPanel51.Controls.Add(this.guna2CirclePictureBox34);
+            this.guna2Transition1.SetDecoration(this.guna2GradientPanel51, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientPanel51.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel51.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientPanel51.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel51.Location = new System.Drawing.Point(16, 18);
+            this.guna2GradientPanel51.Name = "guna2GradientPanel51";
+            this.guna2GradientPanel51.Size = new System.Drawing.Size(222, 267);
+            this.guna2GradientPanel51.TabIndex = 0;
+            // 
+            // label105
+            // 
+            this.label105.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label105, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label105.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label105.ForeColor = System.Drawing.Color.Silver;
+            this.label105.Location = new System.Drawing.Point(18, 230);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(176, 28);
+            this.label105.TabIndex = 2;
+            this.label105.Text = "label15";
+            this.label105.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label106
+            // 
+            this.label106.AutoEllipsis = true;
+            this.guna2Transition1.SetDecoration(this.label106, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label106.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label106.ForeColor = System.Drawing.Color.White;
+            this.label106.Location = new System.Drawing.Point(24, 191);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(170, 23);
+            this.label106.TabIndex = 1;
+            this.label106.Text = "label15";
+            this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox34
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox34, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox34.ImageRotate = 0F;
+            this.guna2CirclePictureBox34.Location = new System.Drawing.Point(28, 16);
+            this.guna2CirclePictureBox34.Name = "guna2CirclePictureBox34";
+            this.guna2CirclePictureBox34.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox34.Size = new System.Drawing.Size(170, 155);
+            this.guna2CirclePictureBox34.TabIndex = 0;
+            this.guna2CirclePictureBox34.TabStop = false;
+            // 
+            // guna2CircleButton7
+            // 
+            this.guna2CircleButton7.Animated = true;
+            this.guna2CircleButton7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton7.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2CircleButton7, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleButton7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton7.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton7.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CircleButton7.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton7.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton7.IndicateFocus = true;
+            this.guna2CircleButton7.Location = new System.Drawing.Point(926, 362);
+            this.guna2CircleButton7.Name = "guna2CircleButton7";
+            this.guna2CircleButton7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton7.Size = new System.Drawing.Size(65, 65);
+            this.guna2CircleButton7.TabIndex = 37;
+            this.guna2CircleButton7.Text = ">";
+            this.guna2CircleButton7.TextFormatNoPrefix = true;
+            this.guna2CircleButton7.UseTransparentBackground = true;
+            this.guna2CircleButton7.Click += new System.EventHandler(this.guna2CircleButton7_Click);
+            // 
+            // guna2CircleButton6
+            // 
+            this.guna2CircleButton6.Animated = true;
+            this.guna2CircleButton6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton6.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2CircleButton6, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleButton6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton6.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton6.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold);
+            this.guna2CircleButton6.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton6.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton6.IndicateFocus = true;
+            this.guna2CircleButton6.Location = new System.Drawing.Point(855, 363);
+            this.guna2CircleButton6.Name = "guna2CircleButton6";
+            this.guna2CircleButton6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton6.Size = new System.Drawing.Size(65, 65);
+            this.guna2CircleButton6.TabIndex = 36;
+            this.guna2CircleButton6.Text = "<";
+            this.guna2CircleButton6.TextFormatNoPrefix = true;
+            this.guna2CircleButton6.UseTransparentBackground = true;
+            this.guna2CircleButton6.Click += new System.EventHandler(this.guna2CircleButton6_Click);
             // 
             // btnScrollLeftAlbum
             // 
@@ -3579,7 +5718,6 @@
             // 
             this.playlistPanel1.BackColor = System.Drawing.Color.Transparent;
             this.playlistPanel1.BorderRadius = 20;
-            this.playlistPanel1.Controls.Add(this.panelSetting);
             this.playlistPanel1.Controls.Add(this.label13);
             this.playlistPanel1.Controls.Add(this.label1);
             this.playlistPanel1.Controls.Add(this.labelDesc1);
@@ -4267,2091 +6405,6 @@
             this.guna2Transition1.DefaultAnimation = animation1;
             this.guna2Transition1.TimeStep = 1F;
             // 
-            // guna2GradientPanel29
-            // 
-            this.guna2GradientPanel29.AutoScroll = true;
-            this.guna2GradientPanel29.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel29.BorderRadius = 10;
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel30);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel31);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel32);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel33);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel34);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel35);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel36);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel37);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel38);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel39);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel40);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel41);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel42);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel43);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel44);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel45);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel46);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel47);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel48);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel49);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel50);
-            this.guna2GradientPanel29.Controls.Add(this.guna2GradientPanel51);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel29, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel29.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel29.FillColor2 = System.Drawing.Color.Silver;
-            this.guna2GradientPanel29.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel29.Location = new System.Drawing.Point(21, 894);
-            this.guna2GradientPanel29.Name = "guna2GradientPanel29";
-            this.guna2GradientPanel29.Size = new System.Drawing.Size(1216, 598);
-            this.guna2GradientPanel29.TabIndex = 28;
-            // 
-            // guna2GradientPanel51
-            // 
-            this.guna2GradientPanel51.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel51.BorderRadius = 30;
-            this.guna2GradientPanel51.Controls.Add(this.label105);
-            this.guna2GradientPanel51.Controls.Add(this.label106);
-            this.guna2GradientPanel51.Controls.Add(this.guna2CirclePictureBox34);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel51, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel51.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel51.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel51.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel51.Location = new System.Drawing.Point(16, 18);
-            this.guna2GradientPanel51.Name = "guna2GradientPanel51";
-            this.guna2GradientPanel51.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel51.TabIndex = 0;
-            // 
-            // guna2CirclePictureBox34
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox34, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox34.ImageRotate = 0F;
-            this.guna2CirclePictureBox34.Location = new System.Drawing.Point(28, 16);
-            this.guna2CirclePictureBox34.Name = "guna2CirclePictureBox34";
-            this.guna2CirclePictureBox34.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox34.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox34.TabIndex = 0;
-            this.guna2CirclePictureBox34.TabStop = false;
-            // 
-            // label106
-            // 
-            this.label106.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label106, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label106.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label106.ForeColor = System.Drawing.Color.White;
-            this.label106.Location = new System.Drawing.Point(24, 191);
-            this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(170, 23);
-            this.label106.TabIndex = 1;
-            this.label106.Text = "label15";
-            this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label105
-            // 
-            this.label105.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label105, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label105.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label105.ForeColor = System.Drawing.Color.Silver;
-            this.label105.Location = new System.Drawing.Point(18, 230);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(176, 28);
-            this.label105.TabIndex = 2;
-            this.label105.Text = "label15";
-            this.label105.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel50
-            // 
-            this.guna2GradientPanel50.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel50.BorderRadius = 30;
-            this.guna2GradientPanel50.Controls.Add(this.label103);
-            this.guna2GradientPanel50.Controls.Add(this.label104);
-            this.guna2GradientPanel50.Controls.Add(this.guna2CirclePictureBox33);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel50, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel50.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel50.Location = new System.Drawing.Point(255, 18);
-            this.guna2GradientPanel50.Name = "guna2GradientPanel50";
-            this.guna2GradientPanel50.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel50.TabIndex = 1;
-            // 
-            // guna2CirclePictureBox33
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox33, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox33.ImageRotate = 0F;
-            this.guna2CirclePictureBox33.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox33.Name = "guna2CirclePictureBox33";
-            this.guna2CirclePictureBox33.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox33.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox33.TabIndex = 1;
-            this.guna2CirclePictureBox33.TabStop = false;
-            // 
-            // label104
-            // 
-            this.label104.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label104, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label104.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label104.ForeColor = System.Drawing.Color.White;
-            this.label104.Location = new System.Drawing.Point(24, 191);
-            this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(170, 23);
-            this.label104.TabIndex = 2;
-            this.label104.Text = "label16";
-            this.label104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label103
-            // 
-            this.label103.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label103, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label103.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label103.ForeColor = System.Drawing.Color.Silver;
-            this.label103.Location = new System.Drawing.Point(18, 230);
-            this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(176, 28);
-            this.label103.TabIndex = 3;
-            this.label103.Text = "label16";
-            this.label103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel49
-            // 
-            this.guna2GradientPanel49.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel49.BorderRadius = 30;
-            this.guna2GradientPanel49.Controls.Add(this.label101);
-            this.guna2GradientPanel49.Controls.Add(this.label102);
-            this.guna2GradientPanel49.Controls.Add(this.guna2CirclePictureBox32);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel49, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel49.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel49.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel49.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel49.Location = new System.Drawing.Point(497, 18);
-            this.guna2GradientPanel49.Name = "guna2GradientPanel49";
-            this.guna2GradientPanel49.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel49.TabIndex = 2;
-            // 
-            // guna2CirclePictureBox32
-            // 
-            this.guna2CirclePictureBox32.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox32, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox32.ImageRotate = 0F;
-            this.guna2CirclePictureBox32.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox32.Name = "guna2CirclePictureBox32";
-            this.guna2CirclePictureBox32.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox32.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox32.TabIndex = 1;
-            this.guna2CirclePictureBox32.TabStop = false;
-            // 
-            // label102
-            // 
-            this.label102.AutoEllipsis = true;
-            this.label102.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label102, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label102.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label102.ForeColor = System.Drawing.Color.White;
-            this.label102.Location = new System.Drawing.Point(24, 191);
-            this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(170, 23);
-            this.label102.TabIndex = 2;
-            this.label102.Text = "label17";
-            this.label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label101
-            // 
-            this.label101.AutoEllipsis = true;
-            this.label101.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label101, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label101.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label101.ForeColor = System.Drawing.Color.Silver;
-            this.label101.Location = new System.Drawing.Point(18, 230);
-            this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(176, 28);
-            this.label101.TabIndex = 3;
-            this.label101.Text = "label17";
-            this.label101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel48
-            // 
-            this.guna2GradientPanel48.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel48.BorderRadius = 30;
-            this.guna2GradientPanel48.Controls.Add(this.label99);
-            this.guna2GradientPanel48.Controls.Add(this.label100);
-            this.guna2GradientPanel48.Controls.Add(this.guna2CirclePictureBox31);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel48, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel48.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel48.Location = new System.Drawing.Point(739, 18);
-            this.guna2GradientPanel48.Name = "guna2GradientPanel48";
-            this.guna2GradientPanel48.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel48.TabIndex = 3;
-            // 
-            // guna2CirclePictureBox31
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox31, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox31.ImageRotate = 0F;
-            this.guna2CirclePictureBox31.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox31.Name = "guna2CirclePictureBox31";
-            this.guna2CirclePictureBox31.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox31.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox31.TabIndex = 1;
-            this.guna2CirclePictureBox31.TabStop = false;
-            // 
-            // label100
-            // 
-            this.label100.AutoEllipsis = true;
-            this.label100.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label100, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label100.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label100.ForeColor = System.Drawing.Color.White;
-            this.label100.Location = new System.Drawing.Point(24, 191);
-            this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(170, 23);
-            this.label100.TabIndex = 2;
-            this.label100.Text = "label18";
-            this.label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label99
-            // 
-            this.label99.AutoEllipsis = true;
-            this.label99.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label99, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label99.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label99.ForeColor = System.Drawing.Color.Silver;
-            this.label99.Location = new System.Drawing.Point(18, 230);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(176, 28);
-            this.label99.TabIndex = 3;
-            this.label99.Text = "label18";
-            this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel47
-            // 
-            this.guna2GradientPanel47.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel47.BorderRadius = 30;
-            this.guna2GradientPanel47.Controls.Add(this.label97);
-            this.guna2GradientPanel47.Controls.Add(this.label98);
-            this.guna2GradientPanel47.Controls.Add(this.guna2CirclePictureBox30);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel47, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel47.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel47.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel47.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel47.Location = new System.Drawing.Point(981, 18);
-            this.guna2GradientPanel47.Name = "guna2GradientPanel47";
-            this.guna2GradientPanel47.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel47.TabIndex = 4;
-            // 
-            // guna2CirclePictureBox30
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox30, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox30.ImageRotate = 0F;
-            this.guna2CirclePictureBox30.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox30.Name = "guna2CirclePictureBox30";
-            this.guna2CirclePictureBox30.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox30.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox30.TabIndex = 1;
-            this.guna2CirclePictureBox30.TabStop = false;
-            // 
-            // label98
-            // 
-            this.label98.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label98, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label98.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label98.ForeColor = System.Drawing.Color.White;
-            this.label98.Location = new System.Drawing.Point(24, 191);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(170, 23);
-            this.label98.TabIndex = 2;
-            this.label98.Text = "label19";
-            this.label98.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label97
-            // 
-            this.label97.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label97, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label97.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label97.ForeColor = System.Drawing.Color.Silver;
-            this.label97.Location = new System.Drawing.Point(18, 230);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(176, 28);
-            this.label97.TabIndex = 3;
-            this.label97.Text = "label19";
-            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel46
-            // 
-            this.guna2GradientPanel46.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel46.BorderRadius = 30;
-            this.guna2GradientPanel46.Controls.Add(this.label95);
-            this.guna2GradientPanel46.Controls.Add(this.label96);
-            this.guna2GradientPanel46.Controls.Add(this.guna2CirclePictureBox29);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel46, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel46.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel46.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel46.Location = new System.Drawing.Point(1220, 18);
-            this.guna2GradientPanel46.Name = "guna2GradientPanel46";
-            this.guna2GradientPanel46.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel46.TabIndex = 5;
-            // 
-            // guna2CirclePictureBox29
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox29, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox29.ImageRotate = 0F;
-            this.guna2CirclePictureBox29.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox29.Name = "guna2CirclePictureBox29";
-            this.guna2CirclePictureBox29.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox29.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox29.TabIndex = 1;
-            this.guna2CirclePictureBox29.TabStop = false;
-            // 
-            // label96
-            // 
-            this.label96.AutoEllipsis = true;
-            this.label96.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label96, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label96.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label96.ForeColor = System.Drawing.Color.White;
-            this.label96.Location = new System.Drawing.Point(24, 191);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(170, 23);
-            this.label96.TabIndex = 2;
-            this.label96.Text = "label20";
-            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label95
-            // 
-            this.label95.AutoEllipsis = true;
-            this.label95.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label95, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label95.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label95.ForeColor = System.Drawing.Color.Silver;
-            this.label95.Location = new System.Drawing.Point(18, 230);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(176, 28);
-            this.label95.TabIndex = 3;
-            this.label95.Text = "label20";
-            this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel45
-            // 
-            this.guna2GradientPanel45.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel45.BorderRadius = 30;
-            this.guna2GradientPanel45.Controls.Add(this.label93);
-            this.guna2GradientPanel45.Controls.Add(this.label94);
-            this.guna2GradientPanel45.Controls.Add(this.guna2CirclePictureBox28);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel45, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel45.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel45.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel45.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel45.Location = new System.Drawing.Point(1456, 18);
-            this.guna2GradientPanel45.Name = "guna2GradientPanel45";
-            this.guna2GradientPanel45.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel45.TabIndex = 6;
-            // 
-            // guna2CirclePictureBox28
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox28, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox28.ImageRotate = 0F;
-            this.guna2CirclePictureBox28.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox28.Name = "guna2CirclePictureBox28";
-            this.guna2CirclePictureBox28.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox28.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox28.TabIndex = 1;
-            this.guna2CirclePictureBox28.TabStop = false;
-            // 
-            // label94
-            // 
-            this.label94.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label94, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label94.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label94.ForeColor = System.Drawing.Color.White;
-            this.label94.Location = new System.Drawing.Point(24, 191);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(170, 23);
-            this.label94.TabIndex = 2;
-            this.label94.Text = "label20";
-            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label93
-            // 
-            this.label93.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label93, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label93.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label93.ForeColor = System.Drawing.Color.Silver;
-            this.label93.Location = new System.Drawing.Point(18, 230);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(176, 28);
-            this.label93.TabIndex = 3;
-            this.label93.Text = "label20";
-            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel44
-            // 
-            this.guna2GradientPanel44.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel44.BorderRadius = 30;
-            this.guna2GradientPanel44.Controls.Add(this.label91);
-            this.guna2GradientPanel44.Controls.Add(this.label92);
-            this.guna2GradientPanel44.Controls.Add(this.guna2CirclePictureBox27);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel44, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel44.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel44.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel44.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientPanel44.Location = new System.Drawing.Point(1693, 18);
-            this.guna2GradientPanel44.Name = "guna2GradientPanel44";
-            this.guna2GradientPanel44.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel44.TabIndex = 7;
-            // 
-            // guna2CirclePictureBox27
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox27, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox27.ImageRotate = 0F;
-            this.guna2CirclePictureBox27.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox27.Name = "guna2CirclePictureBox27";
-            this.guna2CirclePictureBox27.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox27.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox27.TabIndex = 1;
-            this.guna2CirclePictureBox27.TabStop = false;
-            // 
-            // label92
-            // 
-            this.label92.AutoEllipsis = true;
-            this.label92.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label92, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label92.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label92.ForeColor = System.Drawing.Color.White;
-            this.label92.Location = new System.Drawing.Point(24, 191);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(170, 23);
-            this.label92.TabIndex = 2;
-            this.label92.Text = "label20";
-            this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label91
-            // 
-            this.label91.AutoEllipsis = true;
-            this.label91.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label91, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label91.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label91.ForeColor = System.Drawing.Color.Silver;
-            this.label91.Location = new System.Drawing.Point(18, 230);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(176, 28);
-            this.label91.TabIndex = 3;
-            this.label91.Text = "label20";
-            this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel43
-            // 
-            this.guna2GradientPanel43.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel43.BorderRadius = 30;
-            this.guna2GradientPanel43.Controls.Add(this.label89);
-            this.guna2GradientPanel43.Controls.Add(this.label90);
-            this.guna2GradientPanel43.Controls.Add(this.guna2CirclePictureBox26);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel43, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel43.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel43.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel43.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel43.Location = new System.Drawing.Point(1928, 18);
-            this.guna2GradientPanel43.Name = "guna2GradientPanel43";
-            this.guna2GradientPanel43.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel43.TabIndex = 8;
-            // 
-            // guna2CirclePictureBox26
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox26, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox26.ImageRotate = 0F;
-            this.guna2CirclePictureBox26.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox26.Name = "guna2CirclePictureBox26";
-            this.guna2CirclePictureBox26.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox26.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox26.TabIndex = 1;
-            this.guna2CirclePictureBox26.TabStop = false;
-            // 
-            // label90
-            // 
-            this.label90.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label90, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label90.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label90.ForeColor = System.Drawing.Color.White;
-            this.label90.Location = new System.Drawing.Point(24, 191);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(170, 23);
-            this.label90.TabIndex = 2;
-            this.label90.Text = "label20";
-            this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label89
-            // 
-            this.label89.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label89, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label89.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label89.ForeColor = System.Drawing.Color.Silver;
-            this.label89.Location = new System.Drawing.Point(18, 230);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(176, 28);
-            this.label89.TabIndex = 3;
-            this.label89.Text = "label20";
-            this.label89.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel42
-            // 
-            this.guna2GradientPanel42.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel42.BorderRadius = 30;
-            this.guna2GradientPanel42.Controls.Add(this.label87);
-            this.guna2GradientPanel42.Controls.Add(this.label88);
-            this.guna2GradientPanel42.Controls.Add(this.guna2CirclePictureBox25);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel42, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel42.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel42.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel42.Location = new System.Drawing.Point(2161, 18);
-            this.guna2GradientPanel42.Name = "guna2GradientPanel42";
-            this.guna2GradientPanel42.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel42.TabIndex = 9;
-            // 
-            // guna2CirclePictureBox25
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox25, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox25.ImageRotate = 0F;
-            this.guna2CirclePictureBox25.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox25.Name = "guna2CirclePictureBox25";
-            this.guna2CirclePictureBox25.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox25.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox25.TabIndex = 1;
-            this.guna2CirclePictureBox25.TabStop = false;
-            // 
-            // label88
-            // 
-            this.label88.AutoEllipsis = true;
-            this.label88.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label88, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label88.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label88.ForeColor = System.Drawing.Color.White;
-            this.label88.Location = new System.Drawing.Point(24, 191);
-            this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(170, 23);
-            this.label88.TabIndex = 2;
-            this.label88.Text = "label20";
-            this.label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label87
-            // 
-            this.label87.AutoEllipsis = true;
-            this.label87.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label87, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label87.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label87.ForeColor = System.Drawing.Color.Silver;
-            this.label87.Location = new System.Drawing.Point(18, 230);
-            this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(176, 28);
-            this.label87.TabIndex = 3;
-            this.label87.Text = "label20";
-            this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel41
-            // 
-            this.guna2GradientPanel41.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel41.BorderRadius = 30;
-            this.guna2GradientPanel41.Controls.Add(this.label85);
-            this.guna2GradientPanel41.Controls.Add(this.label86);
-            this.guna2GradientPanel41.Controls.Add(this.guna2CirclePictureBox24);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel41, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel41.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel41.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel41.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel41.Location = new System.Drawing.Point(2396, 18);
-            this.guna2GradientPanel41.Name = "guna2GradientPanel41";
-            this.guna2GradientPanel41.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel41.TabIndex = 10;
-            // 
-            // guna2CirclePictureBox24
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox24, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox24.ImageRotate = 0F;
-            this.guna2CirclePictureBox24.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox24.Name = "guna2CirclePictureBox24";
-            this.guna2CirclePictureBox24.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox24.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox24.TabIndex = 1;
-            this.guna2CirclePictureBox24.TabStop = false;
-            // 
-            // label86
-            // 
-            this.label86.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label86, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label86.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label86.ForeColor = System.Drawing.Color.White;
-            this.label86.Location = new System.Drawing.Point(24, 191);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(170, 23);
-            this.label86.TabIndex = 2;
-            this.label86.Text = "label20";
-            this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label85
-            // 
-            this.label85.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label85, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label85.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label85.ForeColor = System.Drawing.Color.Silver;
-            this.label85.Location = new System.Drawing.Point(18, 230);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(176, 28);
-            this.label85.TabIndex = 3;
-            this.label85.Text = "label20";
-            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel40
-            // 
-            this.guna2GradientPanel40.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel40.BorderRadius = 30;
-            this.guna2GradientPanel40.Controls.Add(this.label83);
-            this.guna2GradientPanel40.Controls.Add(this.label84);
-            this.guna2GradientPanel40.Controls.Add(this.guna2CirclePictureBox23);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel40, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel40.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel40.Location = new System.Drawing.Point(16, 301);
-            this.guna2GradientPanel40.Name = "guna2GradientPanel40";
-            this.guna2GradientPanel40.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel40.TabIndex = 11;
-            // 
-            // guna2CirclePictureBox23
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox23, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox23.ImageRotate = 0F;
-            this.guna2CirclePictureBox23.Location = new System.Drawing.Point(28, 16);
-            this.guna2CirclePictureBox23.Name = "guna2CirclePictureBox23";
-            this.guna2CirclePictureBox23.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox23.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox23.TabIndex = 0;
-            this.guna2CirclePictureBox23.TabStop = false;
-            // 
-            // label84
-            // 
-            this.label84.AutoEllipsis = true;
-            this.label84.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label84, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label84.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.ForeColor = System.Drawing.Color.White;
-            this.label84.Location = new System.Drawing.Point(24, 191);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(170, 23);
-            this.label84.TabIndex = 1;
-            this.label84.Text = "label15";
-            this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label83
-            // 
-            this.label83.AutoEllipsis = true;
-            this.label83.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label83, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label83.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label83.ForeColor = System.Drawing.Color.Silver;
-            this.label83.Location = new System.Drawing.Point(18, 230);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(176, 28);
-            this.label83.TabIndex = 2;
-            this.label83.Text = "label15";
-            this.label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel39
-            // 
-            this.guna2GradientPanel39.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel39.BorderRadius = 30;
-            this.guna2GradientPanel39.Controls.Add(this.label81);
-            this.guna2GradientPanel39.Controls.Add(this.label82);
-            this.guna2GradientPanel39.Controls.Add(this.guna2CirclePictureBox22);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel39, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel39.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel39.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel39.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel39.Location = new System.Drawing.Point(255, 301);
-            this.guna2GradientPanel39.Name = "guna2GradientPanel39";
-            this.guna2GradientPanel39.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel39.TabIndex = 12;
-            // 
-            // guna2CirclePictureBox22
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox22, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox22.ImageRotate = 0F;
-            this.guna2CirclePictureBox22.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox22.Name = "guna2CirclePictureBox22";
-            this.guna2CirclePictureBox22.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox22.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox22.TabIndex = 1;
-            this.guna2CirclePictureBox22.TabStop = false;
-            // 
-            // label82
-            // 
-            this.label82.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label82, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label82.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label82.ForeColor = System.Drawing.Color.White;
-            this.label82.Location = new System.Drawing.Point(24, 191);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(170, 23);
-            this.label82.TabIndex = 2;
-            this.label82.Text = "label16";
-            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label81
-            // 
-            this.label81.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label81, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label81.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.ForeColor = System.Drawing.Color.Silver;
-            this.label81.Location = new System.Drawing.Point(18, 230);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(176, 28);
-            this.label81.TabIndex = 3;
-            this.label81.Text = "label16";
-            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel38
-            // 
-            this.guna2GradientPanel38.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel38.BorderRadius = 30;
-            this.guna2GradientPanel38.Controls.Add(this.label79);
-            this.guna2GradientPanel38.Controls.Add(this.label80);
-            this.guna2GradientPanel38.Controls.Add(this.guna2CirclePictureBox21);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel38, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel38.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel38.Location = new System.Drawing.Point(497, 301);
-            this.guna2GradientPanel38.Name = "guna2GradientPanel38";
-            this.guna2GradientPanel38.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel38.TabIndex = 13;
-            // 
-            // guna2CirclePictureBox21
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox21, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox21.ImageRotate = 0F;
-            this.guna2CirclePictureBox21.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox21.Name = "guna2CirclePictureBox21";
-            this.guna2CirclePictureBox21.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox21.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox21.TabIndex = 1;
-            this.guna2CirclePictureBox21.TabStop = false;
-            // 
-            // label80
-            // 
-            this.label80.AutoEllipsis = true;
-            this.label80.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label80, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label80.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.ForeColor = System.Drawing.Color.White;
-            this.label80.Location = new System.Drawing.Point(24, 191);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(170, 23);
-            this.label80.TabIndex = 2;
-            this.label80.Text = "label17";
-            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label79
-            // 
-            this.label79.AutoEllipsis = true;
-            this.label79.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label79, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label79.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.ForeColor = System.Drawing.Color.Silver;
-            this.label79.Location = new System.Drawing.Point(18, 230);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(176, 28);
-            this.label79.TabIndex = 3;
-            this.label79.Text = "label17";
-            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel37
-            // 
-            this.guna2GradientPanel37.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel37.BorderRadius = 30;
-            this.guna2GradientPanel37.Controls.Add(this.label77);
-            this.guna2GradientPanel37.Controls.Add(this.label78);
-            this.guna2GradientPanel37.Controls.Add(this.guna2CirclePictureBox20);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel37, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel37.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel37.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel37.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel37.Location = new System.Drawing.Point(739, 301);
-            this.guna2GradientPanel37.Name = "guna2GradientPanel37";
-            this.guna2GradientPanel37.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel37.TabIndex = 14;
-            // 
-            // guna2CirclePictureBox20
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox20, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox20.ImageRotate = 0F;
-            this.guna2CirclePictureBox20.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox20.Name = "guna2CirclePictureBox20";
-            this.guna2CirclePictureBox20.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox20.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox20.TabIndex = 1;
-            this.guna2CirclePictureBox20.TabStop = false;
-            // 
-            // label78
-            // 
-            this.label78.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label78, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label78.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.ForeColor = System.Drawing.Color.White;
-            this.label78.Location = new System.Drawing.Point(24, 191);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(170, 23);
-            this.label78.TabIndex = 2;
-            this.label78.Text = "label18";
-            this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label77
-            // 
-            this.label77.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label77, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label77.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.ForeColor = System.Drawing.Color.Silver;
-            this.label77.Location = new System.Drawing.Point(18, 230);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(176, 28);
-            this.label77.TabIndex = 3;
-            this.label77.Text = "label18";
-            this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel36
-            // 
-            this.guna2GradientPanel36.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel36.BorderRadius = 30;
-            this.guna2GradientPanel36.Controls.Add(this.label75);
-            this.guna2GradientPanel36.Controls.Add(this.label76);
-            this.guna2GradientPanel36.Controls.Add(this.guna2CirclePictureBox19);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel36, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel36.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel36.Location = new System.Drawing.Point(981, 301);
-            this.guna2GradientPanel36.Name = "guna2GradientPanel36";
-            this.guna2GradientPanel36.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel36.TabIndex = 15;
-            // 
-            // guna2CirclePictureBox19
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox19, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox19.ImageRotate = 0F;
-            this.guna2CirclePictureBox19.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox19.Name = "guna2CirclePictureBox19";
-            this.guna2CirclePictureBox19.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox19.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox19.TabIndex = 1;
-            this.guna2CirclePictureBox19.TabStop = false;
-            // 
-            // label76
-            // 
-            this.label76.AutoEllipsis = true;
-            this.label76.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label76, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label76.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.ForeColor = System.Drawing.Color.White;
-            this.label76.Location = new System.Drawing.Point(24, 191);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(170, 23);
-            this.label76.TabIndex = 2;
-            this.label76.Text = "label19";
-            this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label75
-            // 
-            this.label75.AutoEllipsis = true;
-            this.label75.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label75, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label75.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.ForeColor = System.Drawing.Color.Silver;
-            this.label75.Location = new System.Drawing.Point(18, 230);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(176, 28);
-            this.label75.TabIndex = 3;
-            this.label75.Text = "label19";
-            this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel35
-            // 
-            this.guna2GradientPanel35.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel35.BorderRadius = 30;
-            this.guna2GradientPanel35.Controls.Add(this.label73);
-            this.guna2GradientPanel35.Controls.Add(this.label74);
-            this.guna2GradientPanel35.Controls.Add(this.guna2CirclePictureBox18);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel35, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel35.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel35.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel35.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel35.Location = new System.Drawing.Point(1220, 301);
-            this.guna2GradientPanel35.Name = "guna2GradientPanel35";
-            this.guna2GradientPanel35.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel35.TabIndex = 16;
-            // 
-            // guna2CirclePictureBox18
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox18, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox18.ImageRotate = 0F;
-            this.guna2CirclePictureBox18.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox18.Name = "guna2CirclePictureBox18";
-            this.guna2CirclePictureBox18.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox18.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox18.TabIndex = 1;
-            this.guna2CirclePictureBox18.TabStop = false;
-            // 
-            // label74
-            // 
-            this.label74.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label74, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label74.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.ForeColor = System.Drawing.Color.White;
-            this.label74.Location = new System.Drawing.Point(24, 191);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(170, 23);
-            this.label74.TabIndex = 2;
-            this.label74.Text = "label20";
-            this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label73
-            // 
-            this.label73.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label73, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label73.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.ForeColor = System.Drawing.Color.Silver;
-            this.label73.Location = new System.Drawing.Point(18, 230);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(176, 28);
-            this.label73.TabIndex = 3;
-            this.label73.Text = "label20";
-            this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel34
-            // 
-            this.guna2GradientPanel34.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel34.BorderRadius = 30;
-            this.guna2GradientPanel34.Controls.Add(this.label71);
-            this.guna2GradientPanel34.Controls.Add(this.label72);
-            this.guna2GradientPanel34.Controls.Add(this.guna2CirclePictureBox17);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel34, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel34.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel34.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel34.Location = new System.Drawing.Point(1456, 301);
-            this.guna2GradientPanel34.Name = "guna2GradientPanel34";
-            this.guna2GradientPanel34.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel34.TabIndex = 17;
-            // 
-            // guna2CirclePictureBox17
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox17, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox17.ImageRotate = 0F;
-            this.guna2CirclePictureBox17.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox17.Name = "guna2CirclePictureBox17";
-            this.guna2CirclePictureBox17.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox17.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox17.TabIndex = 1;
-            this.guna2CirclePictureBox17.TabStop = false;
-            // 
-            // label72
-            // 
-            this.label72.AutoEllipsis = true;
-            this.label72.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label72, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label72.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.ForeColor = System.Drawing.Color.White;
-            this.label72.Location = new System.Drawing.Point(24, 191);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(170, 23);
-            this.label72.TabIndex = 2;
-            this.label72.Text = "label20";
-            this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label71
-            // 
-            this.label71.AutoEllipsis = true;
-            this.label71.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label71, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label71.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.ForeColor = System.Drawing.Color.Silver;
-            this.label71.Location = new System.Drawing.Point(18, 230);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(176, 28);
-            this.label71.TabIndex = 3;
-            this.label71.Text = "label20";
-            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel33
-            // 
-            this.guna2GradientPanel33.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel33.BorderRadius = 30;
-            this.guna2GradientPanel33.Controls.Add(this.label69);
-            this.guna2GradientPanel33.Controls.Add(this.label70);
-            this.guna2GradientPanel33.Controls.Add(this.guna2CirclePictureBox16);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel33, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel33.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel33.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel33.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel33.Location = new System.Drawing.Point(1693, 301);
-            this.guna2GradientPanel33.Name = "guna2GradientPanel33";
-            this.guna2GradientPanel33.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel33.TabIndex = 18;
-            // 
-            // guna2CirclePictureBox16
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox16, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox16.ImageRotate = 0F;
-            this.guna2CirclePictureBox16.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox16.Name = "guna2CirclePictureBox16";
-            this.guna2CirclePictureBox16.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox16.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox16.TabIndex = 1;
-            this.guna2CirclePictureBox16.TabStop = false;
-            // 
-            // label70
-            // 
-            this.label70.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label70, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label70.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.ForeColor = System.Drawing.Color.White;
-            this.label70.Location = new System.Drawing.Point(24, 191);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(170, 23);
-            this.label70.TabIndex = 2;
-            this.label70.Text = "label20";
-            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label69
-            // 
-            this.label69.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label69, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label69.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.ForeColor = System.Drawing.Color.Silver;
-            this.label69.Location = new System.Drawing.Point(18, 230);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(176, 28);
-            this.label69.TabIndex = 3;
-            this.label69.Text = "label20";
-            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel32
-            // 
-            this.guna2GradientPanel32.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel32.BorderRadius = 30;
-            this.guna2GradientPanel32.Controls.Add(this.label67);
-            this.guna2GradientPanel32.Controls.Add(this.label68);
-            this.guna2GradientPanel32.Controls.Add(this.guna2CirclePictureBox15);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel32, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel32.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel32.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel32.Location = new System.Drawing.Point(1928, 301);
-            this.guna2GradientPanel32.Name = "guna2GradientPanel32";
-            this.guna2GradientPanel32.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel32.TabIndex = 19;
-            // 
-            // guna2CirclePictureBox15
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox15, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox15.ImageRotate = 0F;
-            this.guna2CirclePictureBox15.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox15.Name = "guna2CirclePictureBox15";
-            this.guna2CirclePictureBox15.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox15.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox15.TabIndex = 1;
-            this.guna2CirclePictureBox15.TabStop = false;
-            // 
-            // label68
-            // 
-            this.label68.AutoEllipsis = true;
-            this.label68.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label68, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label68.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.ForeColor = System.Drawing.Color.White;
-            this.label68.Location = new System.Drawing.Point(24, 191);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(170, 23);
-            this.label68.TabIndex = 2;
-            this.label68.Text = "label20";
-            this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label67
-            // 
-            this.label67.AutoEllipsis = true;
-            this.label67.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label67, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label67.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.ForeColor = System.Drawing.Color.Silver;
-            this.label67.Location = new System.Drawing.Point(18, 230);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(176, 28);
-            this.label67.TabIndex = 3;
-            this.label67.Text = "label20";
-            this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel31
-            // 
-            this.guna2GradientPanel31.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel31.BorderRadius = 30;
-            this.guna2GradientPanel31.Controls.Add(this.label65);
-            this.guna2GradientPanel31.Controls.Add(this.label66);
-            this.guna2GradientPanel31.Controls.Add(this.guna2CirclePictureBox14);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel31, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel31.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel31.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel31.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel31.Location = new System.Drawing.Point(2161, 301);
-            this.guna2GradientPanel31.Name = "guna2GradientPanel31";
-            this.guna2GradientPanel31.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel31.TabIndex = 20;
-            // 
-            // guna2CirclePictureBox14
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox14, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox14.ImageRotate = 0F;
-            this.guna2CirclePictureBox14.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox14.Name = "guna2CirclePictureBox14";
-            this.guna2CirclePictureBox14.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox14.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox14.TabIndex = 1;
-            this.guna2CirclePictureBox14.TabStop = false;
-            // 
-            // label66
-            // 
-            this.label66.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label66, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label66.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.ForeColor = System.Drawing.Color.White;
-            this.label66.Location = new System.Drawing.Point(24, 191);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(170, 23);
-            this.label66.TabIndex = 2;
-            this.label66.Text = "label20";
-            this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label65
-            // 
-            this.label65.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label65, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label65.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.ForeColor = System.Drawing.Color.Silver;
-            this.label65.Location = new System.Drawing.Point(18, 230);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(176, 28);
-            this.label65.TabIndex = 3;
-            this.label65.Text = "label20";
-            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2GradientPanel30
-            // 
-            this.guna2GradientPanel30.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel30.BorderRadius = 30;
-            this.guna2GradientPanel30.Controls.Add(this.label63);
-            this.guna2GradientPanel30.Controls.Add(this.label64);
-            this.guna2GradientPanel30.Controls.Add(this.guna2CirclePictureBox13);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel30, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel30.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel30.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel30.Location = new System.Drawing.Point(2396, 301);
-            this.guna2GradientPanel30.Name = "guna2GradientPanel30";
-            this.guna2GradientPanel30.Size = new System.Drawing.Size(222, 267);
-            this.guna2GradientPanel30.TabIndex = 21;
-            // 
-            // guna2CirclePictureBox13
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox13, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox13.ImageRotate = 0F;
-            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(26, 16);
-            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
-            this.guna2CirclePictureBox13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(170, 155);
-            this.guna2CirclePictureBox13.TabIndex = 1;
-            this.guna2CirclePictureBox13.TabStop = false;
-            // 
-            // label64
-            // 
-            this.label64.AutoEllipsis = true;
-            this.label64.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label64, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label64.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.ForeColor = System.Drawing.Color.White;
-            this.label64.Location = new System.Drawing.Point(24, 191);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(170, 23);
-            this.label64.TabIndex = 2;
-            this.label64.Text = "label20";
-            this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label63
-            // 
-            this.label63.AutoEllipsis = true;
-            this.label63.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label63, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label63.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.ForeColor = System.Drawing.Color.Silver;
-            this.label63.Location = new System.Drawing.Point(18, 230);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(176, 28);
-            this.label63.TabIndex = 3;
-            this.label63.Text = "label20";
-            this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label62
-            // 
-            this.label62.AutoEllipsis = true;
-            this.label62.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label62, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label62.Font = new System.Drawing.Font("Rockwell", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.ForeColor = System.Drawing.Color.BlanchedAlmond;
-            this.label62.Location = new System.Drawing.Point(13, 836);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(539, 55);
-            this.label62.TabIndex = 29;
-            this.label62.Text = "Hot Artists";
-            // 
-            // guna2CircleButton4
-            // 
-            this.guna2CircleButton4.Animated = true;
-            this.guna2CircleButton4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton4.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.guna2CircleButton4, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CircleButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton4.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton4.HoverState.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton4.IndicateFocus = true;
-            this.guna2CircleButton4.Location = new System.Drawing.Point(926, 828);
-            this.guna2CircleButton4.Name = "guna2CircleButton4";
-            this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton4.Size = new System.Drawing.Size(65, 65);
-            this.guna2CircleButton4.TabIndex = 31;
-            this.guna2CircleButton4.Text = ">";
-            this.guna2CircleButton4.TextFormatNoPrefix = true;
-            this.guna2CircleButton4.UseTransparentBackground = true;
-            // 
-            // guna2CircleButton3
-            // 
-            this.guna2CircleButton3.Animated = true;
-            this.guna2CircleButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton3.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.guna2CircleButton3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CircleButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton3.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton3.HoverState.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton3.IndicateFocus = true;
-            this.guna2CircleButton3.Location = new System.Drawing.Point(855, 828);
-            this.guna2CircleButton3.Name = "guna2CircleButton3";
-            this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton3.Size = new System.Drawing.Size(65, 65);
-            this.guna2CircleButton3.TabIndex = 30;
-            this.guna2CircleButton3.Text = "<";
-            this.guna2CircleButton3.TextFormatNoPrefix = true;
-            this.guna2CircleButton3.UseTransparentBackground = true;
-            // 
-            // guna2GradientPanel17
-            // 
-            this.guna2GradientPanel17.AutoScroll = true;
-            this.guna2GradientPanel17.BackColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel17.BorderRadius = 10;
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel18);
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel19);
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel20);
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel21);
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel22);
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel23);
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel24);
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel25);
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel26);
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel27);
-            this.guna2GradientPanel17.Controls.Add(this.guna2GradientPanel28);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel17, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel17.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel17.FillColor2 = System.Drawing.Color.Gainsboro;
-            this.guna2GradientPanel17.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel17.Location = new System.Drawing.Point(18, 1585);
-            this.guna2GradientPanel17.Name = "guna2GradientPanel17";
-            this.guna2GradientPanel17.Size = new System.Drawing.Size(1219, 401);
-            this.guna2GradientPanel17.TabIndex = 32;
-            // 
-            // guna2GradientPanel28
-            // 
-            this.guna2GradientPanel28.BackColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel28.BorderRadius = 30;
-            this.guna2GradientPanel28.Controls.Add(this.label60);
-            this.guna2GradientPanel28.Controls.Add(this.label61);
-            this.guna2GradientPanel28.Controls.Add(this.guna2PictureBox13);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel28, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel28.Location = new System.Drawing.Point(1693, 7);
-            this.guna2GradientPanel28.Name = "guna2GradientPanel28";
-            this.guna2GradientPanel28.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel28.TabIndex = 8;
-            // 
-            // guna2PictureBox13
-            // 
-            this.guna2PictureBox13.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox13, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox13.ImageRotate = 0F;
-            this.guna2PictureBox13.Location = new System.Drawing.Point(17, 16);
-            this.guna2PictureBox13.Name = "guna2PictureBox13";
-            this.guna2PictureBox13.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox13.TabIndex = 1;
-            this.guna2PictureBox13.TabStop = false;
-            // 
-            // label61
-            // 
-            this.label61.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label61, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label61.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label61.Location = new System.Drawing.Point(18, 282);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(233, 72);
-            this.label61.TabIndex = 5;
-            // 
-            // label60
-            // 
-            this.label60.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label60, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label60.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.ForeColor = System.Drawing.Color.White;
-            this.label60.Location = new System.Drawing.Point(17, 239);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(230, 46);
-            this.label60.TabIndex = 6;
-            // 
-            // guna2GradientPanel27
-            // 
-            this.guna2GradientPanel27.BackColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel27.BorderRadius = 30;
-            this.guna2GradientPanel27.Controls.Add(this.label58);
-            this.guna2GradientPanel27.Controls.Add(this.label59);
-            this.guna2GradientPanel27.Controls.Add(this.guna2PictureBox12);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel27, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel27.Location = new System.Drawing.Point(1413, 7);
-            this.guna2GradientPanel27.Name = "guna2GradientPanel27";
-            this.guna2GradientPanel27.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel27.TabIndex = 7;
-            // 
-            // guna2PictureBox12
-            // 
-            this.guna2PictureBox12.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox12, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox12.ImageRotate = 0F;
-            this.guna2PictureBox12.Location = new System.Drawing.Point(17, 16);
-            this.guna2PictureBox12.Name = "guna2PictureBox12";
-            this.guna2PictureBox12.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox12.TabIndex = 1;
-            this.guna2PictureBox12.TabStop = false;
-            // 
-            // label59
-            // 
-            this.label59.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label59, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label59.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label59.Location = new System.Drawing.Point(16, 282);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(233, 72);
-            this.label59.TabIndex = 5;
-            // 
-            // label58
-            // 
-            this.label58.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label58, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label58.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.ForeColor = System.Drawing.Color.White;
-            this.label58.Location = new System.Drawing.Point(17, 239);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(230, 46);
-            this.label58.TabIndex = 6;
-            // 
-            // guna2GradientPanel26
-            // 
-            this.guna2GradientPanel26.BackColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel26.BorderRadius = 30;
-            this.guna2GradientPanel26.Controls.Add(this.label56);
-            this.guna2GradientPanel26.Controls.Add(this.label57);
-            this.guna2GradientPanel26.Controls.Add(this.guna2PictureBox11);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel26, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel26.Location = new System.Drawing.Point(1973, 6);
-            this.guna2GradientPanel26.Name = "guna2GradientPanel26";
-            this.guna2GradientPanel26.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel26.TabIndex = 9;
-            // 
-            // guna2PictureBox11
-            // 
-            this.guna2PictureBox11.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox11, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox11.ImageRotate = 0F;
-            this.guna2PictureBox11.Location = new System.Drawing.Point(17, 16);
-            this.guna2PictureBox11.Name = "guna2PictureBox11";
-            this.guna2PictureBox11.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox11.TabIndex = 1;
-            this.guna2PictureBox11.TabStop = false;
-            // 
-            // label57
-            // 
-            this.label57.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label57, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label57.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label57.Location = new System.Drawing.Point(17, 283);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(233, 72);
-            this.label57.TabIndex = 5;
-            // 
-            // label56
-            // 
-            this.label56.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label56, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label56.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.ForeColor = System.Drawing.Color.White;
-            this.label56.Location = new System.Drawing.Point(17, 239);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(230, 46);
-            this.label56.TabIndex = 6;
-            // 
-            // guna2GradientPanel25
-            // 
-            this.guna2GradientPanel25.BackColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel25.BorderRadius = 30;
-            this.guna2GradientPanel25.Controls.Add(this.label54);
-            this.guna2GradientPanel25.Controls.Add(this.label55);
-            this.guna2GradientPanel25.Controls.Add(this.guna2PictureBox10);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel25, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel25.Location = new System.Drawing.Point(1132, 6);
-            this.guna2GradientPanel25.Name = "guna2GradientPanel25";
-            this.guna2GradientPanel25.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel25.TabIndex = 6;
-            // 
-            // guna2PictureBox10
-            // 
-            this.guna2PictureBox10.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox10, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox10.ImageRotate = 0F;
-            this.guna2PictureBox10.Location = new System.Drawing.Point(17, 16);
-            this.guna2PictureBox10.Name = "guna2PictureBox10";
-            this.guna2PictureBox10.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox10.TabIndex = 1;
-            this.guna2PictureBox10.TabStop = false;
-            // 
-            // label55
-            // 
-            this.label55.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label55, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label55.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label55.Location = new System.Drawing.Point(13, 283);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(233, 72);
-            this.label55.TabIndex = 5;
-            // 
-            // label54
-            // 
-            this.label54.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label54, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label54.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.Color.White;
-            this.label54.Location = new System.Drawing.Point(17, 239);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(230, 46);
-            this.label54.TabIndex = 6;
-            // 
-            // guna2GradientPanel24
-            // 
-            this.guna2GradientPanel24.BackColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel24.BorderRadius = 30;
-            this.guna2GradientPanel24.Controls.Add(this.label52);
-            this.guna2GradientPanel24.Controls.Add(this.label53);
-            this.guna2GradientPanel24.Controls.Add(this.guna2PictureBox9);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel24, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel24.Location = new System.Drawing.Point(2253, 6);
-            this.guna2GradientPanel24.Name = "guna2GradientPanel24";
-            this.guna2GradientPanel24.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel24.TabIndex = 10;
-            // 
-            // guna2PictureBox9
-            // 
-            this.guna2PictureBox9.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox9, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox9.ImageRotate = 0F;
-            this.guna2PictureBox9.Location = new System.Drawing.Point(17, 16);
-            this.guna2PictureBox9.Name = "guna2PictureBox9";
-            this.guna2PictureBox9.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox9.TabIndex = 1;
-            this.guna2PictureBox9.TabStop = false;
-            // 
-            // label53
-            // 
-            this.label53.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label53, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label53.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label53.Location = new System.Drawing.Point(16, 283);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(233, 72);
-            this.label53.TabIndex = 5;
-            // 
-            // label52
-            // 
-            this.label52.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label52, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label52.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.ForeColor = System.Drawing.Color.White;
-            this.label52.Location = new System.Drawing.Point(17, 239);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(230, 46);
-            this.label52.TabIndex = 6;
-            // 
-            // guna2GradientPanel23
-            // 
-            this.guna2GradientPanel23.BorderRadius = 30;
-            this.guna2GradientPanel23.Controls.Add(this.label50);
-            this.guna2GradientPanel23.Controls.Add(this.label51);
-            this.guna2GradientPanel23.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2GradientPanel23.Controls.Add(this.guna2PictureBox8);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel23, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel23.Location = new System.Drawing.Point(848, 6);
-            this.guna2GradientPanel23.Name = "guna2GradientPanel23";
-            this.guna2GradientPanel23.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel23.TabIndex = 4;
-            // 
-            // guna2PictureBox8
-            // 
-            this.guna2PictureBox8.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox8, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox8.ImageRotate = 0F;
-            this.guna2PictureBox8.Location = new System.Drawing.Point(17, 16);
-            this.guna2PictureBox8.Name = "guna2PictureBox8";
-            this.guna2PictureBox8.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox8.TabIndex = 1;
-            this.guna2PictureBox8.TabStop = false;
-            // 
-            // label51
-            // 
-            this.label51.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label51, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label51.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label51.Location = new System.Drawing.Point(17, 283);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(233, 72);
-            this.label51.TabIndex = 5;
-            // 
-            // label50
-            // 
-            this.label50.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label50, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label50.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.Color.White;
-            this.label50.Location = new System.Drawing.Point(17, 239);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(230, 46);
-            this.label50.TabIndex = 6;
-            // 
-            // guna2GradientPanel22
-            // 
-            this.guna2GradientPanel22.BackColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel22.BorderRadius = 30;
-            this.guna2GradientPanel22.Controls.Add(this.label48);
-            this.guna2GradientPanel22.Controls.Add(this.label49);
-            this.guna2GradientPanel22.Controls.Add(this.guna2PictureBox7);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel22, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel22.Location = new System.Drawing.Point(2533, 6);
-            this.guna2GradientPanel22.Name = "guna2GradientPanel22";
-            this.guna2GradientPanel22.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel22.TabIndex = 11;
-            // 
-            // guna2PictureBox7
-            // 
-            this.guna2PictureBox7.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox7, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox7.ImageRotate = 0F;
-            this.guna2PictureBox7.Location = new System.Drawing.Point(17, 16);
-            this.guna2PictureBox7.Name = "guna2PictureBox7";
-            this.guna2PictureBox7.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox7.TabIndex = 1;
-            this.guna2PictureBox7.TabStop = false;
-            // 
-            // label49
-            // 
-            this.label49.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label49, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label49.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label49.Location = new System.Drawing.Point(13, 283);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(233, 72);
-            this.label49.TabIndex = 5;
-            // 
-            // label48
-            // 
-            this.label48.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label48, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label48.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.ForeColor = System.Drawing.Color.White;
-            this.label48.Location = new System.Drawing.Point(17, 239);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(230, 46);
-            this.label48.TabIndex = 6;
-            // 
-            // guna2GradientPanel21
-            // 
-            this.guna2GradientPanel21.BorderRadius = 30;
-            this.guna2GradientPanel21.Controls.Add(this.label46);
-            this.guna2GradientPanel21.Controls.Add(this.label47);
-            this.guna2GradientPanel21.Controls.Add(this.guna2PictureBox6);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel21, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel21.Location = new System.Drawing.Point(563, 6);
-            this.guna2GradientPanel21.Name = "guna2GradientPanel21";
-            this.guna2GradientPanel21.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel21.TabIndex = 3;
-            // 
-            // guna2PictureBox6
-            // 
-            this.guna2PictureBox6.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox6, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox6.ImageRotate = 0F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(19, 16);
-            this.guna2PictureBox6.Name = "guna2PictureBox6";
-            this.guna2PictureBox6.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox6.TabIndex = 1;
-            this.guna2PictureBox6.TabStop = false;
-            // 
-            // label47
-            // 
-            this.label47.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label47, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label47.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label47.Location = new System.Drawing.Point(15, 283);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(233, 72);
-            this.label47.TabIndex = 5;
-            // 
-            // label46
-            // 
-            this.label46.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label46, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label46.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.Color.White;
-            this.label46.Location = new System.Drawing.Point(17, 239);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(230, 46);
-            this.label46.TabIndex = 6;
-            // 
-            // guna2GradientPanel20
-            // 
-            this.guna2GradientPanel20.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel20.Controls.Add(this.label44);
-            this.guna2GradientPanel20.Controls.Add(this.label45);
-            this.guna2GradientPanel20.Controls.Add(this.guna2PictureBox5);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel20, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel20.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel20.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel20.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel20.Location = new System.Drawing.Point(-3, 6);
-            this.guna2GradientPanel20.Name = "guna2GradientPanel20";
-            this.guna2GradientPanel20.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel20.TabIndex = 2;
-            // 
-            // guna2PictureBox5
-            // 
-            this.guna2PictureBox5.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(19, 16);
-            this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox5.TabIndex = 0;
-            this.guna2PictureBox5.TabStop = false;
-            // 
-            // label45
-            // 
-            this.label45.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label45, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label45.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label45.Location = new System.Drawing.Point(16, 283);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(233, 72);
-            this.label45.TabIndex = 4;
-            // 
-            // label44
-            // 
-            this.label44.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label44, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label44.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.Color.White;
-            this.label44.Location = new System.Drawing.Point(17, 239);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(230, 46);
-            this.label44.TabIndex = 5;
-            // 
-            // guna2GradientPanel19
-            // 
-            this.guna2GradientPanel19.BorderRadius = 30;
-            this.guna2GradientPanel19.Controls.Add(this.label42);
-            this.guna2GradientPanel19.Controls.Add(this.label43);
-            this.guna2GradientPanel19.Controls.Add(this.guna2PictureBox4);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel19, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel19.FillColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel19.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientPanel19.Location = new System.Drawing.Point(279, 6);
-            this.guna2GradientPanel19.Name = "guna2GradientPanel19";
-            this.guna2GradientPanel19.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel19.TabIndex = 1;
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox4, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(18, 16);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox4.TabIndex = 1;
-            this.guna2PictureBox4.TabStop = false;
-            // 
-            // label43
-            // 
-            this.label43.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label43, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label43.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label43.Location = new System.Drawing.Point(16, 283);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(233, 72);
-            this.label43.TabIndex = 5;
-            // 
-            // label42
-            // 
-            this.label42.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label42, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label42.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(17, 239);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(230, 46);
-            this.label42.TabIndex = 6;
-            // 
-            // guna2GradientPanel18
-            // 
-            this.guna2GradientPanel18.BackColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel18.BorderRadius = 30;
-            this.guna2GradientPanel18.Controls.Add(this.label40);
-            this.guna2GradientPanel18.Controls.Add(this.label41);
-            this.guna2GradientPanel18.Controls.Add(this.guna2PictureBox3);
-            this.guna2Transition1.SetDecoration(this.guna2GradientPanel18, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientPanel18.Location = new System.Drawing.Point(2814, 3);
-            this.guna2GradientPanel18.Name = "guna2GradientPanel18";
-            this.guna2GradientPanel18.Size = new System.Drawing.Size(265, 367);
-            this.guna2GradientPanel18.TabIndex = 12;
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.BorderRadius = 25;
-            this.guna2Transition1.SetDecoration(this.guna2PictureBox3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(17, 16);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(230, 220);
-            this.guna2PictureBox3.TabIndex = 1;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-            // label41
-            // 
-            this.label41.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label41, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label41.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label41.Location = new System.Drawing.Point(16, 286);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(233, 72);
-            this.label41.TabIndex = 5;
-            // 
-            // label40
-            // 
-            this.label40.AutoEllipsis = true;
-            this.guna2Transition1.SetDecoration(this.label40, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label40.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(17, 239);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(230, 46);
-            this.label40.TabIndex = 6;
-            // 
-            // label39
-            // 
-            this.label39.AutoEllipsis = true;
-            this.label39.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label39, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label39.Font = new System.Drawing.Font("Rockwell", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.BlanchedAlmond;
-            this.label39.Location = new System.Drawing.Point(23, 1517);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(539, 55);
-            this.label39.TabIndex = 33;
-            this.label39.Text = "Hot Albums";
-            // 
-            // guna2CircleButton2
-            // 
-            this.guna2CircleButton2.Animated = true;
-            this.guna2CircleButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton2.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.guna2CircleButton2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton2.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.HoverState.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.IndicateFocus = true;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(931, 1507);
-            this.guna2CircleButton2.Name = "guna2CircleButton2";
-            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(65, 65);
-            this.guna2CircleButton2.TabIndex = 35;
-            this.guna2CircleButton2.Text = ">";
-            this.guna2CircleButton2.TextFormatNoPrefix = true;
-            this.guna2CircleButton2.UseTransparentBackground = true;
-            // 
-            // guna2CircleButton1
-            // 
-            this.guna2CircleButton1.Animated = true;
-            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.guna2CircleButton1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.HoverState.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.IndicateFocus = true;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(860, 1507);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(65, 65);
-            this.guna2CircleButton1.TabIndex = 34;
-            this.guna2CircleButton1.Text = "<";
-            this.guna2CircleButton1.TextFormatNoPrefix = true;
-            this.guna2CircleButton1.UseTransparentBackground = true;
-            // 
-            // guna2CircleButton5
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CircleButton5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CircleButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton5.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton5.Location = new System.Drawing.Point(633, 54);
-            this.guna2CircleButton5.Name = "guna2CircleButton5";
-            this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton5.Size = new System.Drawing.Size(213, 202);
-            this.guna2CircleButton5.TabIndex = 41;
-            this.guna2CircleButton5.Text = "guna2CircleButton5";
-            // 
-            // label107
-            // 
-            this.label107.AutoEllipsis = true;
-            this.label107.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label107, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label107.Font = new System.Drawing.Font("VNI-Vari", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label107.ForeColor = System.Drawing.Color.White;
-            this.label107.Location = new System.Drawing.Point(56, 11);
-            this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(259, 73);
-            this.label107.TabIndex = 42;
-            this.label107.Text = "My Profile";
-            // 
-            // guna2CustomGradientPanel1
-            // 
-            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel1.BorderRadius = 45;
-            this.guna2CustomGradientPanel1.Controls.Add(this.flowPanel);
-            this.guna2Transition1.SetDecoration(this.guna2CustomGradientPanel1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.RosyBrown;
-            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.Black;
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(3, 262);
-            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1524, 428);
-            this.guna2CustomGradientPanel1.TabIndex = 43;
-            // 
-            // flowPanel
-            // 
-            this.flowPanel.AutoSize = true;
-            this.flowPanel.BackColor = System.Drawing.Color.Transparent;
-            this.flowPanel.Controls.Add(this.mainButton);
-            this.flowPanel.Controls.Add(this.changeInfo);
-            this.flowPanel.Controls.Add(this.panelDarkmode);
-            this.guna2Transition1.SetDecoration(this.flowPanel, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.flowPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowPanel.Location = new System.Drawing.Point(507, 3);
-            this.flowPanel.Name = "flowPanel";
-            this.flowPanel.Size = new System.Drawing.Size(469, 288);
-            this.flowPanel.TabIndex = 40;
-            // 
-            // panelDarkmode
-            // 
-            this.panelDarkmode.BackColor = System.Drawing.Color.Transparent;
-            this.panelDarkmode.Controls.Add(this.guna2ToggleSwitch1);
-            this.panelDarkmode.Controls.Add(this.guna2TextBox2);
-            this.guna2Transition1.SetDecoration(this.panelDarkmode, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.panelDarkmode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(62)))), ((int)(((byte)(216)))));
-            this.panelDarkmode.Location = new System.Drawing.Point(3, 235);
-            this.panelDarkmode.Name = "panelDarkmode";
-            this.panelDarkmode.Size = new System.Drawing.Size(463, 45);
-            this.panelDarkmode.TabIndex = 38;
-            // 
-            // guna2TextBox2
-            // 
-            this.guna2TextBox2.AutoRoundedCorners = true;
-            this.guna2TextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(24)))), ((int)(((byte)(168)))));
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2Transition1.SetDecoration(this.guna2TextBox2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2TextBox2.DefaultText = "DarkMode";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(0, 1);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(352, 45);
-            this.guna2TextBox2.TabIndex = 4;
-            // 
-            // guna2ToggleSwitch1
-            // 
-            this.guna2ToggleSwitch1.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
-            this.guna2ToggleSwitch1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ToggleSwitch1.CheckedState.BorderRadius = 20;
-            this.guna2ToggleSwitch1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ToggleSwitch1.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2Transition1.SetDecoration(this.guna2ToggleSwitch1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2ToggleSwitch1.Location = new System.Drawing.Point(358, 0);
-            this.guna2ToggleSwitch1.Name = "guna2ToggleSwitch1";
-            this.guna2ToggleSwitch1.ShadowDecoration.BorderRadius = 10;
-            this.guna2ToggleSwitch1.ShadowDecoration.Color = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.Size = new System.Drawing.Size(96, 48);
-            this.guna2ToggleSwitch1.TabIndex = 2;
-            this.guna2ToggleSwitch1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2ToggleSwitch1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2ToggleSwitch1.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.UncheckedState.InnerColor = System.Drawing.Color.White;
-            // 
-            // changeInfo
-            // 
-            this.changeInfo.Controls.Add(this.ngaysinh);
-            this.changeInfo.Controls.Add(this.matkhau);
-            this.changeInfo.Controls.Add(this.Ten);
-            this.guna2Transition1.SetDecoration(this.changeInfo, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.changeInfo.Location = new System.Drawing.Point(3, 54);
-            this.changeInfo.Name = "changeInfo";
-            this.changeInfo.Size = new System.Drawing.Size(460, 175);
-            this.changeInfo.TabIndex = 43;
-            this.changeInfo.Visible = false;
-            // 
-            // Ten
-            // 
-            this.Ten.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.Ten, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.Ten.Location = new System.Drawing.Point(26, 38);
-            this.Ten.Name = "Ten";
-            this.Ten.Size = new System.Drawing.Size(31, 16);
-            this.Ten.TabIndex = 0;
-            this.Ten.Text = "Tên";
-            // 
-            // matkhau
-            // 
-            this.matkhau.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.matkhau, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.matkhau.Location = new System.Drawing.Point(26, 106);
-            this.matkhau.Name = "matkhau";
-            this.matkhau.Size = new System.Drawing.Size(61, 16);
-            this.matkhau.TabIndex = 1;
-            this.matkhau.Text = "Mật khẩu";
-            // 
-            // ngaysinh
-            // 
-            this.ngaysinh.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.ngaysinh, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ngaysinh.Location = new System.Drawing.Point(26, 68);
-            this.ngaysinh.Name = "ngaysinh";
-            this.ngaysinh.Size = new System.Drawing.Size(67, 16);
-            this.ngaysinh.TabIndex = 2;
-            this.ngaysinh.Text = "Ngày sinh";
-            // 
-            // mainButton
-            // 
-            this.mainButton.Animated = true;
-            this.mainButton.AutoRoundedCorners = true;
-            this.mainButton.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.mainButton, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.mainButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.mainButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.mainButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.mainButton.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.mainButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.mainButton.FillColor = System.Drawing.Color.Blue;
-            this.mainButton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.mainButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.mainButton.ForeColor = System.Drawing.Color.White;
-            this.mainButton.IndicateFocus = true;
-            this.mainButton.Location = new System.Drawing.Point(3, 3);
-            this.mainButton.Name = "mainButton";
-            this.mainButton.Size = new System.Drawing.Size(451, 45);
-            this.mainButton.TabIndex = 14;
-            this.mainButton.Text = "Đổi thông tin";
-            this.mainButton.UseTransparentBackground = true;
-            this.mainButton.Click += new System.EventHandler(this.mainButton_Click);
-            // 
-            // panelSetting
-            // 
-            this.panelSetting.AutoScroll = true;
-            this.panelSetting.AutoScrollMargin = new System.Drawing.Size(15, 15);
-            this.panelSetting.AutoScrollMinSize = new System.Drawing.Size(15, 15);
-            this.panelSetting.BackColor = System.Drawing.Color.Black;
-            this.panelSetting.Controls.Add(this.guna2CustomGradientPanel1);
-            this.panelSetting.Controls.Add(this.label107);
-            this.panelSetting.Controls.Add(this.guna2CircleButton5);
-            this.panelSetting.Controls.Add(this.guna2CircleButton1);
-            this.panelSetting.Controls.Add(this.guna2CircleButton2);
-            this.panelSetting.Controls.Add(this.label39);
-            this.panelSetting.Controls.Add(this.guna2GradientPanel17);
-            this.panelSetting.Controls.Add(this.guna2CircleButton3);
-            this.panelSetting.Controls.Add(this.guna2CircleButton4);
-            this.panelSetting.Controls.Add(this.label62);
-            this.panelSetting.Controls.Add(this.guna2GradientPanel29);
-            this.guna2Transition1.SetDecoration(this.panelSetting, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.panelSetting.FillColor = System.Drawing.Color.DimGray;
-            this.panelSetting.FillColor2 = System.Drawing.Color.Black;
-            this.panelSetting.ForeColor = System.Drawing.Color.White;
-            this.panelSetting.Location = new System.Drawing.Point(0, 0);
-            this.panelSetting.MaximumSize = new System.Drawing.Size(1692, 716);
-            this.panelSetting.MinimumSize = new System.Drawing.Size(1539, 716);
-            this.panelSetting.Name = "panelSetting";
-            this.panelSetting.Size = new System.Drawing.Size(1553, 716);
-            this.panelSetting.TabIndex = 36;
-            this.panelSetting.Visible = false;
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.AutoSize = false;
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.guna2HtmlLabel2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Yu Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(-832, 272);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(230, 31);
-            this.guna2HtmlLabel2.TabIndex = 2;
-            this.guna2HtmlLabel2.Text = null;
-            // 
             // Lobby
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -6376,6 +6429,81 @@
             this.sidebar.ResumeLayout(false);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.MainPanel.ResumeLayout(false);
+            this.panelSetting.ResumeLayout(false);
+            this.guna2CustomGradientPanel1.ResumeLayout(false);
+            this.guna2CustomGradientPanel1.PerformLayout();
+            this.flowPanel.ResumeLayout(false);
+            this.changeInfo.ResumeLayout(false);
+            this.changeInfo.PerformLayout();
+            this.panelDarkmode.ResumeLayout(false);
+            this.guna2GradientPanel17.ResumeLayout(false);
+            this.guna2GradientPanel18.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
+            this.guna2GradientPanel19.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            this.guna2GradientPanel20.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
+            this.guna2GradientPanel21.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
+            this.guna2GradientPanel22.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
+            this.guna2GradientPanel23.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
+            this.guna2GradientPanel24.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
+            this.guna2GradientPanel25.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
+            this.guna2GradientPanel26.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
+            this.guna2GradientPanel27.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
+            this.guna2GradientPanel28.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).EndInit();
+            this.guna2GradientPanel29.ResumeLayout(false);
+            this.guna2GradientPanel30.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
+            this.guna2GradientPanel31.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).EndInit();
+            this.guna2GradientPanel32.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).EndInit();
+            this.guna2GradientPanel33.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).EndInit();
+            this.guna2GradientPanel34.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox17)).EndInit();
+            this.guna2GradientPanel35.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox18)).EndInit();
+            this.guna2GradientPanel36.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox19)).EndInit();
+            this.guna2GradientPanel37.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox20)).EndInit();
+            this.guna2GradientPanel38.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).EndInit();
+            this.guna2GradientPanel39.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).EndInit();
+            this.guna2GradientPanel40.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox23)).EndInit();
+            this.guna2GradientPanel41.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox24)).EndInit();
+            this.guna2GradientPanel42.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox25)).EndInit();
+            this.guna2GradientPanel43.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox26)).EndInit();
+            this.guna2GradientPanel44.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox27)).EndInit();
+            this.guna2GradientPanel45.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox28)).EndInit();
+            this.guna2GradientPanel46.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox29)).EndInit();
+            this.guna2GradientPanel47.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox30)).EndInit();
+            this.guna2GradientPanel48.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox31)).EndInit();
+            this.guna2GradientPanel49.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox32)).EndInit();
+            this.guna2GradientPanel50.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox33)).EndInit();
+            this.guna2GradientPanel51.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox34)).EndInit();
             this.panelCoverAlbums.ResumeLayout(false);
             this.panelAlbum11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picAlbum11)).EndInit();
@@ -6493,81 +6621,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).EndInit();
             this.guna2GradientPanel16.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).EndInit();
-            this.guna2GradientPanel29.ResumeLayout(false);
-            this.guna2GradientPanel51.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox34)).EndInit();
-            this.guna2GradientPanel50.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox33)).EndInit();
-            this.guna2GradientPanel49.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox32)).EndInit();
-            this.guna2GradientPanel48.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox31)).EndInit();
-            this.guna2GradientPanel47.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox30)).EndInit();
-            this.guna2GradientPanel46.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox29)).EndInit();
-            this.guna2GradientPanel45.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox28)).EndInit();
-            this.guna2GradientPanel44.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox27)).EndInit();
-            this.guna2GradientPanel43.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox26)).EndInit();
-            this.guna2GradientPanel42.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox25)).EndInit();
-            this.guna2GradientPanel41.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox24)).EndInit();
-            this.guna2GradientPanel40.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox23)).EndInit();
-            this.guna2GradientPanel39.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).EndInit();
-            this.guna2GradientPanel38.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).EndInit();
-            this.guna2GradientPanel37.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox20)).EndInit();
-            this.guna2GradientPanel36.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox19)).EndInit();
-            this.guna2GradientPanel35.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox18)).EndInit();
-            this.guna2GradientPanel34.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox17)).EndInit();
-            this.guna2GradientPanel33.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).EndInit();
-            this.guna2GradientPanel32.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).EndInit();
-            this.guna2GradientPanel31.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).EndInit();
-            this.guna2GradientPanel30.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
-            this.guna2GradientPanel17.ResumeLayout(false);
-            this.guna2GradientPanel28.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).EndInit();
-            this.guna2GradientPanel27.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
-            this.guna2GradientPanel26.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
-            this.guna2GradientPanel25.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
-            this.guna2GradientPanel24.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
-            this.guna2GradientPanel23.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
-            this.guna2GradientPanel22.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
-            this.guna2GradientPanel21.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
-            this.guna2GradientPanel20.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
-            this.guna2GradientPanel19.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            this.guna2GradientPanel18.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            this.guna2CustomGradientPanel1.ResumeLayout(false);
-            this.guna2CustomGradientPanel1.PerformLayout();
-            this.flowPanel.ResumeLayout(false);
-            this.panelDarkmode.ResumeLayout(false);
-            this.changeInfo.ResumeLayout(false);
-            this.changeInfo.PerformLayout();
-            this.panelSetting.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -7000,5 +7053,7 @@
         private System.Windows.Forms.Label label105;
         private System.Windows.Forms.Label label106;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox34;
+        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton7;
+        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton6;
     }
 }

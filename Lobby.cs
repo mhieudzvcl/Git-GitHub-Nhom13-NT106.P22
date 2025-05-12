@@ -574,7 +574,8 @@ namespace Login_or_Signup
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            MainPanel.Visible = false;           
+            MainPanel.Visible = false;
+            MainPanel.Dock = DockStyle.None;
             //panelSetting.Visible = true;
             //panelSetting.Dock = DockStyle.Fill;
             guna2Transition1.ShowSync(panelSetting);
@@ -591,6 +592,21 @@ namespace Login_or_Signup
         private void mainButton_Click(object sender, EventArgs e)
         {
             changeInfo.Visible = !changeInfo.Visible;
+        }
+
+        private void guna2CircleButton6_Click(object sender, EventArgs e)
+        {
+            int newScroll = guna2GradientPanel2.HorizontalScroll.Value - 400;
+            if (newScroll < 0) newScroll = 0;
+            guna2GradientPanel2.AutoScrollPosition = new Point(newScroll, 0);
+        }
+
+        private void guna2CircleButton7_Click(object sender, EventArgs e)
+        {
+            int maxScroll = guna2GradientPanel2.HorizontalScroll.Maximum;
+            int newScroll = guna2GradientPanel2.HorizontalScroll.Value + 400;
+            if (newScroll > maxScroll) newScroll = maxScroll;
+            guna2GradientPanel2.AutoScrollPosition = new Point(newScroll, 0);
         }
     }
 }

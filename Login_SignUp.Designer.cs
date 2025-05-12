@@ -235,6 +235,7 @@
             this.guna2GradientButton1.Size = new System.Drawing.Size(365, 54);
             this.guna2GradientButton1.TabIndex = 6;
             this.guna2GradientButton1.Text = "Login";
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // guna2HtmlLabel3
             // 
