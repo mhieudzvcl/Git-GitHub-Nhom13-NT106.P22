@@ -74,7 +74,10 @@ namespace Login_or_Signup
 
             if (username == "" || password == "")
             {
-                MessageBox.Show("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!");
+                MessageBox.Show("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!",
+                                "Thông báo",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Information);
                 return;
             }
 
@@ -93,7 +96,10 @@ namespace Login_or_Signup
 
                     if (result > 0)
                     {
-                        MessageBox.Show("Đăng nhập thành công!");
+                        MessageBox.Show("Đăng nhập thành công!",
+                                        "Thông báo",
+                                        MessageBoxButtons.OK
+                                        );
                         // Chuyển sang form chính sau khi đăng nhập, ví dụ:
                         Lobby lobby = new Lobby();
                         lobby.Show();
@@ -101,12 +107,18 @@ namespace Login_or_Signup
                     }
                     else
                     {
-                        MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu.");
+                        MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu.",
+                                        "Lỗi",
+                                        MessageBoxButtons.OK,
+                                        MessageBoxIcon.Error);
                     }
                 }
                 catch (SqlException ex)
                 {
-                    MessageBox.Show("Lỗi SQL: " + ex.Message);
+                    MessageBox.Show("Lỗi SQL: " + ex.Message,
+                        "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        
+                        
                 }
             }
         }
