@@ -221,5 +221,11 @@ namespace Login_or_Signup
         {
 
         }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+            SignUp su = new SignUp();
+            su.Show();
+        }
     }
 }
