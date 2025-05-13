@@ -335,22 +335,6 @@ namespace Login_or_Signup
         //    }
         //}
         private int scrollStep = 850; // Số pixel cuộn mỗi lần
-
-        private void btnScrollLeft_Click(object sender, EventArgs e)
-        {
-            int newScroll = guna2GradientPanel2.HorizontalScroll.Value - scrollStep;
-            if (newScroll < 0) newScroll = 0;
-            guna2GradientPanel2.AutoScrollPosition = new Point(newScroll, 0);
-        }
-
-        private void btnScrollRight_Click(object sender, EventArgs e)
-        {
-            int maxScroll = guna2GradientPanel2.HorizontalScroll.Maximum;
-            int newScroll = guna2GradientPanel2.HorizontalScroll.Value + scrollStep;
-            if (newScroll > maxScroll) newScroll = maxScroll;
-            guna2GradientPanel2.AutoScrollPosition = new Point(newScroll, 0);
-        }
-
         public async Task LoadDeezerTopArtistsAsync()
         {
             string apiUrl = "https://api.deezer.com/chart/0/artists?limit=30";
@@ -576,6 +560,10 @@ namespace Login_or_Signup
         {
             MainPanel.Visible = false;           
             panelSetting.Visible = true;
+            JoinRoomPanel.Visible = false;
+            CreateRoomPanel.Visible = false;
+            CreateRoomPanel.Dock = DockStyle.None;
+            JoinRoomPanel.Dock = DockStyle.None;
             MainPanel.Dock = DockStyle.None;
             panelSetting.Dock = DockStyle.Fill;
           //  guna2Transition1.ShowSync(panelSetting);
@@ -585,6 +573,10 @@ namespace Login_or_Signup
         {
             MainPanel.Visible = true;
             panelSetting.Visible = false;
+            JoinRoomPanel.Visible = false;
+            CreateRoomPanel.Visible = false;
+            CreateRoomPanel.Dock = DockStyle.None;
+            JoinRoomPanel.Dock = DockStyle.None;
             panelSetting.Dock = DockStyle.None;
             MainPanel.Dock = DockStyle.Fill;
           //  guna2Transition1.HideSync(panelSetting);
@@ -656,6 +648,50 @@ namespace Login_or_Signup
         private void guna2ComboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnScrollLeft_Click_1(object sender, EventArgs e)
+        {
+            int newScroll = guna2GradientPanel2.HorizontalScroll.Value - scrollStep;
+            if (newScroll < 0) newScroll = 0;
+            guna2GradientPanel2.AutoScrollPosition = new Point(newScroll, 0);
+        }
+
+        private void btnScrollRight_Click_1(object sender, EventArgs e)
+        {
+            int maxScroll = guna2GradientPanel2.HorizontalScroll.Maximum;
+            int newScroll = guna2GradientPanel2.HorizontalScroll.Value + scrollStep;
+            if (newScroll > maxScroll) newScroll = maxScroll;
+            guna2GradientPanel2.AutoScrollPosition = new Point(newScroll, 0);
+        }
+
+        private void btnJoinRoom_Click(object sender, EventArgs e)
+        {
+            JoinRoomPanel.Visible = true;
+            MainPanel.Visible = false;
+            panelSetting.Visible = false;
+            CreateRoomPanel.Visible = false;
+            CreateRoomPanel.Dock = DockStyle.None;
+            panelSetting.Dock = DockStyle.None;
+            JoinRoomPanel.Dock = DockStyle.Fill;
+            MainPanel.Dock = DockStyle.None;
+        }
+
+        private void guna2TextBox4_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCreateRoom_Click(object sender, EventArgs e)
+        {
+            JoinRoomPanel.Visible = false;
+            MainPanel.Visible = false;
+            panelSetting.Visible = false;
+            CreateRoomPanel.Visible = true;
+            panelSetting.Dock = DockStyle.None;
+            JoinRoomPanel.Dock = DockStyle.None;
+            MainPanel.Dock = DockStyle.None;
+            CreateRoomPanel.Dock = DockStyle.Fill;
         }
     }
 }

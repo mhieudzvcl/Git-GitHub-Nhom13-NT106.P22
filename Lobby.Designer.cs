@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation3 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation4 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lobby));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.DragPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -58,8 +58,31 @@
             this.lblMenu = new System.Windows.Forms.Label();
             this.timersidebar = new System.Windows.Forms.Timer(this.components);
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.MainPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.panelSetting = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.btnSaveInfo = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.darkorlightmode = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.label47 = new System.Windows.Forms.Label();
+            this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2RadioButton3 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton2 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton1 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label40 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -68,6 +91,7 @@
             this.lblUsername = new System.Windows.Forms.Label();
             this.CirclePic = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label107 = new System.Windows.Forms.Label();
+            this.MainPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnScrollLeftAlbum = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnScrollRightAlbum = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label38 = new System.Windows.Forms.Label();
@@ -314,39 +338,30 @@
             this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.guna2RadioButton1 = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.guna2RadioButton2 = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.guna2RadioButton3 = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.darkorlightmode = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.btnSaveInfo = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
+            this.btnScrollLeft = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnScrollRight = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.JoinRoomPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.txtRoomID = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.CreateRoomPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.DragPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.sidebarPanel.SuspendLayout();
             this.sidebar.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
-            this.MainPanel.SuspendLayout();
             this.panelSetting.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePic)).BeginInit();
+            this.MainPanel.SuspendLayout();
             this.panelCoverAlbums.SuspendLayout();
             this.panelAlbum11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAlbum11)).BeginInit();
@@ -464,7 +479,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
             this.guna2GradientPanel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
+            this.JoinRoomPanel.SuspendLayout();
+            this.CreateRoomPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -747,6 +763,7 @@
             this.btnCreateRoom.TabIndex = 4;
             this.btnCreateRoom.Text = "Create Room";
             this.btnCreateRoom.UseTransparentBackground = true;
+            this.btnCreateRoom.Click += new System.EventHandler(this.btnCreateRoom_Click);
             // 
             // btnSettings
             // 
@@ -810,6 +827,7 @@
             this.btnJoinRoom.TabIndex = 3;
             this.btnJoinRoom.Text = "Join Room";
             this.btnJoinRoom.UseTransparentBackground = true;
+            this.btnJoinRoom.Click += new System.EventHandler(this.btnJoinRoom_Click);
             // 
             // btnLibrary
             // 
@@ -904,6 +922,8 @@
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel1.Controls.Add(this.CreateRoomPanel);
+            this.guna2GradientPanel1.Controls.Add(this.JoinRoomPanel);
             this.guna2GradientPanel1.Controls.Add(this.panelSetting);
             this.guna2GradientPanel1.Controls.Add(this.MainPanel);
             this.guna2Transition1.SetDecoration(this.guna2GradientPanel1, Guna.UI2.AnimatorNS.DecorationType.None);
@@ -912,36 +932,6 @@
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Size = new System.Drawing.Size(1553, 894);
             this.guna2GradientPanel1.TabIndex = 16;
-            // 
-            // MainPanel
-            // 
-            this.MainPanel.AutoScroll = true;
-            this.MainPanel.AutoScrollMargin = new System.Drawing.Size(15, 15);
-            this.MainPanel.AutoScrollMinSize = new System.Drawing.Size(15, 15);
-            this.MainPanel.BackColor = System.Drawing.Color.Black;
-            this.MainPanel.Controls.Add(this.btnScrollLeftAlbum);
-            this.MainPanel.Controls.Add(this.btnScrollRightAlbum);
-            this.MainPanel.Controls.Add(this.label38);
-            this.MainPanel.Controls.Add(this.panelCoverAlbums);
-            this.MainPanel.Controls.Add(this.btnScrollLeftArtist);
-            this.MainPanel.Controls.Add(this.btnScrollRightArtist);
-            this.MainPanel.Controls.Add(this.label15);
-            this.MainPanel.Controls.Add(this.guna2GradientPanel4);
-            this.MainPanel.Controls.Add(this.guna2GradientPanel2);
-            this.MainPanel.Controls.Add(this.Tittle);
-            this.MainPanel.Controls.Add(this.playlistPanel1);
-            this.guna2Transition1.SetDecoration(this.MainPanel, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MainPanel.FillColor = System.Drawing.Color.DimGray;
-            this.MainPanel.FillColor2 = System.Drawing.Color.Black;
-            this.MainPanel.ForeColor = System.Drawing.Color.White;
-            this.MainPanel.Location = new System.Drawing.Point(0, 0);
-            this.MainPanel.MaximumSize = new System.Drawing.Size(1692, 716);
-            this.MainPanel.MinimumSize = new System.Drawing.Size(1539, 716);
-            this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(1553, 716);
-            this.MainPanel.TabIndex = 6;
-            this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint);
             // 
             // panelSetting
             // 
@@ -994,6 +984,405 @@
             this.panelSetting.TabIndex = 36;
             this.panelSetting.Visible = false;
             this.panelSetting.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSetting_Paint);
+            // 
+            // label52
+            // 
+            this.label52.AutoEllipsis = true;
+            this.label52.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label52, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label52.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.Silver;
+            this.label52.Location = new System.Drawing.Point(172, 1148);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(184, 23);
+            this.label52.TabIndex = 78;
+            this.label52.Text = "Date of birth";
+            // 
+            // label51
+            // 
+            this.label51.AutoEllipsis = true;
+            this.label51.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label51, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label51.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label51.Location = new System.Drawing.Point(164, 1085);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(1002, 42);
+            this.label51.TabIndex = 77;
+            this.label51.Text = "Private Infomation";
+            // 
+            // label50
+            // 
+            this.label50.AutoEllipsis = true;
+            this.label50.BackColor = System.Drawing.Color.DarkGray;
+            this.label50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.guna2Transition1.SetDecoration(this.label50, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label50.ForeColor = System.Drawing.Color.DarkGray;
+            this.label50.Location = new System.Drawing.Point(170, 1064);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(955, 2);
+            this.label50.TabIndex = 76;
+            this.label50.Text = "label50";
+            // 
+            // guna2ComboBox3
+            // 
+            this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox3.BorderRadius = 10;
+            this.guna2Transition1.SetDecoration(this.guna2ComboBox3, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox3.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.guna2ComboBox3.ItemHeight = 30;
+            this.guna2ComboBox3.Items.AddRange(new object[] {
+            "2005"});
+            this.guna2ComboBox3.Location = new System.Drawing.Point(583, 1200);
+            this.guna2ComboBox3.Name = "guna2ComboBox3";
+            this.guna2ComboBox3.Size = new System.Drawing.Size(179, 36);
+            this.guna2ComboBox3.TabIndex = 74;
+            this.guna2ComboBox3.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox3_SelectedIndexChanged);
+            // 
+            // guna2ComboBox2
+            // 
+            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox2.BorderRadius = 10;
+            this.guna2Transition1.SetDecoration(this.guna2ComboBox2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.guna2ComboBox2.ItemHeight = 30;
+            this.guna2ComboBox2.Items.AddRange(new object[] {
+            "1"});
+            this.guna2ComboBox2.Location = new System.Drawing.Point(381, 1200);
+            this.guna2ComboBox2.Name = "guna2ComboBox2";
+            this.guna2ComboBox2.Size = new System.Drawing.Size(179, 36);
+            this.guna2ComboBox2.TabIndex = 73;
+            this.guna2ComboBox2.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox2_SelectedIndexChanged);
+            // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderRadius = 10;
+            this.guna2Transition1.SetDecoration(this.guna2ComboBox1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Items.AddRange(new object[] {
+            "1"});
+            this.guna2ComboBox1.Location = new System.Drawing.Point(177, 1200);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(179, 36);
+            this.guna2ComboBox1.TabIndex = 72;
+            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
+            // 
+            // btnSaveInfo
+            // 
+            this.btnSaveInfo.Animated = true;
+            this.btnSaveInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnSaveInfo.BorderRadius = 20;
+            this.guna2Transition1.SetDecoration(this.btnSaveInfo, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.btnSaveInfo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSaveInfo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSaveInfo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSaveInfo.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSaveInfo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSaveInfo.FillColor = System.Drawing.Color.DarkGray;
+            this.btnSaveInfo.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(62)))), ((int)(((byte)(216)))));
+            this.btnSaveInfo.Font = new System.Drawing.Font("Leelawadee UI", 16.2F, System.Drawing.FontStyle.Bold);
+            this.btnSaveInfo.ForeColor = System.Drawing.Color.White;
+            this.btnSaveInfo.IndicateFocus = true;
+            this.btnSaveInfo.Location = new System.Drawing.Point(170, 1301);
+            this.btnSaveInfo.Name = "btnSaveInfo";
+            this.btnSaveInfo.Size = new System.Drawing.Size(118, 55);
+            this.btnSaveInfo.TabIndex = 71;
+            this.btnSaveInfo.Text = "Save";
+            this.btnSaveInfo.UseTransparentBackground = true;
+            this.btnSaveInfo.Click += new System.EventHandler(this.btnSaveInfo_Click);
+            // 
+            // label49
+            // 
+            this.label49.AutoEllipsis = true;
+            this.label49.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label49, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label49.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label49.Location = new System.Drawing.Point(164, 943);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(1002, 42);
+            this.label49.TabIndex = 68;
+            this.label49.Text = "Custom your theme";
+            // 
+            // label48
+            // 
+            this.label48.AutoEllipsis = true;
+            this.label48.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label48, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label48.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.Silver;
+            this.label48.Location = new System.Drawing.Point(168, 999);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(165, 36);
+            this.label48.TabIndex = 67;
+            this.label48.Text = "DarkMode";
+            // 
+            // darkorlightmode
+            // 
+            this.darkorlightmode.BackColor = System.Drawing.Color.Transparent;
+            this.darkorlightmode.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.darkorlightmode.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.darkorlightmode.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.darkorlightmode.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.guna2Transition1.SetDecoration(this.darkorlightmode, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.darkorlightmode.Location = new System.Drawing.Point(339, 999);
+            this.darkorlightmode.Name = "darkorlightmode";
+            this.darkorlightmode.Size = new System.Drawing.Size(63, 36);
+            this.darkorlightmode.TabIndex = 66;
+            this.darkorlightmode.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.darkorlightmode.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.darkorlightmode.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.darkorlightmode.UncheckedState.InnerColor = System.Drawing.Color.White;
+            // 
+            // label47
+            // 
+            this.label47.AutoEllipsis = true;
+            this.label47.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label47, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label47.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.Color.Silver;
+            this.label47.Location = new System.Drawing.Point(173, 814);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(152, 23);
+            this.label47.TabIndex = 65;
+            this.label47.Text = "Username";
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.BorderRadius = 10;
+            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2Transition1.SetDecoration(this.txtUsername, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.txtUsername.DefaultText = "Hiếu Huỳnh Minh";
+            this.txtUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtUsername.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtUsername.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.ForeColor = System.Drawing.Color.Black;
+            this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtUsername.Location = new System.Drawing.Point(172, 850);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.PlaceholderText = "";
+            this.txtUsername.SelectedText = "";
+            this.txtUsername.Size = new System.Drawing.Size(590, 48);
+            this.txtUsername.TabIndex = 64;
+            this.txtUsername.TextChanged += new System.EventHandler(this.guna2TextBox4_TextChanged);
+            // 
+            // guna2RadioButton3
+            // 
+            this.guna2RadioButton3.AutoSize = true;
+            this.guna2RadioButton3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton3.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton3.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.guna2RadioButton3.CheckedState.InnerOffset = -4;
+            this.guna2Transition1.SetDecoration(this.guna2RadioButton3, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2RadioButton3.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.guna2RadioButton3.Location = new System.Drawing.Point(362, 765);
+            this.guna2RadioButton3.Name = "guna2RadioButton3";
+            this.guna2RadioButton3.Size = new System.Drawing.Size(183, 26);
+            this.guna2RadioButton3.TabIndex = 63;
+            this.guna2RadioButton3.Text = "Not rather to say";
+            this.guna2RadioButton3.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton3.UncheckedState.BorderThickness = 2;
+            this.guna2RadioButton3.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton3.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton3.UseVisualStyleBackColor = false;
+            // 
+            // guna2RadioButton2
+            // 
+            this.guna2RadioButton2.AutoSize = true;
+            this.guna2RadioButton2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton2.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton2.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.guna2RadioButton2.CheckedState.InnerOffset = -4;
+            this.guna2Transition1.SetDecoration(this.guna2RadioButton2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2RadioButton2.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.guna2RadioButton2.Location = new System.Drawing.Point(260, 765);
+            this.guna2RadioButton2.Name = "guna2RadioButton2";
+            this.guna2RadioButton2.Size = new System.Drawing.Size(96, 26);
+            this.guna2RadioButton2.TabIndex = 62;
+            this.guna2RadioButton2.Text = "Female";
+            this.guna2RadioButton2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton2.UncheckedState.BorderThickness = 2;
+            this.guna2RadioButton2.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton2.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton2.UseVisualStyleBackColor = false;
+            // 
+            // guna2RadioButton1
+            // 
+            this.guna2RadioButton1.AutoSize = true;
+            this.guna2RadioButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton1.Checked = true;
+            this.guna2RadioButton1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton1.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2RadioButton1.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.guna2RadioButton1.CheckedState.InnerOffset = -4;
+            this.guna2Transition1.SetDecoration(this.guna2RadioButton1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2RadioButton1.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.guna2RadioButton1.Location = new System.Drawing.Point(173, 765);
+            this.guna2RadioButton1.Name = "guna2RadioButton1";
+            this.guna2RadioButton1.Size = new System.Drawing.Size(74, 26);
+            this.guna2RadioButton1.TabIndex = 61;
+            this.guna2RadioButton1.TabStop = true;
+            this.guna2RadioButton1.Text = "Male";
+            this.guna2RadioButton1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton1.UncheckedState.BorderThickness = 2;
+            this.guna2RadioButton1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton1.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton1.UseVisualStyleBackColor = false;
+            // 
+            // label46
+            // 
+            this.label46.AutoEllipsis = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label46, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label46.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.Silver;
+            this.label46.Location = new System.Drawing.Point(173, 725);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(152, 23);
+            this.label46.TabIndex = 60;
+            this.label46.Text = "I identify as";
+            // 
+            // label45
+            // 
+            this.label45.AutoEllipsis = true;
+            this.label45.BackColor = System.Drawing.Color.DarkGray;
+            this.label45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.guna2Transition1.SetDecoration(this.label45, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label45.ForeColor = System.Drawing.Color.DarkGray;
+            this.label45.Location = new System.Drawing.Point(177, 697);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(955, 2);
+            this.label45.TabIndex = 59;
+            this.label45.Text = "label45";
+            this.label45.Click += new System.EventHandler(this.label45_Click);
+            // 
+            // label44
+            // 
+            this.label44.AutoEllipsis = true;
+            this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label44, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label44.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label44.Location = new System.Drawing.Point(171, 647);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(1063, 42);
+            this.label44.TabIndex = 57;
+            this.label44.Text = "Vibrasound information that can be seen by other Vibrasound users";
+            // 
+            // label43
+            // 
+            this.label43.AutoEllipsis = true;
+            this.label43.BackColor = System.Drawing.Color.DarkGray;
+            this.label43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.guna2Transition1.SetDecoration(this.label43, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label43.ForeColor = System.Drawing.Color.DarkGray;
+            this.label43.Location = new System.Drawing.Point(172, 918);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(955, 2);
+            this.label43.TabIndex = 56;
+            this.label43.Text = "label43";
+            this.label43.Click += new System.EventHandler(this.label43_Click);
+            // 
+            // label42
+            // 
+            this.label42.AutoEllipsis = true;
+            this.label42.BackColor = System.Drawing.Color.DarkGray;
+            this.label42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.guna2Transition1.SetDecoration(this.label42, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label42.ForeColor = System.Drawing.Color.DarkGray;
+            this.label42.Location = new System.Drawing.Point(76, 88);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(1380, 2);
+            this.label42.TabIndex = 55;
+            this.label42.Text = "label42";
+            this.label42.Click += new System.EventHandler(this.label42_Click);
+            // 
+            // label41
+            // 
+            this.label41.AutoEllipsis = true;
+            this.label41.BackColor = System.Drawing.Color.DarkGray;
+            this.label41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.guna2Transition1.SetDecoration(this.label41, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label41.ForeColor = System.Drawing.Color.DarkGray;
+            this.label41.Location = new System.Drawing.Point(177, 430);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(955, 2);
+            this.label41.TabIndex = 54;
+            this.label41.Text = "label41";
+            // 
+            // guna2CirclePictureBox13
+            // 
+            this.guna2CirclePictureBox13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox13, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CirclePictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox13.Image")));
+            this.guna2CirclePictureBox13.ImageRotate = 0F;
+            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(65, 15);
+            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
+            this.guna2CirclePictureBox13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox13.TabIndex = 53;
+            this.guna2CirclePictureBox13.TabStop = false;
+            this.guna2CirclePictureBox13.UseTransparentBackground = true;
+            // 
+            // guna2CircleButton2
+            // 
+            this.guna2CircleButton2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2CircleButton2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton2.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton2.Image")));
+            this.guna2CircleButton2.Location = new System.Drawing.Point(778, 553);
+            this.guna2CircleButton2.Name = "guna2CircleButton2";
+            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton2.Size = new System.Drawing.Size(48, 48);
+            this.guna2CircleButton2.TabIndex = 52;
+            // 
+            // guna2CircleButton1
+            // 
+            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2CircleButton1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton1.Image")));
+            this.guna2CircleButton1.Location = new System.Drawing.Point(778, 471);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(48, 48);
+            this.guna2CircleButton1.TabIndex = 51;
             // 
             // label40
             // 
@@ -1122,6 +1511,38 @@
             this.label107.Size = new System.Drawing.Size(324, 55);
             this.label107.TabIndex = 42;
             this.label107.Text = "My Infomation";
+            // 
+            // MainPanel
+            // 
+            this.MainPanel.AutoScroll = true;
+            this.MainPanel.AutoScrollMargin = new System.Drawing.Size(15, 15);
+            this.MainPanel.AutoScrollMinSize = new System.Drawing.Size(15, 15);
+            this.MainPanel.BackColor = System.Drawing.Color.Black;
+            this.MainPanel.Controls.Add(this.btnScrollLeft);
+            this.MainPanel.Controls.Add(this.btnScrollRight);
+            this.MainPanel.Controls.Add(this.btnScrollLeftAlbum);
+            this.MainPanel.Controls.Add(this.btnScrollRightAlbum);
+            this.MainPanel.Controls.Add(this.label38);
+            this.MainPanel.Controls.Add(this.panelCoverAlbums);
+            this.MainPanel.Controls.Add(this.btnScrollLeftArtist);
+            this.MainPanel.Controls.Add(this.btnScrollRightArtist);
+            this.MainPanel.Controls.Add(this.label15);
+            this.MainPanel.Controls.Add(this.guna2GradientPanel4);
+            this.MainPanel.Controls.Add(this.guna2GradientPanel2);
+            this.MainPanel.Controls.Add(this.Tittle);
+            this.MainPanel.Controls.Add(this.playlistPanel1);
+            this.guna2Transition1.SetDecoration(this.MainPanel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainPanel.FillColor = System.Drawing.Color.DimGray;
+            this.MainPanel.FillColor2 = System.Drawing.Color.Black;
+            this.MainPanel.ForeColor = System.Drawing.Color.White;
+            this.MainPanel.Location = new System.Drawing.Point(0, 0);
+            this.MainPanel.MaximumSize = new System.Drawing.Size(1692, 716);
+            this.MainPanel.MinimumSize = new System.Drawing.Size(1539, 716);
+            this.MainPanel.Name = "MainPanel";
+            this.MainPanel.Size = new System.Drawing.Size(1553, 716);
+            this.MainPanel.TabIndex = 6;
+            this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint);
             // 
             // btnScrollLeftAlbum
             // 
@@ -4241,22 +4662,22 @@
             // 
             this.guna2Transition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Mosaic;
             this.guna2Transition1.Cursor = null;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 0F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 20;
-            animation3.Padding = new System.Windows.Forms.Padding(30);
-            animation3.RotateCoeff = 0F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 0F;
-            this.guna2Transition1.DefaultAnimation = animation3;
+            animation4.AnimateOnlyDifferences = true;
+            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
+            animation4.LeafCoeff = 0F;
+            animation4.MaxTime = 1F;
+            animation4.MinTime = 0F;
+            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
+            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
+            animation4.MosaicSize = 20;
+            animation4.Padding = new System.Windows.Forms.Padding(30);
+            animation4.RotateCoeff = 0F;
+            animation4.RotateLimit = 0F;
+            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
+            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
+            animation4.TimeCoeff = 0F;
+            animation4.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation4;
             this.guna2Transition1.TimeStep = 1F;
             // 
             // guna2ContextMenuStrip1
@@ -4279,404 +4700,273 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // guna2CircleButton1
+            // btnScrollLeft
             // 
-            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.guna2CircleButton1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton1.Image")));
-            this.guna2CircleButton1.Location = new System.Drawing.Point(778, 471);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(48, 48);
-            this.guna2CircleButton1.TabIndex = 51;
+            this.btnScrollLeft.Animated = true;
+            this.btnScrollLeft.BackColor = System.Drawing.Color.Transparent;
+            this.btnScrollLeft.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.btnScrollLeft, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.btnScrollLeft.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnScrollLeft.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnScrollLeft.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnScrollLeft.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnScrollLeft.FillColor = System.Drawing.Color.Transparent;
+            this.btnScrollLeft.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScrollLeft.ForeColor = System.Drawing.Color.White;
+            this.btnScrollLeft.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.btnScrollLeft.IndicateFocus = true;
+            this.btnScrollLeft.Location = new System.Drawing.Point(855, 353);
+            this.btnScrollLeft.Name = "btnScrollLeft";
+            this.btnScrollLeft.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnScrollLeft.Size = new System.Drawing.Size(65, 65);
+            this.btnScrollLeft.TabIndex = 36;
+            this.btnScrollLeft.Text = "<";
+            this.btnScrollLeft.TextFormatNoPrefix = true;
+            this.btnScrollLeft.UseTransparentBackground = true;
+            this.btnScrollLeft.Click += new System.EventHandler(this.btnScrollLeft_Click_1);
             // 
-            // guna2CircleButton2
+            // btnScrollRight
             // 
-            this.guna2CircleButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.guna2CircleButton2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton2.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton2.Image")));
-            this.guna2CircleButton2.Location = new System.Drawing.Point(778, 553);
-            this.guna2CircleButton2.Name = "guna2CircleButton2";
-            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(48, 48);
-            this.guna2CircleButton2.TabIndex = 52;
+            this.btnScrollRight.Animated = true;
+            this.btnScrollRight.BackColor = System.Drawing.Color.Transparent;
+            this.btnScrollRight.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.btnScrollRight, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.btnScrollRight.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnScrollRight.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnScrollRight.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnScrollRight.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnScrollRight.FillColor = System.Drawing.Color.Transparent;
+            this.btnScrollRight.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScrollRight.ForeColor = System.Drawing.Color.White;
+            this.btnScrollRight.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.btnScrollRight.IndicateFocus = true;
+            this.btnScrollRight.Location = new System.Drawing.Point(926, 353);
+            this.btnScrollRight.Name = "btnScrollRight";
+            this.btnScrollRight.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnScrollRight.Size = new System.Drawing.Size(65, 65);
+            this.btnScrollRight.TabIndex = 37;
+            this.btnScrollRight.Text = ">";
+            this.btnScrollRight.TextFormatNoPrefix = true;
+            this.btnScrollRight.UseTransparentBackground = true;
+            this.btnScrollRight.Click += new System.EventHandler(this.btnScrollRight_Click_1);
             // 
-            // guna2CirclePictureBox13
+            // JoinRoomPanel
             // 
-            this.guna2CirclePictureBox13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox13, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CirclePictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox13.Image")));
-            this.guna2CirclePictureBox13.ImageRotate = 0F;
-            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(65, 15);
-            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
-            this.guna2CirclePictureBox13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(55, 55);
-            this.guna2CirclePictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2CirclePictureBox13.TabIndex = 53;
-            this.guna2CirclePictureBox13.TabStop = false;
-            this.guna2CirclePictureBox13.UseTransparentBackground = true;
+            this.JoinRoomPanel.AutoScroll = true;
+            this.JoinRoomPanel.AutoScrollMargin = new System.Drawing.Size(15, 15);
+            this.JoinRoomPanel.AutoScrollMinSize = new System.Drawing.Size(15, 15);
+            this.JoinRoomPanel.BackColor = System.Drawing.Color.Black;
+            this.JoinRoomPanel.Controls.Add(this.guna2GradientButton1);
+            this.JoinRoomPanel.Controls.Add(this.label55);
+            this.JoinRoomPanel.Controls.Add(this.label54);
+            this.JoinRoomPanel.Controls.Add(this.label53);
+            this.JoinRoomPanel.Controls.Add(this.txtRoomID);
+            this.JoinRoomPanel.Controls.Add(this.guna2TextBox6);
+            this.guna2Transition1.SetDecoration(this.JoinRoomPanel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.JoinRoomPanel.FillColor = System.Drawing.Color.DimGray;
+            this.JoinRoomPanel.FillColor2 = System.Drawing.Color.Black;
+            this.JoinRoomPanel.ForeColor = System.Drawing.Color.White;
+            this.JoinRoomPanel.Location = new System.Drawing.Point(18, 737);
+            this.JoinRoomPanel.MaximumSize = new System.Drawing.Size(1692, 716);
+            this.JoinRoomPanel.MinimumSize = new System.Drawing.Size(1539, 716);
+            this.JoinRoomPanel.Name = "JoinRoomPanel";
+            this.JoinRoomPanel.Size = new System.Drawing.Size(1539, 716);
+            this.JoinRoomPanel.TabIndex = 38;
+            this.JoinRoomPanel.Visible = false;
             // 
-            // label41
+            // txtRoomID
             // 
-            this.label41.AutoEllipsis = true;
-            this.label41.BackColor = System.Drawing.Color.DarkGray;
-            this.label41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.guna2Transition1.SetDecoration(this.label41, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label41.ForeColor = System.Drawing.Color.DarkGray;
-            this.label41.Location = new System.Drawing.Point(177, 430);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(955, 2);
-            this.label41.TabIndex = 54;
-            this.label41.Text = "label41";
+            this.txtRoomID.BackColor = System.Drawing.Color.Transparent;
+            this.txtRoomID.BorderRadius = 15;
+            this.txtRoomID.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2Transition1.SetDecoration(this.txtRoomID, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.txtRoomID.DefaultText = "";
+            this.txtRoomID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtRoomID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtRoomID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtRoomID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtRoomID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtRoomID.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtRoomID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtRoomID.Location = new System.Drawing.Point(530, 381);
+            this.txtRoomID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtRoomID.Name = "txtRoomID";
+            this.txtRoomID.PlaceholderText = "";
+            this.txtRoomID.SelectedText = "";
+            this.txtRoomID.Size = new System.Drawing.Size(430, 72);
+            this.txtRoomID.TabIndex = 5;
             // 
-            // label42
+            // guna2TextBox6
             // 
-            this.label42.AutoEllipsis = true;
-            this.label42.BackColor = System.Drawing.Color.DarkGray;
-            this.label42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.guna2Transition1.SetDecoration(this.label42, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label42.ForeColor = System.Drawing.Color.DarkGray;
-            this.label42.Location = new System.Drawing.Point(76, 88);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(1380, 2);
-            this.label42.TabIndex = 55;
-            this.label42.Text = "label42";
-            this.label42.Click += new System.EventHandler(this.label42_Click);
+            this.guna2TextBox6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox6.BorderRadius = 15;
+            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2Transition1.SetDecoration(this.guna2TextBox6, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2TextBox6.DefaultText = "";
+            this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox6.Location = new System.Drawing.Point(533, 542);
+            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox6.Name = "guna2TextBox6";
+            this.guna2TextBox6.PlaceholderText = "";
+            this.guna2TextBox6.SelectedText = "";
+            this.guna2TextBox6.Size = new System.Drawing.Size(430, 72);
+            this.guna2TextBox6.TabIndex = 1;
             // 
-            // label43
+            // label53
             // 
-            this.label43.AutoEllipsis = true;
-            this.label43.BackColor = System.Drawing.Color.DarkGray;
-            this.label43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.guna2Transition1.SetDecoration(this.label43, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label43.ForeColor = System.Drawing.Color.DarkGray;
-            this.label43.Location = new System.Drawing.Point(172, 918);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(955, 2);
-            this.label43.TabIndex = 56;
-            this.label43.Text = "label43";
-            this.label43.Click += new System.EventHandler(this.label43_Click);
+            this.label53.AutoEllipsis = true;
+            this.label53.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label53, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label53.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.LightGray;
+            this.label53.Location = new System.Drawing.Point(557, 208);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(406, 92);
+            this.label53.TabIndex = 7;
+            this.label53.Text = "Join room";
             // 
-            // label44
+            // label54
             // 
-            this.label44.AutoEllipsis = true;
-            this.label44.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label44, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label44.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label44.Location = new System.Drawing.Point(171, 647);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(1063, 42);
-            this.label44.TabIndex = 57;
-            this.label44.Text = "Vibrasound information that can be seen by other Vibrasound users";
+            this.label54.AutoEllipsis = true;
+            this.label54.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label54, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label54.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.LightGray;
+            this.label54.Location = new System.Drawing.Point(649, 319);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(244, 58);
+            this.label54.TabIndex = 8;
+            this.label54.Text = "Room\'s ID";
             // 
-            // label45
+            // label55
             // 
-            this.label45.AutoEllipsis = true;
-            this.label45.BackColor = System.Drawing.Color.DarkGray;
-            this.label45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.guna2Transition1.SetDecoration(this.label45, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label45.ForeColor = System.Drawing.Color.DarkGray;
-            this.label45.Location = new System.Drawing.Point(177, 697);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(955, 2);
-            this.label45.TabIndex = 59;
-            this.label45.Text = "label45";
-            this.label45.Click += new System.EventHandler(this.label45_Click);
+            this.label55.AutoEllipsis = true;
+            this.label55.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label55, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label55.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.Color.LightGray;
+            this.label55.Location = new System.Drawing.Point(649, 467);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(244, 58);
+            this.label55.TabIndex = 9;
+            this.label55.Text = "Password";
             // 
-            // label46
+            // guna2GradientButton1
             // 
-            this.label46.AutoEllipsis = true;
-            this.label46.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label46, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label46.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.Color.Silver;
-            this.label46.Location = new System.Drawing.Point(173, 725);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(152, 23);
-            this.label46.TabIndex = 60;
-            this.label46.Text = "I identify as";
+            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton1.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2GradientButton1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton1.FillColor = System.Drawing.Color.Silver;
+            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientButton1.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton1.Location = new System.Drawing.Point(657, 651);
+            this.guna2GradientButton1.Name = "guna2GradientButton1";
+            this.guna2GradientButton1.Size = new System.Drawing.Size(180, 57);
+            this.guna2GradientButton1.TabIndex = 10;
+            this.guna2GradientButton1.Text = "Create";
             // 
-            // guna2RadioButton1
+            // CreateRoomPanel
             // 
-            this.guna2RadioButton1.AutoSize = true;
-            this.guna2RadioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton1.Checked = true;
-            this.guna2RadioButton1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2RadioButton1.CheckedState.BorderThickness = 0;
-            this.guna2RadioButton1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2RadioButton1.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2RadioButton1.CheckedState.InnerOffset = -4;
-            this.guna2Transition1.SetDecoration(this.guna2RadioButton1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2RadioButton1.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.guna2RadioButton1.Location = new System.Drawing.Point(173, 765);
-            this.guna2RadioButton1.Name = "guna2RadioButton1";
-            this.guna2RadioButton1.Size = new System.Drawing.Size(74, 26);
-            this.guna2RadioButton1.TabIndex = 61;
-            this.guna2RadioButton1.TabStop = true;
-            this.guna2RadioButton1.Text = "Male";
-            this.guna2RadioButton1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2RadioButton1.UncheckedState.BorderThickness = 2;
-            this.guna2RadioButton1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton1.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton1.UseVisualStyleBackColor = false;
+            this.CreateRoomPanel.AutoScroll = true;
+            this.CreateRoomPanel.AutoScrollMargin = new System.Drawing.Size(15, 15);
+            this.CreateRoomPanel.AutoScrollMinSize = new System.Drawing.Size(15, 15);
+            this.CreateRoomPanel.BackColor = System.Drawing.Color.Black;
+            this.CreateRoomPanel.Controls.Add(this.guna2GradientButton2);
+            this.CreateRoomPanel.Controls.Add(this.label57);
+            this.CreateRoomPanel.Controls.Add(this.label58);
+            this.CreateRoomPanel.Controls.Add(this.guna2TextBox4);
+            this.guna2Transition1.SetDecoration(this.CreateRoomPanel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.CreateRoomPanel.FillColor = System.Drawing.Color.DimGray;
+            this.CreateRoomPanel.FillColor2 = System.Drawing.Color.Black;
+            this.CreateRoomPanel.ForeColor = System.Drawing.Color.White;
+            this.CreateRoomPanel.Location = new System.Drawing.Point(59, 722);
+            this.CreateRoomPanel.MaximumSize = new System.Drawing.Size(1692, 716);
+            this.CreateRoomPanel.MinimumSize = new System.Drawing.Size(1539, 716);
+            this.CreateRoomPanel.Name = "CreateRoomPanel";
+            this.CreateRoomPanel.Size = new System.Drawing.Size(1539, 716);
+            this.CreateRoomPanel.TabIndex = 38;
+            this.CreateRoomPanel.Visible = false;
             // 
-            // guna2RadioButton2
+            // label57
             // 
-            this.guna2RadioButton2.AutoSize = true;
-            this.guna2RadioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2RadioButton2.CheckedState.BorderThickness = 0;
-            this.guna2RadioButton2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2RadioButton2.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2RadioButton2.CheckedState.InnerOffset = -4;
-            this.guna2Transition1.SetDecoration(this.guna2RadioButton2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2RadioButton2.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.guna2RadioButton2.Location = new System.Drawing.Point(260, 765);
-            this.guna2RadioButton2.Name = "guna2RadioButton2";
-            this.guna2RadioButton2.Size = new System.Drawing.Size(96, 26);
-            this.guna2RadioButton2.TabIndex = 62;
-            this.guna2RadioButton2.Text = "Female";
-            this.guna2RadioButton2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2RadioButton2.UncheckedState.BorderThickness = 2;
-            this.guna2RadioButton2.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton2.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton2.UseVisualStyleBackColor = false;
+            this.label57.AutoEllipsis = true;
+            this.label57.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label57, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label57.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.LightGray;
+            this.label57.Location = new System.Drawing.Point(701, 337);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(281, 60);
+            this.label57.TabIndex = 5;
+            this.label57.Text = "Password";
             // 
-            // guna2RadioButton3
+            // label58
             // 
-            this.guna2RadioButton3.AutoSize = true;
-            this.guna2RadioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2RadioButton3.CheckedState.BorderThickness = 0;
-            this.guna2RadioButton3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2RadioButton3.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2RadioButton3.CheckedState.InnerOffset = -4;
-            this.guna2Transition1.SetDecoration(this.guna2RadioButton3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2RadioButton3.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.guna2RadioButton3.Location = new System.Drawing.Point(362, 765);
-            this.guna2RadioButton3.Name = "guna2RadioButton3";
-            this.guna2RadioButton3.Size = new System.Drawing.Size(183, 26);
-            this.guna2RadioButton3.TabIndex = 63;
-            this.guna2RadioButton3.Text = "Not rather to say";
-            this.guna2RadioButton3.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2RadioButton3.UncheckedState.BorderThickness = 2;
-            this.guna2RadioButton3.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton3.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton3.UseVisualStyleBackColor = false;
+            this.label58.AutoEllipsis = true;
+            this.label58.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label58, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label58.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.LightGray;
+            this.label58.Location = new System.Drawing.Point(557, 208);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(546, 117);
+            this.label58.TabIndex = 4;
+            this.label58.Text = "Create Room";
             // 
-            // txtUsername
+            // guna2TextBox4
             // 
-            this.txtUsername.BorderRadius = 10;
-            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2Transition1.SetDecoration(this.txtUsername, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.txtUsername.DefaultText = "Hiếu Huỳnh Minh";
-            this.txtUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtUsername.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUsername.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.ForeColor = System.Drawing.Color.Black;
-            this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUsername.Location = new System.Drawing.Point(172, 850);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.PlaceholderText = "";
-            this.txtUsername.SelectedText = "";
-            this.txtUsername.Size = new System.Drawing.Size(590, 48);
-            this.txtUsername.TabIndex = 64;
-            this.txtUsername.TextChanged += new System.EventHandler(this.guna2TextBox4_TextChanged);
+            this.guna2TextBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox4.BorderRadius = 15;
+            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2Transition1.SetDecoration(this.guna2TextBox4, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2TextBox4.DefaultText = "";
+            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox4.Location = new System.Drawing.Point(574, 412);
+            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox4.Name = "guna2TextBox4";
+            this.guna2TextBox4.PlaceholderText = "";
+            this.guna2TextBox4.SelectedText = "";
+            this.guna2TextBox4.Size = new System.Drawing.Size(430, 72);
+            this.guna2TextBox4.TabIndex = 1;
+            this.guna2TextBox4.TextChanged += new System.EventHandler(this.guna2TextBox4_TextChanged_1);
             // 
-            // label47
+            // guna2GradientButton2
             // 
-            this.label47.AutoEllipsis = true;
-            this.label47.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label47, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label47.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.Color.Silver;
-            this.label47.Location = new System.Drawing.Point(173, 814);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(152, 23);
-            this.label47.TabIndex = 65;
-            this.label47.Text = "Username";
-            // 
-            // darkorlightmode
-            // 
-            this.darkorlightmode.BackColor = System.Drawing.Color.Transparent;
-            this.darkorlightmode.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.darkorlightmode.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.darkorlightmode.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.darkorlightmode.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2Transition1.SetDecoration(this.darkorlightmode, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.darkorlightmode.Location = new System.Drawing.Point(339, 999);
-            this.darkorlightmode.Name = "darkorlightmode";
-            this.darkorlightmode.Size = new System.Drawing.Size(63, 36);
-            this.darkorlightmode.TabIndex = 66;
-            this.darkorlightmode.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.darkorlightmode.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.darkorlightmode.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.darkorlightmode.UncheckedState.InnerColor = System.Drawing.Color.White;
-            // 
-            // label48
-            // 
-            this.label48.AutoEllipsis = true;
-            this.label48.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label48, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label48.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.ForeColor = System.Drawing.Color.Silver;
-            this.label48.Location = new System.Drawing.Point(168, 999);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(165, 36);
-            this.label48.TabIndex = 67;
-            this.label48.Text = "DarkMode";
-            // 
-            // label49
-            // 
-            this.label49.AutoEllipsis = true;
-            this.label49.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label49, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label49.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label49.Location = new System.Drawing.Point(164, 943);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(1002, 42);
-            this.label49.TabIndex = 68;
-            this.label49.Text = "Custom your theme";
-            // 
-            // btnSaveInfo
-            // 
-            this.btnSaveInfo.Animated = true;
-            this.btnSaveInfo.BackColor = System.Drawing.Color.Transparent;
-            this.btnSaveInfo.BorderRadius = 20;
-            this.guna2Transition1.SetDecoration(this.btnSaveInfo, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.btnSaveInfo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSaveInfo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSaveInfo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSaveInfo.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSaveInfo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSaveInfo.FillColor = System.Drawing.Color.DarkGray;
-            this.btnSaveInfo.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(62)))), ((int)(((byte)(216)))));
-            this.btnSaveInfo.Font = new System.Drawing.Font("Leelawadee UI", 16.2F, System.Drawing.FontStyle.Bold);
-            this.btnSaveInfo.ForeColor = System.Drawing.Color.White;
-            this.btnSaveInfo.IndicateFocus = true;
-            this.btnSaveInfo.Location = new System.Drawing.Point(170, 1301);
-            this.btnSaveInfo.Name = "btnSaveInfo";
-            this.btnSaveInfo.Size = new System.Drawing.Size(118, 55);
-            this.btnSaveInfo.TabIndex = 71;
-            this.btnSaveInfo.Text = "Save";
-            this.btnSaveInfo.UseTransparentBackground = true;
-            this.btnSaveInfo.Click += new System.EventHandler(this.btnSaveInfo_Click);
-            // 
-            // guna2ComboBox1
-            // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderRadius = 10;
-            this.guna2Transition1.SetDecoration(this.guna2ComboBox1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Items.AddRange(new object[] {
-            "1"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(177, 1200);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(179, 36);
-            this.guna2ComboBox1.TabIndex = 72;
-            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
-            // 
-            // guna2ComboBox2
-            // 
-            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox2.BorderRadius = 10;
-            this.guna2Transition1.SetDecoration(this.guna2ComboBox2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Items.AddRange(new object[] {
-            "1"});
-            this.guna2ComboBox2.Location = new System.Drawing.Point(381, 1200);
-            this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(179, 36);
-            this.guna2ComboBox2.TabIndex = 73;
-            this.guna2ComboBox2.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox2_SelectedIndexChanged);
-            // 
-            // guna2ComboBox3
-            // 
-            this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox3.BorderRadius = 10;
-            this.guna2Transition1.SetDecoration(this.guna2ComboBox3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox3.ItemHeight = 30;
-            this.guna2ComboBox3.Items.AddRange(new object[] {
-            "2005"});
-            this.guna2ComboBox3.Location = new System.Drawing.Point(583, 1200);
-            this.guna2ComboBox3.Name = "guna2ComboBox3";
-            this.guna2ComboBox3.Size = new System.Drawing.Size(179, 36);
-            this.guna2ComboBox3.TabIndex = 74;
-            this.guna2ComboBox3.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox3_SelectedIndexChanged);
-            // 
-            // label50
-            // 
-            this.label50.AutoEllipsis = true;
-            this.label50.BackColor = System.Drawing.Color.DarkGray;
-            this.label50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.guna2Transition1.SetDecoration(this.label50, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label50.ForeColor = System.Drawing.Color.DarkGray;
-            this.label50.Location = new System.Drawing.Point(170, 1064);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(955, 2);
-            this.label50.TabIndex = 76;
-            this.label50.Text = "label50";
-            // 
-            // label51
-            // 
-            this.label51.AutoEllipsis = true;
-            this.label51.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label51, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label51.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label51.Location = new System.Drawing.Point(164, 1085);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(1002, 42);
-            this.label51.TabIndex = 77;
-            this.label51.Text = "Private Infomation";
-            // 
-            // label52
-            // 
-            this.label52.AutoEllipsis = true;
-            this.label52.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label52, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label52.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.ForeColor = System.Drawing.Color.Silver;
-            this.label52.Location = new System.Drawing.Point(172, 1148);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(184, 23);
-            this.label52.TabIndex = 78;
-            this.label52.Text = "Date of birth";
+            this.guna2GradientButton2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton2.BorderRadius = 25;
+            this.guna2Transition1.SetDecoration(this.guna2GradientButton2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton2.FillColor = System.Drawing.Color.Silver;
+            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Black;
+            this.guna2GradientButton2.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton2.Location = new System.Drawing.Point(716, 523);
+            this.guna2GradientButton2.Name = "guna2GradientButton2";
+            this.guna2GradientButton2.Size = new System.Drawing.Size(180, 57);
+            this.guna2GradientButton2.TabIndex = 11;
+            this.guna2GradientButton2.Text = "Create";
             // 
             // Lobby
             // 
@@ -4701,10 +4991,11 @@
             this.sidebarPanel.ResumeLayout(false);
             this.sidebar.ResumeLayout(false);
             this.guna2GradientPanel1.ResumeLayout(false);
-            this.MainPanel.ResumeLayout(false);
             this.panelSetting.ResumeLayout(false);
             this.panelSetting.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePic)).EndInit();
+            this.MainPanel.ResumeLayout(false);
             this.panelCoverAlbums.ResumeLayout(false);
             this.panelAlbum11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picAlbum11)).EndInit();
@@ -4822,7 +5113,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).EndInit();
             this.guna2GradientPanel16.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
+            this.JoinRoomPanel.ResumeLayout(false);
+            this.CreateRoomPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -5136,5 +5428,19 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2CircleButton btnScrollLeft;
+        private Guna.UI2.WinForms.Guna2CircleButton btnScrollRight;
+        private Guna.UI2.WinForms.Guna2GradientPanel JoinRoomPanel;
+        private Guna.UI2.WinForms.Guna2TextBox txtRoomID;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
+        private System.Windows.Forms.Label label53;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label54;
+        private Guna.UI2.WinForms.Guna2GradientPanel CreateRoomPanel;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
     }
 }
