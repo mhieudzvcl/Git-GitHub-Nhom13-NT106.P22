@@ -41,7 +41,7 @@
             this.pictureboxPassword = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnToggleSwitch = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.loginbutton = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
@@ -129,7 +129,7 @@
             this.guna2ShadowPanel1.Controls.Add(this.pictureboxPassword);
             this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel4);
             this.guna2ShadowPanel1.Controls.Add(this.btnToggleSwitch);
-            this.guna2ShadowPanel1.Controls.Add(this.guna2GradientButton1);
+            this.guna2ShadowPanel1.Controls.Add(this.loginbutton);
             this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel3);
             this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel2);
             this.guna2ShadowPanel1.Controls.Add(this.txtPassword);
@@ -215,26 +215,27 @@
             this.btnToggleSwitch.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.btnToggleSwitch.UncheckedState.InnerColor = System.Drawing.Color.White;
             // 
-            // guna2GradientButton1
+            // loginbutton
             // 
-            this.guna2GradientButton1.Animated = true;
-            this.guna2GradientButton1.AutoRoundedCorners = true;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(0)))), ((int)(((byte)(221)))));
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Yu Gothic UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.HoverState.Font = new System.Drawing.Font("Yu Gothic UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.HoverState.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(185, 440);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(365, 54);
-            this.guna2GradientButton1.TabIndex = 6;
-            this.guna2GradientButton1.Text = "Login";
+            this.loginbutton.Animated = true;
+            this.loginbutton.AutoRoundedCorners = true;
+            this.loginbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.loginbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.loginbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.loginbutton.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.loginbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.loginbutton.FillColor = System.Drawing.Color.White;
+            this.loginbutton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(0)))), ((int)(((byte)(221)))));
+            this.loginbutton.Font = new System.Drawing.Font("Yu Gothic UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginbutton.ForeColor = System.Drawing.Color.White;
+            this.loginbutton.HoverState.Font = new System.Drawing.Font("Yu Gothic UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginbutton.HoverState.ForeColor = System.Drawing.Color.DimGray;
+            this.loginbutton.Location = new System.Drawing.Point(185, 440);
+            this.loginbutton.Name = "loginbutton";
+            this.loginbutton.Size = new System.Drawing.Size(365, 54);
+            this.loginbutton.TabIndex = 6;
+            this.loginbutton.Text = "Login";
+            this.loginbutton.Click += new System.EventHandler(this.loginbutton_Click);
             // 
             // guna2HtmlLabel3
             // 
@@ -389,7 +390,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2TextBox txtPassword;
         private Guna.UI2.WinForms.Guna2TextBox txtUsername;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton loginbutton;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2ToggleSwitch btnToggleSwitch;
         private Guna.UI2.WinForms.Guna2PictureBox pictureboxPassword;

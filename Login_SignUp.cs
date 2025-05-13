@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -64,6 +65,50 @@ namespace Login_or_Signup
             this.Close();
             SignUp signup = new SignUp();
             signup.Show();
+        }
+
+        private void loginbutton_Click(object sender, EventArgs e)
+        {
+            string username = txtUsername.Text.Trim();
+            string password = txtPassword.Text.Trim();
+
+            if (username == "" || password == "")
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!");
+                return;
+            }
+
+            using (SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog=VibraSound;Integrated Security=True;"))
+            {
+                try
+                {
+                    conn.Open();
+
+                    string query = "SELECT COUNT(*) FROM Account WHERE Username = @Username AND Password = @Password";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@Username", username);
+                    cmd.Parameters.AddWithValue("@Password", password); 
+
+                    int result = (int)cmd.ExecuteScalar();
+
+                    if (result > 0)
+                    {
+                        MessageBox.Show("Đăng nhập thành công!");
+                        // Chuyển sang form chính sau khi đăng nhập, ví dụ:
+                        Lobby lobby = new Lobby();
+                        lobby.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu.");
+                    }
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show("Lỗi SQL: " + ex.Message);
+                }
+            }
         }
     }
 }
