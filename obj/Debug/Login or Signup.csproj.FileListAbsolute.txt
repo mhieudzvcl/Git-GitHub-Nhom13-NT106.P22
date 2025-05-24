@@ -66,3 +66,23 @@ C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login or 
 C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login or.D6D973C2.Up2Date
 C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login or Signup.exe
 C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login or Signup.pdb
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Buffers.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.IO.Pipelines.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Memory.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Numerics.Vectors.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Text.Encodings.Web.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Text.Json.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.ValueTuple.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Buffers.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.IO.Pipelines.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Memory.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Numerics.Vectors.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Text.Encodings.Web.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Text.Json.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.ValueTuple.xml

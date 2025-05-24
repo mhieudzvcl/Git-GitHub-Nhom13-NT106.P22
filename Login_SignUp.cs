@@ -5,9 +5,11 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.Json;
 
 namespace Login_or_Signup
 {
@@ -69,58 +71,62 @@ namespace Login_or_Signup
 
         private void loginbutton_Click(object sender, EventArgs e)
         {
-            string username = txtUsername.Text.Trim();
-            string password = txtPassword.Text.Trim();
-
-            if (username == "" || password == "")
+            var msg = new RequestMessage
             {
-                MessageBox.Show("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!",
-                                "Thông báo",
-                                MessageBoxButtons.OK,
-                                MessageBoxIcon.Information);
-                return;
+                Type = "login",
+                Username = txtUsername.Text,
+                Password = txtPassword.Text
+            };
+
+            string response = SendRequest(msg);
+            if (response == "login_success")
+            {
+                MessageBox.Show("Đăng nhập thành công!");
+                Lobby lobby = new Lobby();
+                lobby.Show();
+                this.Hide();
             }
-
-            using (SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog=VibraSound;Integrated Security=True;"))
+            else
             {
-                try
+                MessageBox.Show("Đăng nhập thất bại! Sai username hoặc password.");
+            }
+        }
+
+        private string SendRequest(object requestObj)
+        {
+            try
+            {
+                string serverIP = "192.168.128.22";     
+                int port = 9000;
+
+                using (TcpClient client = new TcpClient(serverIP, port))
                 {
-                    conn.Open();
+                    NetworkStream stream = client.GetStream();
 
-                    string query = "SELECT COUNT(*) FROM Account WHERE Username = @Username AND Password = @Password";
-                    SqlCommand cmd = new SqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@Username", username);
-                    cmd.Parameters.AddWithValue("@Password", password); 
+                    string json = JsonSerializer.Serialize(requestObj);
+                    byte[] dataToSend = Encoding.UTF8.GetBytes(json);
+                    stream.Write(dataToSend, 0, dataToSend.Length);
 
-                    int result = (int)cmd.ExecuteScalar();
+                    // Đọc response
+                    byte[] buffer = new byte[4096];
+                    int bytesRead = stream.Read(buffer, 0, buffer.Length);
+                    string response = Encoding.UTF8.GetString(buffer, 0, bytesRead);
 
-                    if (result > 0)
-                    {
-                        MessageBox.Show("Đăng nhập thành công!",
-                                        "Thông báo",
-                                        MessageBoxButtons.OK
-                                        );
-                        // Chuyển sang form chính sau khi đăng nhập, ví dụ:
-                        Lobby lobby = new Lobby();
-                        lobby.Show();
-                        this.Hide();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu.",
-                                        "Lỗi",
-                                        MessageBoxButtons.OK,
-                                        MessageBoxIcon.Error);
-                    }
-                }
-                catch (SqlException ex)
-                {
-                    MessageBox.Show("Lỗi SQL: " + ex.Message,
-                        "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        
-                        
+                    return response;
                 }
             }
+            catch (Exception ex)
+            {
+                return "Error: " + ex.Message;
+            }
+        }
+
+        public class RequestMessage
+        {
+            public string Type { get; set; }
+            public string Username { get; set; }
+            public string Password { get; set; }
+            public string Email { get; set; }
         }
     }
 }

@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using System.Net.Sockets;
+using System.Text.Json;
 
 namespace Login_or_Signup
 {
@@ -51,59 +52,56 @@ namespace Login_or_Signup
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            string username = txtUsername.Text.Trim();
-            string password = txtPassword.Text.Trim();
-            string email = txtEmail.Text.Trim();
-
-            if (username == "" || password == "" || email == "")
+            var request = new
             {
-                MessageBox.Show("Vui lòng điền đầy đủ thông tin!");
-                return;
-            }
+                Type = "signup",
+                Username = txtUsername.Text,
+                Password = txtPassword.Text,
+                Email = txtEmail.Text
+            };
 
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            string response = SendRequest(request);
+            if (response == "signup_success")
+                MessageBox.Show("Signup thành công!");
+            else
+                MessageBox.Show("Signup thất bại hoặc user đã tồn tại!");
+        }
+
+        private string SendRequest(object requestObj)
+        {
+            try
             {
-                try
+                string serverIP = "192.168.128.22";
+                int port = 9000;
+
+                using (TcpClient client = new TcpClient(serverIP, port))
                 {
-                    conn.Open();
+                    NetworkStream stream = client.GetStream();
 
-                    // ✅ Kiểm tra Username đã tồn tại chưa
-                    string checkQuery = "SELECT COUNT(*) FROM Account WHERE Username = @Username";
-                    SqlCommand checkCmd = new SqlCommand(checkQuery, conn);
-                    checkCmd.Parameters.AddWithValue("@Username", username);
+                    string json = JsonSerializer.Serialize(requestObj);
+                    byte[] dataToSend = Encoding.UTF8.GetBytes(json);
+                    stream.Write(dataToSend, 0, dataToSend.Length);
 
-                    int count = (int)checkCmd.ExecuteScalar();
-                    if (count > 0)
-                    {
-                        MessageBox.Show("Tên đăng nhập đã tồn tại. Vui lòng chọn tên khác.");
-                        return;
-                    }
+                    // Đọc response
+                    byte[] buffer = new byte[4096];
+                    int bytesRead = stream.Read(buffer, 0, buffer.Length);
+                    string response = Encoding.UTF8.GetString(buffer, 0, bytesRead);
 
-                    // Nếu chưa tồn tại thì INSERT
-                    string insertQuery = "INSERT INTO Account (Username, Password, Gmail) VALUES (@Username, @Password, @Gmail)";
-                    SqlCommand insertCmd = new SqlCommand(insertQuery, conn);
-                    insertCmd.Parameters.AddWithValue("@Username", username);
-                    insertCmd.Parameters.AddWithValue("@Password", password); // Nên mã hoá mật khẩu sau này
-                    insertCmd.Parameters.AddWithValue("@Gmail", email);
-
-                    int result = insertCmd.ExecuteNonQuery();
-                    if (result > 0)
-                    {
-                        MessageBox.Show("Đăng ký thành công!");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Đăng ký thất bại.");
-                    }
-                    Login_SignUp login = new Login_SignUp();
-                    this.Hide();
-                    login.Show();
-                }
-                catch (SqlException ex)
-                {
-                    MessageBox.Show("Lỗi SQL: " + ex.Message);
+                    return response;
                 }
             }
+            catch (Exception ex)
+            {
+                return "Error: " + ex.Message;
+            }
+        }
+
+        public class RequestMessage
+        {
+            public string Type { get; set; }
+            public string Username { get; set; }
+            public string Password { get; set; }
+            public string Email { get; set; }
         }
 
     }
