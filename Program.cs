@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Login_or_Signup
+namespace VibraSoundServer
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Login_or_Signup
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new WelcomeScreen());
+            Application.Run(new Server());
         }
     }
 }
