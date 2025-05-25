@@ -96,7 +96,7 @@
             this.PanelDragControl.Name = "PanelDragControl";
             this.PanelDragControl.ShadowColor = System.Drawing.Color.Black;
             this.PanelDragControl.Size = new System.Drawing.Size(1200, 35);
-            this.PanelDragControl.TabIndex = 1;
+            this.PanelDragControl.TabIndex = 0;
             // 
             // guna2DragControl1
             // 
@@ -119,7 +119,7 @@
             this.guna2ImageButton1.PressedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton1.Size = new System.Drawing.Size(75, 69);
-            this.guna2ImageButton1.TabIndex = 2;
+            this.guna2ImageButton1.TabIndex = 0;
             this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // guna2ShadowPanel1
@@ -143,7 +143,7 @@
             this.guna2ShadowPanel1.Radius = 30;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(715, 554);
-            this.guna2ShadowPanel1.TabIndex = 5;
+            this.guna2ShadowPanel1.TabIndex = 0;
             // 
             // guna2GradientButton2
             // 
@@ -170,7 +170,7 @@
             this.guna2GradientButton2.Location = new System.Drawing.Point(181, 500);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.Size = new System.Drawing.Size(365, 51);
-            this.guna2GradientButton2.TabIndex = 10;
+            this.guna2GradientButton2.TabIndex = 0;
             this.guna2GradientButton2.Text = "Create Account";
             this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
@@ -197,7 +197,7 @@
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(249, 401);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(244, 33);
-            this.guna2HtmlLabel4.TabIndex = 8;
+            this.guna2HtmlLabel4.TabIndex = 0;
             this.guna2HtmlLabel4.Text = "Remember me";
             // 
             // btnToggleSwitch
@@ -209,7 +209,7 @@
             this.btnToggleSwitch.Location = new System.Drawing.Point(189, 401);
             this.btnToggleSwitch.Name = "btnToggleSwitch";
             this.btnToggleSwitch.Size = new System.Drawing.Size(47, 21);
-            this.btnToggleSwitch.TabIndex = 7;
+            this.btnToggleSwitch.TabIndex = 0;
             this.btnToggleSwitch.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.btnToggleSwitch.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.btnToggleSwitch.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
@@ -233,7 +233,7 @@
             this.loginbutton.Location = new System.Drawing.Point(185, 440);
             this.loginbutton.Name = "loginbutton";
             this.loginbutton.Size = new System.Drawing.Size(365, 54);
-            this.loginbutton.TabIndex = 6;
+            this.loginbutton.TabIndex = 0;
             this.loginbutton.Text = "Login";
             this.loginbutton.Click += new System.EventHandler(this.loginbutton_Click);
             // 
@@ -246,7 +246,7 @@
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(185, 284);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(258, 31);
-            this.guna2HtmlLabel3.TabIndex = 5;
+            this.guna2HtmlLabel3.TabIndex = 0;
             this.guna2HtmlLabel3.Text = "Password :";
             // 
             // guna2HtmlLabel2
@@ -258,7 +258,7 @@
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(181, 175);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(258, 33);
-            this.guna2HtmlLabel2.TabIndex = 5;
+            this.guna2HtmlLabel2.TabIndex = 0;
             this.guna2HtmlLabel2.Text = "Username : ";
             this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
             // 
@@ -285,7 +285,7 @@
             this.txtPassword.PlaceholderText = "Password";
             this.txtPassword.SelectedText = "";
             this.txtPassword.Size = new System.Drawing.Size(369, 60);
-            this.txtPassword.TabIndex = 4;
+            this.txtPassword.TabIndex = 2;
             this.txtPassword.TextOffset = new System.Drawing.Point(10, 0);
             this.txtPassword.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             // 
@@ -311,7 +311,7 @@
             this.txtUsername.PlaceholderText = "Username";
             this.txtUsername.SelectedText = "";
             this.txtUsername.Size = new System.Drawing.Size(369, 60);
-            this.txtUsername.TabIndex = 4;
+            this.txtUsername.TabIndex = 1;
             this.txtUsername.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // guna2PictureBox1
@@ -336,7 +336,7 @@
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(-92, 91);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(940, 92);
-            this.guna2HtmlLabel1.TabIndex = 3;
+            this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "Login to VibraSound©";
             this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 

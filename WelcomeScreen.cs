@@ -23,6 +23,7 @@ namespace Login_or_Signup
             InitializeComponent();
             this.Load += Form1_Load;
         }
+        public string ServerIP => txtServerIP.Text;
         protected override void OnVisibleChanged(EventArgs e)
         {
             base.OnVisibleChanged(e);
@@ -165,9 +166,9 @@ namespace Login_or_Signup
 
         private void guna2GradientButton3_Click(object sender, EventArgs e)
         {
-            Login_SignUp login = new Login_SignUp();
+            Login_SignUp login = new Login_SignUp(this);
             login.Show();
-            this.Hide();
+            this.Hide();    
         }
 
       
@@ -214,7 +215,7 @@ namespace Login_or_Signup
 
         private void guna2GradientHtmlLabel3_Click(object sender, EventArgs e)
         {
-            SignUp signUp = new SignUp();
+            SignUp signUp = new SignUp(this);
             signUp.Show();
             this.Hide();
         }
@@ -226,7 +227,7 @@ namespace Login_or_Signup
 
         private void guna2PictureBox2_Click(object sender, EventArgs e)
         {
-            SignUp su = new SignUp();
+            SignUp su = new SignUp(this);
             su.Show();
         }
     }

@@ -70,7 +70,7 @@
             this.PanelDragControl.Name = "PanelDragControl";
             this.PanelDragControl.ShadowColor = System.Drawing.Color.Black;
             this.PanelDragControl.Size = new System.Drawing.Size(1200, 35);
-            this.PanelDragControl.TabIndex = 2;
+            this.PanelDragControl.TabIndex = 0;
             // 
             // guna2ControlBox2
             // 
@@ -117,7 +117,7 @@
             this.guna2ShadowPanel1.Radius = 30;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(715, 744);
-            this.guna2ShadowPanel1.TabIndex = 6;
+            this.guna2ShadowPanel1.TabIndex = 0;
             // 
             // guna2GradientButton2
             // 
@@ -144,7 +144,7 @@
             this.guna2GradientButton2.Location = new System.Drawing.Point(374, 629);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.Size = new System.Drawing.Size(172, 51);
-            this.guna2GradientButton2.TabIndex = 10;
+            this.guna2GradientButton2.TabIndex = 5;
             this.guna2GradientButton2.Text = "Log In";
             this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
@@ -180,7 +180,7 @@
             this.guna2GradientButton1.Location = new System.Drawing.Point(181, 555);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(365, 54);
-            this.guna2GradientButton1.TabIndex = 6;
+            this.guna2GradientButton1.TabIndex = 4;
             this.guna2GradientButton1.Text = "Sign Up";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
@@ -193,7 +193,7 @@
             this.lblEmail.Location = new System.Drawing.Point(185, 390);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(258, 31);
-            this.lblEmail.TabIndex = 5;
+            this.lblEmail.TabIndex = 0;
             this.lblEmail.Text = "Email : ";
             // 
             // lblPassword
@@ -205,7 +205,7 @@
             this.lblPassword.Location = new System.Drawing.Point(185, 284);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(258, 31);
-            this.lblPassword.TabIndex = 5;
+            this.lblPassword.TabIndex = 0;
             this.lblPassword.Text = "Password :";
             // 
             // lblUsername
@@ -217,7 +217,7 @@
             this.lblUsername.Location = new System.Drawing.Point(181, 175);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(258, 33);
-            this.lblUsername.TabIndex = 5;
+            this.lblUsername.TabIndex = 0;
             this.lblUsername.Text = "Username : ";
             // 
             // txtPassword
@@ -243,7 +243,7 @@
             this.txtPassword.PlaceholderText = "Password";
             this.txtPassword.SelectedText = "";
             this.txtPassword.Size = new System.Drawing.Size(369, 60);
-            this.txtPassword.TabIndex = 4;
+            this.txtPassword.TabIndex = 2;
             this.txtPassword.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // txtEmail
@@ -268,7 +268,7 @@
             this.txtEmail.PlaceholderText = "Email";
             this.txtEmail.SelectedText = "";
             this.txtEmail.Size = new System.Drawing.Size(369, 60);
-            this.txtEmail.TabIndex = 4;
+            this.txtEmail.TabIndex = 3;
             this.txtEmail.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // txtUsername
@@ -293,7 +293,7 @@
             this.txtUsername.PlaceholderText = "Username";
             this.txtUsername.SelectedText = "";
             this.txtUsername.Size = new System.Drawing.Size(369, 60);
-            this.txtUsername.TabIndex = 4;
+            this.txtUsername.TabIndex = 1;
             this.txtUsername.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // guna2PictureBox1
@@ -319,7 +319,7 @@
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(-163, 93);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(1066, 92);
-            this.guna2HtmlLabel1.TabIndex = 3;
+            this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "Sign up for VibraSound©";
             this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 

@@ -15,9 +15,18 @@ namespace Login_or_Signup
 {
     public partial class Login_SignUp : Form
     {
-        public Login_SignUp()
+        private WelcomeScreen welcomeScreen;
+        public Login_SignUp(WelcomeScreen welcome)
         {
             InitializeComponent();
+            this.welcomeScreen = welcome;
+        }
+
+        private string SomeMethod()
+        {
+            string ip = welcomeScreen.ServerIP;
+            // sử dụng IP ở đây
+            return ip;
         }
 
         private void guna2ControlBox2_Click(object sender, EventArgs e)
@@ -65,7 +74,7 @@ namespace Login_or_Signup
         {
             this.Visible = false;
             this.Close();
-            SignUp signup = new SignUp();
+            SignUp signup = new SignUp(welcomeScreen);
             signup.Show();
         }
 
@@ -96,7 +105,7 @@ namespace Login_or_Signup
         {
             try
             {
-                string serverIP = "192.168.128.22";     
+                string serverIP = SomeMethod();     
                 int port = 9000;
 
                 using (TcpClient client = new TcpClient(serverIP, port))

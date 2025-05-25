@@ -693,6 +693,41 @@ namespace Login_or_Signup
             MainPanel.Dock = DockStyle.None;
             CreateRoomPanel.Dock = DockStyle.Fill;
         }
+
+        private void btnColor_Click(object sender, EventArgs e)
+        {
+            ColorDialog cld = new ColorDialog();
+            cld.ShowDialog();
+        }
+
+        private void darkorlightmode_CheckedChanged(object sender, EventArgs e)
+        {
+            if(darkorlightmode.Checked)
+            {
+                NameTheme.Text = "LightMode";
+                sidebarPanel.BackColor = Color.DarkGray;
+                PlayPanel.BackColor = Color.DarkGray;
+                DragPanel.FillColor = Color.DarkGray;
+                NameLogo.ForeColor = Color.Black;
+                btnHome.ForeColor = Color.Black;
+                btnSettings.ForeColor = Color.Black;
+                btnJoinRoom.ForeColor = Color.Black;
+                btnCreateRoom.ForeColor = Color.Black;
+                btnLibrary.ForeColor = Color.Black;
+            }else
+            {
+                NameTheme.Text = "DarkMode";
+                sidebarPanel.BackColor = Color.Black;
+                PlayPanel.BackColor = Color.Black;
+                DragPanel.FillColor = Color.Transparent;
+                NameLogo.ForeColor = Color.White;
+                btnHome.ForeColor = Color.White;
+                btnSettings.ForeColor = Color.White;
+                btnJoinRoom.ForeColor = Color.White;
+                btnCreateRoom.ForeColor = Color.White;
+                btnLibrary.ForeColor = Color.White;
+            }    
+        }
     }
 }
 
