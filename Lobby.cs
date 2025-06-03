@@ -1,4 +1,5 @@
-﻿using System;
+﻿//lobby.cs
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,8 @@ using System.IO;
 using Guna.UI2.WinForms;
 using static System.Net.WebRequestMethods;
 using System.Web.UI.WebControls;
+using System.Text.Json;
+using System.Net.Sockets;
 //using Setting_UI;
 
 
@@ -31,9 +34,59 @@ namespace Login_or_Signup
             InitializeComponent();
         }
 
+        private string username;
+        private string serverIP;
+
+        public Lobby(string username, string serverIP)
+        {
+            InitializeComponent();
+            this.username = username;
+            this.serverIP = serverIP;
+        }
+
         private async void Lobby_Load(object sender, EventArgs e)
         {
             //  AttachMouseEvents(guna2GradientPanel2);
+            var request = new
+            {
+                Type = "get_user_info",
+                Username = this.username
+            };
+
+            string response = SendRequest(request);
+
+            try
+            {
+                var doc = JsonDocument.Parse(response);
+                var root = doc.RootElement;
+
+                if (root.GetProperty("status").GetString() == "success")
+                {
+                    string email = root.GetProperty("email").GetString();
+                    string password = root.GetProperty("password").GetString();
+                    string nameInApp = root.GetProperty("nameInApp").GetString();
+                    string username = root.GetProperty("username").GetString();
+
+
+                    lblUsername.Text = nameInApp;
+                    txtEmail.Text = email;
+                    txtPassword.Text = new string('*', password.Length);
+                    txtNameInApp.Text = nameInApp;
+                    txtUserName.Text = username;
+
+                }
+                else
+                {
+                    MessageBox.Show("Không thể tải thông tin người dùng.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi phân tích dữ liệu từ server: " + ex.Message);
+            }
+
+            this.Load += new System.EventHandler(this.Lobby_Load);
+
             originalPlaylistPanelWidth = playlistPanel1.Width;
             originalGuna2GradientPanel2Width = guna2GradientPanel2.Width;
             originalguna2GradientPanel4Width = guna2GradientPanel4.Width;
@@ -41,6 +94,32 @@ namespace Login_or_Signup
             await LoadDeezerPlaylistsAsync();
             await LoadDeezerTopArtistsAsync();
             await LoadDeezerTopAlbumsAsync();
+
+          
+        }
+
+        private string SendRequest(object requestObj)
+        {
+            try
+            {
+                int port = 9000;
+                using (TcpClient client = new TcpClient(serverIP, port))
+                {
+                    NetworkStream stream = client.GetStream();
+
+                    string json = JsonSerializer.Serialize(requestObj);
+                    byte[] dataToSend = Encoding.UTF8.GetBytes(json);
+                    stream.Write(dataToSend, 0, dataToSend.Length);
+
+                    byte[] buffer = new byte[4096];
+                    int bytesRead = stream.Read(buffer, 0, buffer.Length);
+                    return Encoding.UTF8.GetString(buffer, 0, bytesRead);
+                }
+            }
+            catch (Exception ex)
+            {
+                return JsonSerializer.Serialize(new { status = "error", message = ex.Message });
+            }
         }
 
         public async Task LoadDeezerPlaylistsAsync()
@@ -423,7 +502,7 @@ namespace Login_or_Signup
                 }
             }
         }
-    
+
         private void btnScrollLeftArtist_Click(object sender, EventArgs e)
         {
             int newScroll = guna2GradientPanel4.HorizontalScroll.Value - 400;
@@ -558,7 +637,7 @@ namespace Login_or_Signup
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            MainPanel.Visible = false;           
+            MainPanel.Visible = false;
             panelSetting.Visible = true;
             JoinRoomPanel.Visible = false;
             CreateRoomPanel.Visible = false;
@@ -566,7 +645,7 @@ namespace Login_or_Signup
             JoinRoomPanel.Dock = DockStyle.None;
             MainPanel.Dock = DockStyle.None;
             panelSetting.Dock = DockStyle.Fill;
-          //  guna2Transition1.ShowSync(panelSetting);
+            //  guna2Transition1.ShowSync(panelSetting);
         }
 
         private void btnHome_Click(object sender, EventArgs e)
@@ -579,23 +658,24 @@ namespace Login_or_Signup
             JoinRoomPanel.Dock = DockStyle.None;
             panelSetting.Dock = DockStyle.None;
             MainPanel.Dock = DockStyle.Fill;
-          //  guna2Transition1.HideSync(panelSetting);
-        }      
+            //  guna2Transition1.HideSync(panelSetting);
+        }
 
         private void mainButton_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void CirclePic_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            if(ofd.ShowDialog() == DialogResult.OK)
+            if (ofd.ShowDialog() == DialogResult.OK)
             {
                 string filePath = ofd.FileName;
                 // Thay đổi ảnh đại diện
                 CirclePic.Image = System.Drawing.Image.FromFile(filePath);
-                guna2CirclePictureBox1.Image = System.Drawing.Image.FromFile(filePath);
+               //khi nào nhấn share thì hiển thị ra sau
+               // guna2CirclePictureBox1.Image = System.Drawing.Image.FromFile(filePath);
                 // Lưu đường dẫn ảnh vào một biến hoặc cơ sở dữ liệu nếu cần thiết
             }
         }
@@ -627,7 +707,7 @@ namespace Login_or_Signup
 
         private void btnSaveInfo_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label45_Click(object sender, EventArgs e)
@@ -696,13 +776,30 @@ namespace Login_or_Signup
 
         private void btnColor_Click(object sender, EventArgs e)
         {
+            NameTheme.Text = "CustomColor";
             ColorDialog cld = new ColorDialog();
-            cld.ShowDialog();
+         //   darkorlightmode.Enabled = false; // Tắt chế độ sáng/tối khi chọn màu tùy chỉnh
+            darkorlightmode.Checked = false; // Bỏ chọn chế độ sáng/tối
+            if(cld.ShowDialog() == DialogResult.OK)
+            {
+                sidebarPanel.BackColor = cld.Color;
+                PlayPanel.BackColor = cld.Color;
+                DragPanel.FillColor = cld.Color;
+                NameLogo.ForeColor = Color.Black;
+                btnHome.ForeColor = Color.Black;
+                btnSettings.ForeColor = Color.Black;
+                btnJoinRoom.ForeColor = Color.Black;
+                btnCreateRoom.ForeColor = Color.Black;
+                btnLibrary.ForeColor = Color.Black;
+                lblMenu.ForeColor = Color.Black;
+                MainPanel.FillColor = Color.Silver;
+                MainPanel.FillColor2 = cld.Color;
+            }
         }
 
         private void darkorlightmode_CheckedChanged(object sender, EventArgs e)
         {
-            if(darkorlightmode.Checked)
+            if (darkorlightmode.Checked)
             {
                 NameTheme.Text = "LightMode";
                 sidebarPanel.BackColor = Color.DarkGray;
@@ -714,7 +811,10 @@ namespace Login_or_Signup
                 btnJoinRoom.ForeColor = Color.Black;
                 btnCreateRoom.ForeColor = Color.Black;
                 btnLibrary.ForeColor = Color.Black;
-            }else
+                MainPanel.FillColor = Color.DimGray;
+                MainPanel.FillColor2 = Color.Black;
+            }
+            else
             {
                 NameTheme.Text = "DarkMode";
                 sidebarPanel.BackColor = Color.Black;
@@ -726,7 +826,28 @@ namespace Login_or_Signup
                 btnJoinRoom.ForeColor = Color.White;
                 btnCreateRoom.ForeColor = Color.White;
                 btnLibrary.ForeColor = Color.White;
-            }    
+
+            }
+        }
+
+
+        public class UserInfo
+        {
+            public string NameInApp { get; set; }
+            public string Email { get; set; }
+            public string Password { get; set; }
+            public string Theme { get; set; }
+            public string Avatar { get; set; }
+        }
+
+        private void label54_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnChangeEmail_Click(object sender, EventArgs e)
+        {
+           //ghi sau
         }
     }
 }

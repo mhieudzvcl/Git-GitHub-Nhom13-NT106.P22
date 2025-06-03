@@ -1,4 +1,5 @@
-﻿using System;
+﻿//login
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,7 +35,7 @@ namespace Login_or_Signup
             this.Close();
             WelcomeScreen welcomeScreen = new WelcomeScreen();
             welcomeScreen.Visible = true;
-            
+
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
@@ -91,7 +92,7 @@ namespace Login_or_Signup
             if (response == "login_success")
             {
                 MessageBox.Show("Đăng nhập thành công!");
-                Lobby lobby = new Lobby();
+                Lobby lobby = new Lobby(txtUsername.Text, welcomeScreen.ServerIP); // truyền username và IP
                 lobby.Show();
                 this.Hide();
             }
@@ -101,11 +102,12 @@ namespace Login_or_Signup
             }
         }
 
+        //cái này dùng để dùng IP của form WelcomeScreen
         private string SendRequest(object requestObj)
         {
             try
             {
-                string serverIP = SomeMethod();     
+                string serverIP = SomeMethod();
                 int port = 9000;
 
                 using (TcpClient client = new TcpClient(serverIP, port))
