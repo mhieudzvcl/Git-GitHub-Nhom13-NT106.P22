@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation2 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lobby));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.DragPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -83,6 +83,7 @@
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label60 = new System.Windows.Forms.Label();
             this.panelSetting = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.btnChangeInfo = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label62 = new System.Windows.Forms.Label();
             this.txtUserName = new Guna.UI2.WinForms.Guna2TextBox();
             this.label56 = new System.Windows.Forms.Label();
@@ -369,7 +370,6 @@
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.btnChangeInfo = new Guna.UI2.WinForms.Guna2GradientButton();
             this.DragPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePic2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -1409,6 +1409,30 @@
             this.panelSetting.TabIndex = 36;
             this.panelSetting.Visible = false;
             this.panelSetting.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSetting_Paint);
+            // 
+            // btnChangeInfo
+            // 
+            this.btnChangeInfo.Animated = true;
+            this.btnChangeInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnChangeInfo.BorderRadius = 20;
+            this.guna2Transition1.SetDecoration(this.btnChangeInfo, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.btnChangeInfo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnChangeInfo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnChangeInfo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnChangeInfo.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnChangeInfo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnChangeInfo.FillColor = System.Drawing.Color.DarkGray;
+            this.btnChangeInfo.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(62)))), ((int)(((byte)(216)))));
+            this.btnChangeInfo.Font = new System.Drawing.Font("Leelawadee UI", 16.2F, System.Drawing.FontStyle.Bold);
+            this.btnChangeInfo.ForeColor = System.Drawing.Color.White;
+            this.btnChangeInfo.IndicateFocus = true;
+            this.btnChangeInfo.Location = new System.Drawing.Point(381, 1301);
+            this.btnChangeInfo.Name = "btnChangeInfo";
+            this.btnChangeInfo.Size = new System.Drawing.Size(179, 55);
+            this.btnChangeInfo.TabIndex = 83;
+            this.btnChangeInfo.Text = "Change";
+            this.btnChangeInfo.UseTransparentBackground = true;
+            this.btnChangeInfo.Click += new System.EventHandler(this.btnChangeInfo_Click);
             // 
             // label62
             // 
@@ -5222,22 +5246,22 @@
             // 
             this.guna2Transition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Mosaic;
             this.guna2Transition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 20;
-            animation1.Padding = new System.Windows.Forms.Padding(30);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.guna2Transition1.DefaultAnimation = animation1;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 20;
+            animation2.Padding = new System.Windows.Forms.Padding(30);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation2;
             this.guna2Transition1.TimeStep = 1F;
             // 
             // guna2ContextMenuStrip1
@@ -5259,30 +5283,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // btnChangeInfo
-            // 
-            this.btnChangeInfo.Animated = true;
-            this.btnChangeInfo.BackColor = System.Drawing.Color.Transparent;
-            this.btnChangeInfo.BorderRadius = 20;
-            this.guna2Transition1.SetDecoration(this.btnChangeInfo, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.btnChangeInfo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnChangeInfo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnChangeInfo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnChangeInfo.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnChangeInfo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnChangeInfo.FillColor = System.Drawing.Color.DarkGray;
-            this.btnChangeInfo.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(62)))), ((int)(((byte)(216)))));
-            this.btnChangeInfo.Font = new System.Drawing.Font("Leelawadee UI", 16.2F, System.Drawing.FontStyle.Bold);
-            this.btnChangeInfo.ForeColor = System.Drawing.Color.White;
-            this.btnChangeInfo.IndicateFocus = true;
-            this.btnChangeInfo.Location = new System.Drawing.Point(381, 1301);
-            this.btnChangeInfo.Name = "btnChangeInfo";
-            this.btnChangeInfo.Size = new System.Drawing.Size(179, 55);
-            this.btnChangeInfo.TabIndex = 83;
-            this.btnChangeInfo.Text = "Change";
-            this.btnChangeInfo.UseTransparentBackground = true;
-            this.btnChangeInfo.Click += new System.EventHandler(this.btnChangeInfo_Click);
             // 
             // Lobby
             // 

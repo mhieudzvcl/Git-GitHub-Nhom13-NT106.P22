@@ -36,6 +36,7 @@ namespace Login_or_Signup
 
         private string username;
         private string serverIP;
+        private string originalNameInApp;
 
         public Lobby(string username, string serverIP)
         {
@@ -64,7 +65,7 @@ namespace Login_or_Signup
                 {
                     string email = root.GetProperty("email").GetString();
                     string password = root.GetProperty("password").GetString();
-                    string nameInApp = root.GetProperty("nameInApp").GetString();
+                    originalNameInApp = root.GetProperty("nameInApp").GetString();
                     string username = root.GetProperty("username").GetString();
                     string avatar = root.GetProperty("avatar").GetString();
 
@@ -73,10 +74,10 @@ namespace Login_or_Signup
                     else
                         CirclePic.Image = Properties.Resources.anhdaidienmacdinh2; // ảnh mặ
 
-                    lblUsername.Text = nameInApp;
+                    lblUsername.Text = originalNameInApp;
                     txtEmail.Text = email;
                     txtPassword.Text = new string('*', password.Length);
-                    txtNameInApp.Text = nameInApp;
+                    txtNameInApp.Text = originalNameInApp;
                     txtUserName.Text = username;
                     CirclePic2.ImageLocation = avatar;
                 }
@@ -730,6 +731,40 @@ namespace Login_or_Signup
             btnColor.Enabled = false;
             darkorlightmode.Enabled = false;
             txtUserName.ReadOnly = true;
+
+
+            string newName = txtNameInApp.Text.Trim();
+
+            if (newName != originalNameInApp)
+            {
+                var request = new
+                {
+                    Type = "update_nameinapp",
+                    Username = this.username,
+                    NameInApp = newName
+                };
+
+                string response = SendRequest(request);
+
+                var doc = JsonDocument.Parse(response);
+                var root = doc.RootElement;
+                string status = root.GetProperty("status").GetString();
+
+                if (status == "update_success")
+                {
+                    MessageBox.Show("Cập nhật tên hiển thị thành công!");
+                    originalNameInApp = newName;
+                    lblUsername.Text = newName; // Cập nhật tên hiển thị luôn
+                }
+                else
+                {
+                    MessageBox.Show("Cập nhật thất bại.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không có thay đổi nào để lưu.");
+            }
 
             // Nếu người dùng không chọn ảnh thì không làm gì
             if (string.IsNullOrEmpty(selectedAvatarPath))
