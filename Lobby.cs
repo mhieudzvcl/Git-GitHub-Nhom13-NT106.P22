@@ -66,14 +66,19 @@ namespace Login_or_Signup
                     string password = root.GetProperty("password").GetString();
                     string nameInApp = root.GetProperty("nameInApp").GetString();
                     string username = root.GetProperty("username").GetString();
+                    string avatar = root.GetProperty("avatar").GetString();
 
+                    if (!string.IsNullOrEmpty(avatar))
+                        CirclePic.ImageLocation = avatar;
+                    else
+                        CirclePic.Image = Properties.Resources.anhdaidienmacdinh2; // ảnh mặ
 
                     lblUsername.Text = nameInApp;
                     txtEmail.Text = email;
                     txtPassword.Text = new string('*', password.Length);
                     txtNameInApp.Text = nameInApp;
                     txtUserName.Text = username;
-
+                    CirclePic2.ImageLocation = avatar;
                 }
                 else
                 {
@@ -666,17 +671,25 @@ namespace Login_or_Signup
 
         }
 
+
+        private bool isChangingInfo = false;
+        private string selectedAvatarPath = null;
+
         private void CirclePic_Click(object sender, EventArgs e)
         {
+            if (!isChangingInfo)
+            {
+                MessageBox.Show("Vui lòng nhấn nút 'Thay đổi thông tin' trước khi thay đổi ảnh đại diện.");
+                return;
+            }
+
             OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
+
             if (ofd.ShowDialog() == DialogResult.OK)
             {
-                string filePath = ofd.FileName;
-                // Thay đổi ảnh đại diện
-                CirclePic.Image = System.Drawing.Image.FromFile(filePath);
-               //khi nào nhấn share thì hiển thị ra sau
-               // guna2CirclePictureBox1.Image = System.Drawing.Image.FromFile(filePath);
-                // Lưu đường dẫn ảnh vào một biến hoặc cơ sở dữ liệu nếu cần thiết
+                selectedAvatarPath = ofd.FileName; // Lưu lại đường dẫn
+                CirclePic.Image = System.Drawing.Image.FromFile(selectedAvatarPath);
             }
         }
 
@@ -707,8 +720,81 @@ namespace Login_or_Signup
 
         private void btnSaveInfo_Click(object sender, EventArgs e)
         {
-            
+            // Disable các thành phần không cho sửa
+            txtNameInApp.ReadOnly = true;
+            btnChangeEmail.Enabled = false;
+            btnChangePassword.Enabled = false;
+            btnSaveInfo.Enabled = false;
+            btnSaveInfo.FillColor = Color.DarkGray;
+            btnSaveInfo.FillColor2 = Color.DarkGray;
+            btnColor.Enabled = false;
+            darkorlightmode.Enabled = false;
+            txtUserName.ReadOnly = true;
+
+            // Nếu người dùng không chọn ảnh thì không làm gì
+            if (string.IsNullOrEmpty(selectedAvatarPath))
+            {
+                MessageBox.Show("Ảnh chưa thay đổi hoặc đang dùng ảnh mặc định.");
+                return;
+            }
+
+            try
+            {
+                string savedPath = Path.Combine(Application.StartupPath, "Avatars");
+                Directory.CreateDirectory(savedPath);
+
+                string filename = this.username + "_avatar.jpg";
+                string fullPath = Path.Combine(savedPath, filename);
+
+                // Copy ảnh từ path đã chọn sang thư mục Avatar
+                System.IO.File.Copy(selectedAvatarPath, fullPath, true); // Ghi đè nếu đã tồn tại
+
+                CirclePic2.Image = System.Drawing.Image.FromFile(fullPath);
+
+                var request = new
+                {
+                    Type = "update_avatar",
+                    Username = this.username,
+                    Avatar = fullPath
+                };
+
+                string response = SendRequest(request);
+                var doc = JsonDocument.Parse(response);
+                var root = doc.RootElement;
+
+                if (root.GetProperty("status").GetString() == "update_success")
+                {
+                    MessageBox.Show("Lưu ảnh đại diện thành công!");
+                }
+                else
+                {
+                    MessageBox.Show("Không thể cập nhật ảnh đại diện.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi lưu ảnh: " + ex.Message);
+            }
         }
+
+        private bool IsImageEqual(System.Drawing.Image img1, System.Drawing.Image img2)
+        {
+            if (img1 == null || img2 == null) return false;
+
+            using (var ms1 = new MemoryStream())
+            using (var ms2 = new MemoryStream())
+            {
+                img1.Save(ms1, System.Drawing.Imaging.ImageFormat.Png);
+                img2.Save(ms2, System.Drawing.Imaging.ImageFormat.Png);
+
+                byte[] b1 = ms1.ToArray();
+                byte[] b2 = ms2.ToArray();
+
+                return b1.SequenceEqual(b2);
+            }
+        }
+
+
 
         private void label45_Click(object sender, EventArgs e)
         {
@@ -848,6 +934,20 @@ namespace Login_or_Signup
         private void btnChangeEmail_Click(object sender, EventArgs e)
         {
            //ghi sau
+        }
+
+        private void btnChangeInfo_Click(object sender, EventArgs e)
+        {
+            isChangingInfo = true;
+            txtNameInApp.ReadOnly = false;
+            btnChangeEmail.Enabled = true;
+            btnChangePassword.Enabled = true;   
+            btnSaveInfo.Enabled = true;
+            btnSaveInfo.FillColor = Color.DarkGray;
+            btnSaveInfo.FillColor2 = Color.FromArgb(143, 62, 216);
+            btnColor.Enabled = true;
+            darkorlightmode.Enabled = true;
+            txtUserName.ReadOnly = false;
         }
     }
 }
