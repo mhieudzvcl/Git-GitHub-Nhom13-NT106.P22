@@ -730,8 +730,6 @@ namespace Login_or_Signup
             btnSaveInfo.FillColor2 = Color.DarkGray;
             btnColor.Enabled = false;
             darkorlightmode.Enabled = false;
-            txtUserName.ReadOnly = true;
-
 
             string newName = txtNameInApp.Text.Trim();
 
@@ -982,8 +980,11 @@ namespace Login_or_Signup
             btnSaveInfo.FillColor2 = Color.FromArgb(143, 62, 216);
             btnColor.Enabled = true;
             darkorlightmode.Enabled = true;
-            txtUserName.ReadOnly = false;
+        }
+
+        private void btnChangePassword_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
-

@@ -230,5 +230,11 @@ namespace Login_or_Signup
             SignUp su = new SignUp(this);
             su.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ChangePassword changepass = new ChangePassword(this);
+            changepass.Show();
+        }
     }
 }

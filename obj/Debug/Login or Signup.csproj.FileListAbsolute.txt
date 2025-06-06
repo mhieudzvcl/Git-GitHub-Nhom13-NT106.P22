@@ -86,3 +86,4 @@ C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Te
 C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Text.Json.xml
 C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.ValueTuple.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login_or_Signup.ChangePassword.resources
