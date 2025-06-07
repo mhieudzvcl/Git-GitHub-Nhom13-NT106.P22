@@ -16,6 +16,7 @@ using static System.Net.WebRequestMethods;
 using System.Web.UI.WebControls;
 using System.Text.Json;
 using System.Net.Sockets;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 //using Setting_UI;
 
 
@@ -29,6 +30,9 @@ namespace Login_or_Signup
         private int originalGuna2GradientPanel2Width;
         private int originalguna2GradientPanel4Width;
         private int originalpanelCoverAlbumsWidth;
+
+        public static string UserEmail;
+
         public Lobby()
         {
             InitializeComponent();
@@ -80,6 +84,8 @@ namespace Login_or_Signup
                     txtNameInApp.Text = originalNameInApp;
                     txtUserName.Text = username;
                     CirclePic2.ImageLocation = avatar;
+
+                    Lobby.UserEmail = email;
                 }
                 else
                 {
@@ -93,6 +99,7 @@ namespace Login_or_Signup
 
             this.Load += new System.EventHandler(this.Lobby_Load);
 
+
             originalPlaylistPanelWidth = playlistPanel1.Width;
             originalGuna2GradientPanel2Width = guna2GradientPanel2.Width;
             originalguna2GradientPanel4Width = guna2GradientPanel4.Width;
@@ -100,8 +107,6 @@ namespace Login_or_Signup
             await LoadDeezerPlaylistsAsync();
             await LoadDeezerTopArtistsAsync();
             await LoadDeezerTopAlbumsAsync();
-
-          
         }
 
         private string SendRequest(object requestObj)
@@ -984,7 +989,8 @@ namespace Login_or_Signup
 
         private void btnChangePassword_Click(object sender, EventArgs e)
         {
-
+            ChangePassword changePasswordForm = new ChangePassword();
+            changePasswordForm.ShowDialog();
         }
     }
 }
