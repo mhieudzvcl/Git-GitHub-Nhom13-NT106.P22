@@ -31,7 +31,7 @@
 ## 🛠️ Công cụ hỗ trợ  
 - C# .NET Framework  
 - WinForms  
-- SQLite
+- SQL Server
 - Guna UI,...  
 
 ---
