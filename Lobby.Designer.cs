@@ -46,6 +46,8 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.sidebarPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblUserName2 = new System.Windows.Forms.Label();
+            this.CirclePicUser = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnHome = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnCreateRoom = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSettings = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -367,23 +369,23 @@
             this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            this.PlayPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label63 = new System.Windows.Forms.Label();
+            this.lblSongName = new System.Windows.Forms.Label();
+            this.picSongImage = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientCircleButton2 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
+            this.SongProgressBar = new Guna.UI2.WinForms.Guna2TrackBar();
+            this.btnForward = new Guna.UI2.WinForms.Guna2GradientCircleButton();
+            this.btnRewind = new Guna.UI2.WinForms.Guna2GradientCircleButton();
+            this.btnPlayPause = new Guna.UI2.WinForms.Guna2GradientCircleButton();
+            this.VolumeProgressBar = new Guna.UI2.WinForms.Guna2TrackBar();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.PlayPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.VolumeProgressBar = new Guna.UI2.WinForms.Guna2TrackBar();
-            this.btnPlayPause = new Guna.UI2.WinForms.Guna2GradientCircleButton();
-            this.btnRewind = new Guna.UI2.WinForms.Guna2GradientCircleButton();
-            this.btnForward = new Guna.UI2.WinForms.Guna2GradientCircleButton();
-            this.SongProgressBar = new Guna.UI2.WinForms.Guna2TrackBar();
-            this.guna2GradientCircleButton2 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
-            this.picSongImage = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.lblSongName = new System.Windows.Forms.Label();
-            this.CirclePicUser = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.lblUserName2 = new System.Windows.Forms.Label();
             this.DragPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePic2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.sidebarPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CirclePicUser)).BeginInit();
             this.sidebar.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             this.CreateRoomPanel.SuspendLayout();
@@ -517,7 +519,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).BeginInit();
             this.PlayPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picSongImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CirclePicUser)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -725,11 +726,40 @@
             this.sidebarPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebarPanel.Location = new System.Drawing.Point(0, 81);
             this.sidebarPanel.MaximumSize = new System.Drawing.Size(272, 913);
-            this.sidebarPanel.MinimumSize = new System.Drawing.Size(72, 913);
+            this.sidebarPanel.MinimumSize = new System.Drawing.Size(70, 913);
             this.sidebarPanel.Name = "sidebarPanel";
             this.sidebarPanel.Size = new System.Drawing.Size(272, 913);
             this.sidebarPanel.TabIndex = 0;
             this.sidebarPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.sidebarPanel_Paint);
+            // 
+            // lblUserName2
+            // 
+            this.lblUserName2.AutoEllipsis = true;
+            this.lblUserName2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.lblUserName2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.lblUserName2.Font = new System.Drawing.Font("Yu Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblUserName2.Location = new System.Drawing.Point(6, 234);
+            this.lblUserName2.Name = "lblUserName2";
+            this.lblUserName2.Size = new System.Drawing.Size(269, 33);
+            this.lblUserName2.TabIndex = 6;
+            this.lblUserName2.Text = "Username";
+            this.lblUserName2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // CirclePicUser
+            // 
+            this.CirclePicUser.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.CirclePicUser, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.CirclePicUser.Image = ((System.Drawing.Image)(resources.GetObject("CirclePicUser.Image")));
+            this.CirclePicUser.ImageRotate = 0F;
+            this.CirclePicUser.Location = new System.Drawing.Point(70, 91);
+            this.CirclePicUser.Name = "CirclePicUser";
+            this.CirclePicUser.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.CirclePicUser.Size = new System.Drawing.Size(140, 140);
+            this.CirclePicUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.CirclePicUser.TabIndex = 5;
+            this.CirclePicUser.TabStop = false;
+            this.CirclePicUser.UseTransparentBackground = true;
             // 
             // btnHome
             // 
@@ -1044,14 +1074,15 @@
             this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.guna2TextBox4.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(83, 335);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox4.Location = new System.Drawing.Point(43, 341);
+            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox4.Name = "guna2TextBox4";
             this.guna2TextBox4.PlaceholderText = "";
             this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.Size = new System.Drawing.Size(416, 72);
+            this.guna2TextBox4.Size = new System.Drawing.Size(487, 67);
             this.guna2TextBox4.TabIndex = 1;
             this.guna2TextBox4.TextChanged += new System.EventHandler(this.guna2TextBox4_TextChanged_1);
             // 
@@ -1238,10 +1269,11 @@
             this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.guna2TextBox6.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Location = new System.Drawing.Point(27, 387);
-            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox6.Location = new System.Drawing.Point(28, 387);
+            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.guna2TextBox6.Name = "guna2TextBox6";
             this.guna2TextBox6.PlaceholderText = "";
             this.guna2TextBox6.SelectedText = "";
@@ -1280,10 +1312,11 @@
             this.txtRoomID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtRoomID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtRoomID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRoomID.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtRoomID.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtRoomID.ForeColor = System.Drawing.Color.Black;
             this.txtRoomID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRoomID.Location = new System.Drawing.Point(25, 234);
-            this.txtRoomID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtRoomID.Location = new System.Drawing.Point(27, 221);
+            this.txtRoomID.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txtRoomID.Name = "txtRoomID";
             this.txtRoomID.PlaceholderText = "";
             this.txtRoomID.SelectedText = "";
@@ -5287,13 +5320,10 @@
             this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
             // PlayPanel
             // 
             this.PlayPanel.BackColor = System.Drawing.Color.Transparent;
+            this.PlayPanel.Controls.Add(this.label63);
             this.PlayPanel.Controls.Add(this.lblSongName);
             this.PlayPanel.Controls.Add(this.picSongImage);
             this.PlayPanel.Controls.Add(this.guna2GradientCircleButton2);
@@ -5311,56 +5341,73 @@
             this.PlayPanel.Size = new System.Drawing.Size(1553, 92);
             this.PlayPanel.TabIndex = 84;
             // 
-            // VolumeProgressBar
+            // label63
             // 
-            this.VolumeProgressBar.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.VolumeProgressBar, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.VolumeProgressBar.FillColor = System.Drawing.Color.DimGray;
-            this.VolumeProgressBar.Location = new System.Drawing.Point(1056, 24);
-            this.VolumeProgressBar.Name = "VolumeProgressBar";
-            this.VolumeProgressBar.Size = new System.Drawing.Size(165, 23);
-            this.VolumeProgressBar.TabIndex = 3;
-            this.VolumeProgressBar.ThumbColor = System.Drawing.Color.White;
+            this.label63.AutoSize = true;
+            this.label63.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label63, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label63.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.DarkGray;
+            this.label63.Location = new System.Drawing.Point(108, 46);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(177, 17);
+            this.label63.TabIndex = 11;
+            this.label63.Text = "Đây là mô tả ngắn bài hát";
             // 
-            // btnPlayPause
+            // lblSongName
             // 
-            this.btnPlayPause.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.btnPlayPause, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.btnPlayPause.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPlayPause.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPlayPause.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPlayPause.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPlayPause.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPlayPause.FillColor = System.Drawing.Color.Gray;
-            this.btnPlayPause.FillColor2 = System.Drawing.Color.Silver;
-            this.btnPlayPause.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlayPause.ForeColor = System.Drawing.Color.Black;
-            this.btnPlayPause.Location = new System.Drawing.Point(641, 8);
-            this.btnPlayPause.Name = "btnPlayPause";
-            this.btnPlayPause.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.btnPlayPause.Size = new System.Drawing.Size(55, 55);
-            this.btnPlayPause.TabIndex = 4;
-            this.btnPlayPause.Text = "▶";
+            this.lblSongName.AutoSize = true;
+            this.lblSongName.BackColor = System.Drawing.Color.White;
+            this.guna2Transition1.SetDecoration(this.lblSongName, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.lblSongName.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSongName.Location = new System.Drawing.Point(106, 13);
+            this.lblSongName.Name = "lblSongName";
+            this.lblSongName.Size = new System.Drawing.Size(156, 22);
+            this.lblSongName.TabIndex = 10;
+            this.lblSongName.Text = "Đây là tên bài hát";
             // 
-            // btnRewind
+            // picSongImage
             // 
-            this.btnRewind.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.btnRewind, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.btnRewind.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnRewind.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnRewind.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnRewind.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnRewind.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnRewind.FillColor = System.Drawing.Color.Transparent;
-            this.btnRewind.FillColor2 = System.Drawing.Color.Transparent;
-            this.btnRewind.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRewind.ForeColor = System.Drawing.Color.White;
-            this.btnRewind.Location = new System.Drawing.Point(507, 8);
-            this.btnRewind.Name = "btnRewind";
-            this.btnRewind.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.btnRewind.Size = new System.Drawing.Size(55, 55);
-            this.btnRewind.TabIndex = 5;
-            this.btnRewind.Text = "⏪";
+            this.guna2Transition1.SetDecoration(this.picSongImage, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.picSongImage.Image = ((System.Drawing.Image)(resources.GetObject("picSongImage.Image")));
+            this.picSongImage.ImageRotate = 0F;
+            this.picSongImage.Location = new System.Drawing.Point(0, 0);
+            this.picSongImage.Name = "picSongImage";
+            this.picSongImage.Size = new System.Drawing.Size(94, 92);
+            this.picSongImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picSongImage.TabIndex = 9;
+            this.picSongImage.TabStop = false;
+            this.picSongImage.UseTransparentBackground = true;
+            // 
+            // guna2GradientCircleButton2
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2GradientCircleButton2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientCircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientCircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientCircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientCircleButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientCircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientCircleButton2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2GradientCircleButton2.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2GradientCircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GradientCircleButton2.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientCircleButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientCircleButton2.Image")));
+            this.guna2GradientCircleButton2.Location = new System.Drawing.Point(1005, 13);
+            this.guna2GradientCircleButton2.Name = "guna2GradientCircleButton2";
+            this.guna2GradientCircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2GradientCircleButton2.Size = new System.Drawing.Size(45, 45);
+            this.guna2GradientCircleButton2.TabIndex = 8;
+            // 
+            // SongProgressBar
+            // 
+            this.SongProgressBar.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.SongProgressBar, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.SongProgressBar.FillColor = System.Drawing.Color.DimGray;
+            this.SongProgressBar.Location = new System.Drawing.Point(395, 69);
+            this.SongProgressBar.Name = "SongProgressBar";
+            this.SongProgressBar.Size = new System.Drawing.Size(546, 23);
+            this.SongProgressBar.TabIndex = 7;
+            this.SongProgressBar.ThumbColor = System.Drawing.Color.White;
             // 
             // btnForward
             // 
@@ -5382,88 +5429,60 @@
             this.btnForward.TabIndex = 6;
             this.btnForward.Text = "⏩";
             // 
-            // SongProgressBar
+            // btnRewind
             // 
-            this.SongProgressBar.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.SongProgressBar, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.SongProgressBar.FillColor = System.Drawing.Color.DimGray;
-            this.SongProgressBar.Location = new System.Drawing.Point(395, 69);
-            this.SongProgressBar.Name = "SongProgressBar";
-            this.SongProgressBar.Size = new System.Drawing.Size(546, 23);
-            this.SongProgressBar.TabIndex = 7;
-            this.SongProgressBar.ThumbColor = System.Drawing.Color.White;
+            this.btnRewind.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.btnRewind, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.btnRewind.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnRewind.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnRewind.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnRewind.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnRewind.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnRewind.FillColor = System.Drawing.Color.Transparent;
+            this.btnRewind.FillColor2 = System.Drawing.Color.Transparent;
+            this.btnRewind.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRewind.ForeColor = System.Drawing.Color.White;
+            this.btnRewind.Location = new System.Drawing.Point(507, 8);
+            this.btnRewind.Name = "btnRewind";
+            this.btnRewind.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnRewind.Size = new System.Drawing.Size(55, 55);
+            this.btnRewind.TabIndex = 5;
+            this.btnRewind.Text = "⏪";
             // 
-            // guna2GradientCircleButton2
+            // btnPlayPause
             // 
-            this.guna2Transition1.SetDecoration(this.guna2GradientCircleButton2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientCircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientCircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientCircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientCircleButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientCircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientCircleButton2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2GradientCircleButton2.FillColor2 = System.Drawing.Color.Transparent;
-            this.guna2GradientCircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientCircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientCircleButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientCircleButton2.Image")));
-            this.guna2GradientCircleButton2.Location = new System.Drawing.Point(1005, 13);
-            this.guna2GradientCircleButton2.Name = "guna2GradientCircleButton2";
-            this.guna2GradientCircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2GradientCircleButton2.Size = new System.Drawing.Size(45, 45);
-            this.guna2GradientCircleButton2.TabIndex = 8;
+            this.btnPlayPause.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.btnPlayPause, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.btnPlayPause.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPlayPause.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPlayPause.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPlayPause.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPlayPause.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPlayPause.FillColor = System.Drawing.Color.Gray;
+            this.btnPlayPause.FillColor2 = System.Drawing.Color.Silver;
+            this.btnPlayPause.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlayPause.ForeColor = System.Drawing.Color.Black;
+            this.btnPlayPause.Location = new System.Drawing.Point(641, 8);
+            this.btnPlayPause.Name = "btnPlayPause";
+            this.btnPlayPause.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnPlayPause.Size = new System.Drawing.Size(55, 55);
+            this.btnPlayPause.TabIndex = 4;
+            this.btnPlayPause.Text = "▶";
             // 
-            // picSongImage
+            // VolumeProgressBar
             // 
-            this.guna2Transition1.SetDecoration(this.picSongImage, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.picSongImage.Image = ((System.Drawing.Image)(resources.GetObject("picSongImage.Image")));
-            this.picSongImage.ImageRotate = 0F;
-            this.picSongImage.Location = new System.Drawing.Point(0, 0);
-            this.picSongImage.Name = "picSongImage";
-            this.picSongImage.Size = new System.Drawing.Size(94, 92);
-            this.picSongImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picSongImage.TabIndex = 9;
-            this.picSongImage.TabStop = false;
-            this.picSongImage.UseTransparentBackground = true;
+            this.VolumeProgressBar.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.VolumeProgressBar, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.VolumeProgressBar.FillColor = System.Drawing.Color.DimGray;
+            this.VolumeProgressBar.Location = new System.Drawing.Point(1056, 24);
+            this.VolumeProgressBar.Name = "VolumeProgressBar";
+            this.VolumeProgressBar.Size = new System.Drawing.Size(165, 23);
+            this.VolumeProgressBar.TabIndex = 3;
+            this.VolumeProgressBar.ThumbColor = System.Drawing.Color.White;
             // 
-            // lblSongName
+            // openFileDialog1
             // 
-            this.lblSongName.AutoSize = true;
-            this.lblSongName.BackColor = System.Drawing.Color.White;
-            this.guna2Transition1.SetDecoration(this.lblSongName, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.lblSongName.Location = new System.Drawing.Point(110, 30);
-            this.lblSongName.Name = "lblSongName";
-            this.lblSongName.Size = new System.Drawing.Size(109, 16);
-            this.lblSongName.TabIndex = 10;
-            this.lblSongName.Text = "Đây là tên bài hát";
-            // 
-            // CirclePicUser
-            // 
-            this.CirclePicUser.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.CirclePicUser, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.CirclePicUser.Image = ((System.Drawing.Image)(resources.GetObject("CirclePicUser.Image")));
-            this.CirclePicUser.ImageRotate = 0F;
-            this.CirclePicUser.Location = new System.Drawing.Point(57, 91);
-            this.CirclePicUser.Name = "CirclePicUser";
-            this.CirclePicUser.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.CirclePicUser.Size = new System.Drawing.Size(160, 160);
-            this.CirclePicUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.CirclePicUser.TabIndex = 5;
-            this.CirclePicUser.TabStop = false;
-            this.CirclePicUser.UseTransparentBackground = true;
-            // 
-            // lblUserName2
-            // 
-            this.lblUserName2.AutoEllipsis = true;
-            this.lblUserName2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.lblUserName2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.lblUserName2.Font = new System.Drawing.Font("Yu Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserName2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblUserName2.Location = new System.Drawing.Point(3, 258);
-            this.lblUserName2.Name = "lblUserName2";
-            this.lblUserName2.Size = new System.Drawing.Size(269, 33);
-            this.lblUserName2.TabIndex = 6;
-            this.lblUserName2.Text = "Username";
-            this.lblUserName2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // Lobby
             // 
@@ -5486,6 +5505,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.CirclePic2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.sidebarPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.CirclePicUser)).EndInit();
             this.sidebar.ResumeLayout(false);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.CreateRoomPanel.ResumeLayout(false);
@@ -5621,7 +5641,6 @@
             this.PlayPanel.ResumeLayout(false);
             this.PlayPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picSongImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CirclePicUser)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -5977,5 +5996,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox picSongImage;
         private System.Windows.Forms.Label lblUserName2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox CirclePicUser;
+        private System.Windows.Forms.Label label63;
     }
 }
