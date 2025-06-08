@@ -1000,5 +1000,10 @@ namespace Login_or_Signup
         {
 
         }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

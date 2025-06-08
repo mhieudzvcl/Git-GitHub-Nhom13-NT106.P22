@@ -9,6 +9,8 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net.Sockets;
+using System.Text.Json;  // Ở đầu file
 
 namespace Login_or_Signup
 {
@@ -19,6 +21,7 @@ namespace Login_or_Signup
         private string userEmail;
         private Timer countdownTimer;
         private DateTime codeExpirationTime;
+        private string serverUsername;
 
 
         public ChangePassword(WelcomeScreen screen)
@@ -126,6 +129,60 @@ namespace Login_or_Signup
             else
             {
                 MessageBox.Show("Invalid code. Please try again.", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private async void btnConfirmChange_Click(object sender, EventArgs e)
+        {
+            string NewPassword = txtNewPassword.Text;
+            if (txtNewPassword.Text != txtConfirmNewPassword.Text)
+            {
+                MessageBox.Show("New password and confirmation do not match.", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            try
+            {
+                var message = new
+                {
+                    Type = "changepassword",
+                    Email = userEmail,
+                    Password = NewPassword
+                };
+
+                string json = System.Text.Json.JsonSerializer.Serialize(message);
+
+                using (TcpClient client = new TcpClient("127.0.0.1", 9000))
+                using (NetworkStream stream = client.GetStream())
+                {
+                    byte[] data = Encoding.UTF8.GetBytes(json);
+                    await stream.WriteAsync(data, 0, data.Length);
+
+                    byte[] buffer = new byte[4096];
+                    int bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length);
+                    string response = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+                //    MessageBox.Show($"Server response: {response}"); // Dùng debug sau này
+                    if (response.Contains("change_success"))
+                    {
+                        MessageBox.Show("Password changed successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        // Cập nhật mật khẩu hiển thị ở form Lobby (ẩn thành dấu *)
+                        if (Application.OpenForms["Lobby"] is Lobby lobby)
+                        {
+                            lobby.txtPassword.Text = new string('*', txtNewPassword.Text.Length);
+                        }
+
+                        this.Close(); // Đóng form đổi mật khẩu
+                    }
+                    else
+                    {
+                        MessageBox.Show("Failed to change password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

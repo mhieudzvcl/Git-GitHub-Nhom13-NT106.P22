@@ -38,24 +38,24 @@
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.VerifyCodePanel = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.ChangePasswordPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.label3 = new System.Windows.Forms.Label();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.lblTimer = new System.Windows.Forms.Label();
             this.btnVerifyCode = new Guna.UI2.WinForms.Guna2GradientButton();
             this.llblSendCode = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.txtVerifyCode = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.ChangePasswordPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.txtConfirmNewPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnConfirmChange = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtNewPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblTimer = new System.Windows.Forms.Label();
             this.ChangePassworDragPanel.SuspendLayout();
             this.VerifyCodePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.ChangePasswordPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -135,125 +135,16 @@
             this.VerifyCodePanel.Size = new System.Drawing.Size(481, 516);
             this.VerifyCodePanel.TabIndex = 1;
             // 
-            // ChangePasswordPanel
+            // lblTimer
             // 
-            this.ChangePasswordPanel.BackColor = System.Drawing.Color.Transparent;
-            this.ChangePasswordPanel.BorderColor = System.Drawing.Color.DarkGray;
-            this.ChangePasswordPanel.BorderRadius = 20;
-            this.ChangePasswordPanel.BorderThickness = 2;
-            this.ChangePasswordPanel.Controls.Add(this.guna2TextBox3);
-            this.ChangePasswordPanel.Controls.Add(this.guna2GradientButton1);
-            this.ChangePasswordPanel.Controls.Add(this.label3);
-            this.ChangePasswordPanel.Controls.Add(this.guna2TextBox2);
-            this.ChangePasswordPanel.Controls.Add(this.guna2PictureBox2);
-            this.ChangePasswordPanel.FillColor = System.Drawing.Color.Gray;
-            this.ChangePasswordPanel.FillColor2 = System.Drawing.Color.BlanchedAlmond;
-            this.ChangePasswordPanel.Location = new System.Drawing.Point(70, 58);
-            this.ChangePasswordPanel.Name = "ChangePasswordPanel";
-            this.ChangePasswordPanel.Size = new System.Drawing.Size(481, 516);
-            this.ChangePasswordPanel.TabIndex = 3;
-            this.ChangePasswordPanel.Visible = false;
-            // 
-            // guna2TextBox3
-            // 
-            this.guna2TextBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.BorderRadius = 15;
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox3.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(80, 358);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '*';
-            this.guna2TextBox3.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2TextBox3.PlaceholderText = "Confirm New Password";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(344, 62);
-            this.guna2TextBox3.TabIndex = 5;
-            // 
-            // guna2GradientButton1
-            // 
-            this.guna2GradientButton1.Animated = true;
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.BorderRadius = 15;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientButton1.IndicateFocus = true;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(80, 436);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(344, 64);
-            this.guna2GradientButton1.TabIndex = 4;
-            this.guna2GradientButton1.Text = "Confirm Change";
-            this.guna2GradientButton1.UseTransparentBackground = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoEllipsis = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(62, 206);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(377, 59);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Change Password";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2TextBox2
-            // 
-            this.guna2TextBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.BorderRadius = 15;
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(80, 270);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '*';
-            this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2TextBox2.PlaceholderText = "New Password";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(344, 62);
-            this.guna2TextBox2.TabIndex = 1;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(169, 0);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(200, 200);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox2.TabIndex = 0;
-            this.guna2PictureBox2.TabStop = false;
-            this.guna2PictureBox2.UseTransparentBackground = true;
+            this.lblTimer.AutoEllipsis = true;
+            this.lblTimer.BackColor = System.Drawing.Color.Transparent;
+            this.lblTimer.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimer.Location = new System.Drawing.Point(342, 436);
+            this.lblTimer.Name = "lblTimer";
+            this.lblTimer.Size = new System.Drawing.Size(136, 62);
+            this.lblTimer.TabIndex = 5;
+            this.lblTimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnVerifyCode
             // 
@@ -347,6 +238,127 @@
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
             // 
+            // ChangePasswordPanel
+            // 
+            this.ChangePasswordPanel.BackColor = System.Drawing.Color.Transparent;
+            this.ChangePasswordPanel.BorderColor = System.Drawing.Color.DarkGray;
+            this.ChangePasswordPanel.BorderRadius = 20;
+            this.ChangePasswordPanel.BorderThickness = 2;
+            this.ChangePasswordPanel.Controls.Add(this.txtConfirmNewPassword);
+            this.ChangePasswordPanel.Controls.Add(this.btnConfirmChange);
+            this.ChangePasswordPanel.Controls.Add(this.label3);
+            this.ChangePasswordPanel.Controls.Add(this.txtNewPassword);
+            this.ChangePasswordPanel.Controls.Add(this.guna2PictureBox2);
+            this.ChangePasswordPanel.FillColor = System.Drawing.Color.Gray;
+            this.ChangePasswordPanel.FillColor2 = System.Drawing.Color.BlanchedAlmond;
+            this.ChangePasswordPanel.Location = new System.Drawing.Point(70, 58);
+            this.ChangePasswordPanel.Name = "ChangePasswordPanel";
+            this.ChangePasswordPanel.Size = new System.Drawing.Size(481, 516);
+            this.ChangePasswordPanel.TabIndex = 3;
+            this.ChangePasswordPanel.Visible = false;
+            // 
+            // txtConfirmNewPassword
+            // 
+            this.txtConfirmNewPassword.BackColor = System.Drawing.Color.Transparent;
+            this.txtConfirmNewPassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.txtConfirmNewPassword.BorderRadius = 15;
+            this.txtConfirmNewPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtConfirmNewPassword.DefaultText = "";
+            this.txtConfirmNewPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtConfirmNewPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtConfirmNewPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtConfirmNewPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtConfirmNewPassword.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.txtConfirmNewPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtConfirmNewPassword.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmNewPassword.ForeColor = System.Drawing.Color.Black;
+            this.txtConfirmNewPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtConfirmNewPassword.Location = new System.Drawing.Point(80, 358);
+            this.txtConfirmNewPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtConfirmNewPassword.Name = "txtConfirmNewPassword";
+            this.txtConfirmNewPassword.PasswordChar = '*';
+            this.txtConfirmNewPassword.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtConfirmNewPassword.PlaceholderText = "Confirm New Password";
+            this.txtConfirmNewPassword.SelectedText = "";
+            this.txtConfirmNewPassword.Size = new System.Drawing.Size(344, 62);
+            this.txtConfirmNewPassword.TabIndex = 5;
+            // 
+            // btnConfirmChange
+            // 
+            this.btnConfirmChange.Animated = true;
+            this.btnConfirmChange.BackColor = System.Drawing.Color.Transparent;
+            this.btnConfirmChange.BorderRadius = 15;
+            this.btnConfirmChange.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnConfirmChange.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnConfirmChange.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnConfirmChange.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnConfirmChange.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnConfirmChange.FillColor = System.Drawing.Color.DarkGray;
+            this.btnConfirmChange.FillColor2 = System.Drawing.Color.Black;
+            this.btnConfirmChange.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmChange.ForeColor = System.Drawing.Color.White;
+            this.btnConfirmChange.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.btnConfirmChange.IndicateFocus = true;
+            this.btnConfirmChange.Location = new System.Drawing.Point(80, 436);
+            this.btnConfirmChange.Name = "btnConfirmChange";
+            this.btnConfirmChange.Size = new System.Drawing.Size(344, 64);
+            this.btnConfirmChange.TabIndex = 4;
+            this.btnConfirmChange.Text = "Confirm Change";
+            this.btnConfirmChange.UseTransparentBackground = true;
+            this.btnConfirmChange.Click += new System.EventHandler(this.btnConfirmChange_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoEllipsis = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Yu Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(62, 206);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(377, 59);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Change Password";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtNewPassword
+            // 
+            this.txtNewPassword.BackColor = System.Drawing.Color.Transparent;
+            this.txtNewPassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.txtNewPassword.BorderRadius = 15;
+            this.txtNewPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNewPassword.DefaultText = "";
+            this.txtNewPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtNewPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtNewPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtNewPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtNewPassword.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.txtNewPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNewPassword.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNewPassword.ForeColor = System.Drawing.Color.Black;
+            this.txtNewPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNewPassword.Location = new System.Drawing.Point(80, 270);
+            this.txtNewPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNewPassword.Name = "txtNewPassword";
+            this.txtNewPassword.PasswordChar = '*';
+            this.txtNewPassword.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtNewPassword.PlaceholderText = "New Password";
+            this.txtNewPassword.SelectedText = "";
+            this.txtNewPassword.Size = new System.Drawing.Size(344, 62);
+            this.txtNewPassword.TabIndex = 1;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(169, 0);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(200, 200);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox2.TabIndex = 0;
+            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.UseTransparentBackground = true;
+            // 
             // label2
             // 
             this.label2.AutoEllipsis = true;
@@ -358,17 +370,6 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Be sure to enter the correct email to receive the code!";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblTimer
-            // 
-            this.lblTimer.AutoEllipsis = true;
-            this.lblTimer.BackColor = System.Drawing.Color.Transparent;
-            this.lblTimer.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTimer.Location = new System.Drawing.Point(342, 436);
-            this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(136, 62);
-            this.lblTimer.TabIndex = 5;
-            this.lblTimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ChangePassword
             // 
@@ -388,9 +389,9 @@
             this.Load += new System.EventHandler(this.ChangePassword_Load);
             this.ChangePassworDragPanel.ResumeLayout(false);
             this.VerifyCodePanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ChangePasswordPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -412,11 +413,11 @@
         private Guna.UI2.WinForms.Guna2GradientButton btnVerifyCode;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2GradientPanel ChangePasswordPanel;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton btnConfirmChange;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox txtNewPassword;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2TextBox txtConfirmNewPassword;
         private System.Windows.Forms.Label lblTimer;
     }
 }
