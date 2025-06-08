@@ -76,8 +76,10 @@ namespace Login_or_Signup
                     if (!string.IsNullOrEmpty(avatar))
                         CirclePic.ImageLocation = avatar;
                     else
-                        CirclePic.Image = Properties.Resources.anhdaidienmacdinh2; // ảnh mặ
+                        CirclePic.Image = Properties.Resources.anhdaidienmacdinh2; // ảnh mặc định
 
+                    CirclePicUser.ImageLocation = avatar;
+                    lblUserName2.Text = originalNameInApp;
                     lblUsername.Text = originalNameInApp;
                     txtEmail.Text = email;
                     txtPassword.Text = new string('*', password.Length);
@@ -758,6 +760,7 @@ namespace Login_or_Signup
                     MessageBox.Show("Cập nhật tên hiển thị thành công!");
                     originalNameInApp = newName;
                     lblUsername.Text = newName; // Cập nhật tên hiển thị luôn
+                    lblUserName2.Text = newName; // Cập nhật tên hiển thị luôn
                 }
                 else
                 {
@@ -788,7 +791,7 @@ namespace Login_or_Signup
                 System.IO.File.Copy(selectedAvatarPath, fullPath, true); // Ghi đè nếu đã tồn tại
 
                 CirclePic2.Image = System.Drawing.Image.FromFile(fullPath);
-
+                CirclePicUser.Image = System.Drawing.Image.FromFile(fullPath);
                 var request = new
                 {
                     Type = "update_avatar",
@@ -907,7 +910,7 @@ namespace Login_or_Signup
             if(cld.ShowDialog() == DialogResult.OK)
             {
                 sidebarPanel.BackColor = cld.Color;
-                PlayPanel.BackColor = cld.Color;
+                //PlayPanel.BackColor = cld.Color;
                 DragPanel.FillColor = cld.Color;
                 NameLogo.ForeColor = Color.Black;
                 btnHome.ForeColor = Color.Black;
@@ -927,7 +930,7 @@ namespace Login_or_Signup
             {
                 NameTheme.Text = "LightMode";
                 sidebarPanel.BackColor = Color.DarkGray;
-                PlayPanel.BackColor = Color.DarkGray;
+                //PlayPanel.BackColor = Color.DarkGray;
                 DragPanel.FillColor = Color.DarkGray;
                 NameLogo.ForeColor = Color.Black;
                 btnHome.ForeColor = Color.Black;
@@ -942,7 +945,7 @@ namespace Login_or_Signup
             {
                 NameTheme.Text = "DarkMode";
                 sidebarPanel.BackColor = Color.Black;
-                PlayPanel.BackColor = Color.Black;
+              //  PlayPanel.BackColor = Color.Black;
                 DragPanel.FillColor = Color.Transparent;
                 NameLogo.ForeColor = Color.White;
                 btnHome.ForeColor = Color.White;
@@ -991,6 +994,11 @@ namespace Login_or_Signup
         {
             ChangePassword changePasswordForm = new ChangePassword();
             changePasswordForm.ShowDialog();
+        }
+
+        private void sidebarPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
