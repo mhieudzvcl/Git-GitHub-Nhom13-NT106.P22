@@ -33,6 +33,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lobby));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.DragPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.wmpPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.NameLogo = new System.Windows.Forms.Label();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -370,7 +371,7 @@
             this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.PlayPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.label63 = new System.Windows.Forms.Label();
+            this.lblArtistName = new System.Windows.Forms.Label();
             this.lblSongName = new System.Windows.Forms.Label();
             this.picSongImage = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientCircleButton2 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
@@ -381,7 +382,9 @@
             this.VolumeProgressBar = new Guna.UI2.WinForms.Guna2TrackBar();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.timerProgress = new System.Windows.Forms.Timer(this.components);
             this.DragPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.wmpPlayer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePic2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.sidebarPanel.SuspendLayout();
@@ -528,6 +531,7 @@
             // DragPanel
             // 
             this.DragPanel.BackColor = System.Drawing.Color.Black;
+            this.DragPanel.Controls.Add(this.wmpPlayer);
             this.DragPanel.Controls.Add(this.NameLogo);
             this.DragPanel.Controls.Add(this.guna2ControlBox2);
             this.DragPanel.Controls.Add(this.guna2ControlBox1);
@@ -543,6 +547,17 @@
             this.DragPanel.Name = "DragPanel";
             this.DragPanel.Size = new System.Drawing.Size(1825, 81);
             this.DragPanel.TabIndex = 3;
+            // 
+            // wmpPlayer
+            // 
+            this.guna2Transition1.SetDecoration(this.wmpPlayer, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.wmpPlayer.Enabled = true;
+            this.wmpPlayer.Location = new System.Drawing.Point(196, 24);
+            this.wmpPlayer.Name = "wmpPlayer";
+            this.wmpPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("wmpPlayer.OcxState")));
+            this.wmpPlayer.Size = new System.Drawing.Size(224, 51);
+            this.wmpPlayer.TabIndex = 17;
+            this.wmpPlayer.Visible = false;
             // 
             // NameLogo
             // 
@@ -5324,7 +5339,7 @@
             // PlayPanel
             // 
             this.PlayPanel.BackColor = System.Drawing.Color.Transparent;
-            this.PlayPanel.Controls.Add(this.label63);
+            this.PlayPanel.Controls.Add(this.lblArtistName);
             this.PlayPanel.Controls.Add(this.lblSongName);
             this.PlayPanel.Controls.Add(this.picSongImage);
             this.PlayPanel.Controls.Add(this.guna2GradientCircleButton2);
@@ -5342,18 +5357,18 @@
             this.PlayPanel.Size = new System.Drawing.Size(1553, 92);
             this.PlayPanel.TabIndex = 84;
             // 
-            // label63
+            // lblArtistName
             // 
-            this.label63.AutoSize = true;
-            this.label63.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.label63, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label63.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.ForeColor = System.Drawing.Color.DarkGray;
-            this.label63.Location = new System.Drawing.Point(108, 46);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(177, 17);
-            this.label63.TabIndex = 11;
-            this.label63.Text = "Đây là mô tả ngắn bài hát";
+            this.lblArtistName.AutoSize = true;
+            this.lblArtistName.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.lblArtistName, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.lblArtistName.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblArtistName.ForeColor = System.Drawing.Color.DarkGray;
+            this.lblArtistName.Location = new System.Drawing.Point(108, 46);
+            this.lblArtistName.Name = "lblArtistName";
+            this.lblArtistName.Size = new System.Drawing.Size(126, 17);
+            this.lblArtistName.TabIndex = 11;
+            this.lblArtistName.Text = "Đây là tên nghệ sĩ";
             // 
             // lblSongName
             // 
@@ -5405,10 +5420,13 @@
             this.guna2Transition1.SetDecoration(this.SongProgressBar, Guna.UI2.AnimatorNS.DecorationType.None);
             this.SongProgressBar.FillColor = System.Drawing.Color.DimGray;
             this.SongProgressBar.Location = new System.Drawing.Point(395, 69);
+            this.SongProgressBar.Maximum = 30;
             this.SongProgressBar.Name = "SongProgressBar";
             this.SongProgressBar.Size = new System.Drawing.Size(546, 23);
             this.SongProgressBar.TabIndex = 7;
             this.SongProgressBar.ThumbColor = System.Drawing.Color.White;
+            this.SongProgressBar.Value = 30;
+            this.SongProgressBar.Scroll += new System.Windows.Forms.ScrollEventHandler(this.SongProgressBar_Scroll);
             // 
             // btnForward
             // 
@@ -5429,6 +5447,7 @@
             this.btnForward.Size = new System.Drawing.Size(55, 55);
             this.btnForward.TabIndex = 6;
             this.btnForward.Text = "⏩";
+            this.btnForward.Click += new System.EventHandler(this.btnForward_Click);
             // 
             // btnRewind
             // 
@@ -5449,6 +5468,7 @@
             this.btnRewind.Size = new System.Drawing.Size(55, 55);
             this.btnRewind.TabIndex = 5;
             this.btnRewind.Text = "⏪";
+            this.btnRewind.Click += new System.EventHandler(this.btnRewind_Click);
             // 
             // btnPlayPause
             // 
@@ -5469,6 +5489,7 @@
             this.btnPlayPause.Size = new System.Drawing.Size(55, 55);
             this.btnPlayPause.TabIndex = 4;
             this.btnPlayPause.Text = "▶";
+            this.btnPlayPause.Click += new System.EventHandler(this.btnPlayPause_Click);
             // 
             // VolumeProgressBar
             // 
@@ -5480,10 +5501,16 @@
             this.VolumeProgressBar.Size = new System.Drawing.Size(165, 23);
             this.VolumeProgressBar.TabIndex = 3;
             this.VolumeProgressBar.ThumbColor = System.Drawing.Color.White;
+            this.VolumeProgressBar.Scroll += new System.Windows.Forms.ScrollEventHandler(this.VolumeProgressBar_Scroll);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // timerProgress
+            // 
+            this.timerProgress.Interval = 500;
+            this.timerProgress.Tick += new System.EventHandler(this.timerProgress_Tick);
             // 
             // Lobby
             // 
@@ -5503,6 +5530,7 @@
             this.Text = "Lobby";
             this.Load += new System.EventHandler(this.Lobby_Load);
             this.DragPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.wmpPlayer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePic2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.sidebarPanel.ResumeLayout(false);
@@ -5996,7 +6024,9 @@
         private Guna.UI2.WinForms.Guna2PictureBox picSongImage;
         private System.Windows.Forms.Label lblUserName2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox CirclePicUser;
-        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label lblArtistName;
         public Guna.UI2.WinForms.Guna2TextBox txtPassword;
+        private AxWMPLib.AxWindowsMediaPlayer wmpPlayer;
+        private System.Windows.Forms.Timer timerProgress;
     }
 }

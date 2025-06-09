@@ -112,6 +112,9 @@ namespace Login_or_Signup
                 txtUsername.Clear();
                 txtPassword.Clear();
                 txtEmail.Clear();
+                Login_SignUp lgs = new Login_SignUp(welcomeScreen);
+                lgs.Show();
+                this.Hide();
             }
             else
                 MessageBox.Show("Signup thất bại hoặc user đã tồn tại! Kiểm tra lại các thông tin vừa nhập");

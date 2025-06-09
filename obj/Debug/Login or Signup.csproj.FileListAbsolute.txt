@@ -87,3 +87,49 @@ C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Te
 C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.ValueTuple.xml
 C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login_or_Signup.ChangePassword.resources
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Buffers.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.IO.Pipelines.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Memory.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Numerics.Vectors.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Text.Encodings.Web.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Text.Json.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.ValueTuple.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Buffers.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.IO.Pipelines.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Memory.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Numerics.Vectors.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Text.Encodings.Web.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Text.Json.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.ValueTuple.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login_or_Signup.ChangePassword.resources
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Microsoft.Win32.Registry.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Asio.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Core.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Midi.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Wasapi.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.WinForms.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.WinMM.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Security.AccessControl.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Security.Principal.Windows.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Microsoft.Win32.Registry.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Asio.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Core.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Midi.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Wasapi.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.WinForms.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.WinMM.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Security.AccessControl.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Security.Principal.Windows.xml
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Interop.WMPLib.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\obj\Debug\AxInterop.WMPLib.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login or Signup.csproj.ResolveComReference.cache
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Interop.WMPLib.dll
+E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\AxInterop.WMPLib.dll
