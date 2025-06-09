@@ -17,6 +17,7 @@ using System.Web.UI.WebControls;
 using System.Text.Json;
 using System.Net.Sockets;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using NAudio.Wave;
 //using Setting_UI;
 
 
@@ -30,17 +31,21 @@ namespace Login_or_Signup
         private int originalGuna2GradientPanel2Width;
         private int originalguna2GradientPanel4Width;
         private int originalpanelCoverAlbumsWidth;
-
+        private bool isPlaying = false; // Biến để theo dõi trạng thái phát nhạc
         public static string UserEmail;
 
         public Lobby()
         {
             InitializeComponent();
+            timerProgress.Tick += timerProgress_Tick;
+            timerProgress.Start();
         }
 
         private string username;
         private string serverIP;
         private string originalNameInApp;
+        private IWavePlayer waveOut;
+        private AudioFileReader audioFileReader;
 
         public Lobby(string username, string serverIP)
         {
@@ -108,7 +113,7 @@ namespace Login_or_Signup
             originalpanelCoverAlbumsWidth = panelCoverAlbums.Width;
             await LoadDeezerPlaylistsAsync();
             await LoadDeezerTopArtistsAsync();
-            await LoadDeezerTopAlbumsAsync();
+            await LoadDeezerTopAlbumsAsync();          
         }
 
         private string SendRequest(object requestObj)
@@ -333,19 +338,101 @@ namespace Login_or_Signup
             listBox1.Visible = false;
         }
 
-        private void listBox1_Click(object sender, EventArgs e)
+        private void PlayTrack(string audioUrl)
         {
-            if (listBox1.SelectedItem != null)
+            try
             {
-                guna2TextBox1.Text = listBox1.SelectedItem.ToString();
-                listBox1.Visible = false;
-                guna2TextBox1.Focus();
+                wmpPlayer.URL = audioUrl;
+                wmpPlayer.Ctlcontrols.play();
+                isPlaying = true;
+                btnPlayPause.Text = "⏸️";
+
+                // Chờ khi player có thông tin thời lượng
+                Task.Run(async () =>
+                {
+                    while (wmpPlayer.currentMedia == null || wmpPlayer.currentMedia.duration == 0)
+                        await Task.Delay(200); // Đợi đến khi có duration
+
+                    Invoke(new Action(() =>
+                    {
+                        SongProgressBar.Maximum = (int)wmpPlayer.currentMedia.duration;
+                        SongProgressBar.Value = 0;
+                        timerProgress.Start();
+                    }));
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi phát nhạc: " + ex.Message);
             }
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
+
+        private void listBox1_Click(object sender, EventArgs e)
+        {
+                     
+        }
+
+        private async void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItem != null)
+            {
+                string selectedItem = listBox1.SelectedItem.ToString();
+
+                if (!selectedItem.Contains("-"))
+                {
+                    MessageBox.Show("Định dạng item không đúng (ví dụ: 'Title - Artist')");
+                    return;
+                }
+
+                string title = selectedItem.Split('-')[0].Trim();
+                string artist = selectedItem.Split('-')[1].Trim();
+
+                string searchUrl = $"https://api.deezer.com/search/track?q={Uri.EscapeDataString(title)}";
+
+                try
+                {
+                    using (HttpClient client = new HttpClient())
+                    {
+                        string response = await client.GetStringAsync(searchUrl);
+                        JObject json = JObject.Parse(response);
+                        var data = json["data"];
+
+                        if (data != null && data.Any())
+                        {
+                            string previewUrl = data[0]["preview"]?.ToString();
+                            if (string.IsNullOrEmpty(previewUrl))
+                            {
+                                MessageBox.Show("Không có URL phát nhạc.");
+                                return;
+                            }
+
+                            PlayTrack(previewUrl);
+
+                            lblSongName.Text = title;
+                            lblArtistName.Text = artist;
+
+                            string coverUrl = data[0]["album"]["cover_big"]?.ToString();
+                            if (!string.IsNullOrEmpty(coverUrl))
+                            {
+                                picSongImage.Load(coverUrl);
+                            }
+                            guna2TextBox1.Text = "";
+                            guna2TextBox1.BringToFront();
+                            listBox1.Visible = false;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Không tìm thấy bài hát.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi khi tìm kiếm bài hát: " + ex.Message);
+                }
+            }
         }
 
         private void label14_Click(object sender, EventArgs e)
@@ -905,9 +992,9 @@ namespace Login_or_Signup
         {
             NameTheme.Text = "CustomColor";
             ColorDialog cld = new ColorDialog();
-         //   darkorlightmode.Enabled = false; // Tắt chế độ sáng/tối khi chọn màu tùy chỉnh
+            //   darkorlightmode.Enabled = false; // Tắt chế độ sáng/tối khi chọn màu tùy chỉnh
             darkorlightmode.Checked = false; // Bỏ chọn chế độ sáng/tối
-            if(cld.ShowDialog() == DialogResult.OK)
+            if (cld.ShowDialog() == DialogResult.OK)
             {
                 sidebarPanel.BackColor = cld.Color;
                 //PlayPanel.BackColor = cld.Color;
@@ -945,7 +1032,7 @@ namespace Login_or_Signup
             {
                 NameTheme.Text = "DarkMode";
                 sidebarPanel.BackColor = Color.Black;
-              //  PlayPanel.BackColor = Color.Black;
+                //  PlayPanel.BackColor = Color.Black;
                 DragPanel.FillColor = Color.Transparent;
                 NameLogo.ForeColor = Color.White;
                 btnHome.ForeColor = Color.White;
@@ -974,7 +1061,7 @@ namespace Login_or_Signup
 
         private void btnChangeEmail_Click(object sender, EventArgs e)
         {
-           //ghi sau
+            //ghi sau
         }
 
         private void btnChangeInfo_Click(object sender, EventArgs e)
@@ -982,7 +1069,7 @@ namespace Login_or_Signup
             isChangingInfo = true;
             txtNameInApp.ReadOnly = false;
             btnChangeEmail.Enabled = true;
-            btnChangePassword.Enabled = true;   
+            btnChangePassword.Enabled = true;
             btnSaveInfo.Enabled = true;
             btnSaveInfo.FillColor = Color.DarkGray;
             btnSaveInfo.FillColor2 = Color.FromArgb(143, 62, 216);
@@ -1004,6 +1091,74 @@ namespace Login_or_Signup
         private void txtPassword_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnPlayPause_Click(object sender, EventArgs e)
+        {
+            if (isPlaying)
+            {
+                wmpPlayer.Ctlcontrols.pause();
+                btnPlayPause.Text = "▶"; // Hiển thị biểu tượng Play
+            }
+            else
+            {
+                wmpPlayer.Ctlcontrols.play();
+                btnPlayPause.Text = "⏸️"; // Hiển thị biểu tượng Pause
+            }
+            isPlaying = !isPlaying;
+        }
+
+        private void btnForward_Click(object sender, EventArgs e)
+        {
+            if (wmpPlayer.playState == WMPLib.WMPPlayState.wmppsPlaying ||
+                wmpPlayer.playState == WMPLib.WMPPlayState.wmppsPaused)
+            {
+                wmpPlayer.Ctlcontrols.currentPosition += 2; // Tua nhanh 2 giây
+            }
+        }
+
+        private void btnRewind_Click(object sender, EventArgs e)
+        {
+            if (wmpPlayer.playState == WMPLib.WMPPlayState.wmppsPlaying ||
+                wmpPlayer.playState == WMPLib.WMPPlayState.wmppsPaused)
+            {
+                double newPos = wmpPlayer.Ctlcontrols.currentPosition - 2;
+                wmpPlayer.Ctlcontrols.currentPosition = newPos > 0 ? newPos : 0;
+            }
+        }
+
+        private void VolumeProgressBar_Scroll(object sender, ScrollEventArgs e)
+        {
+            wmpPlayer.settings.volume = VolumeProgressBar.Value;
+        }
+
+        private void SongProgressBar_Scroll(object sender, ScrollEventArgs e)
+        {
+            wmpPlayer.Ctlcontrols.currentPosition = SongProgressBar.Value;
+        }
+
+        private void timerProgress_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+                if (wmpPlayer.playState == WMPLib.WMPPlayState.wmppsPlaying &&
+                    wmpPlayer.currentMedia != null)
+                {
+                    double current = wmpPlayer.Ctlcontrols.currentPosition;
+                    double duration = wmpPlayer.currentMedia.duration;
+
+                    if (duration > 0)
+                    {
+                        SongProgressBar.Maximum = (int)duration;
+                        if (current <= duration)
+                            SongProgressBar.Value = (int)current;
+                    }
+                }
+            }
+            catch
+            {
+                // Tránh lỗi khi phát xong hoặc media null
+            }
         }
     }
 }
