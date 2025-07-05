@@ -133,3 +133,29 @@ E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\obj\Debug\AxInterop.WMPLi
 E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login or Signup.csproj.ResolveComReference.cache
 E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Interop.WMPLib.dll
 E:\2024-2025\LTM\Đồ án\Git-GitHub-Nhom13-NT106.P22\bin\Debug\AxInterop.WMPLib.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Microsoft.Win32.Registry.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Asio.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Core.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Midi.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Wasapi.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.WinForms.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.WinMM.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Security.AccessControl.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Security.Principal.Windows.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Microsoft.Win32.Registry.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Asio.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Core.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Midi.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.Wasapi.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.WinForms.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\NAudio.WinMM.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Security.AccessControl.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\System.Security.Principal.Windows.xml
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\Interop.WMPLib.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\bin\Debug\AxInterop.WMPLib.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Interop.WMPLib.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\obj\Debug\AxInterop.WMPLib.dll
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login or Signup.csproj.ResolveComReference.cache
+C:\LTMCB-Project\Login or Signup\Git-GitHub-Nhom13-NT106.P22\obj\Debug\Login_or_Signup.Room.resources
