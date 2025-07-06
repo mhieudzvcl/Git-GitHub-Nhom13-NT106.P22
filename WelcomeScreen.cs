@@ -239,7 +239,7 @@ namespace Login_or_Signup
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Room rum = new Room();
+            Room rum = new Room(ServerIP);
             rum.Show();
         }
     }
