@@ -88,7 +88,7 @@ namespace Login_or_Signup
             }
         }
 
-        private async void PlayMedia(string url)
+        private void PlayMedia(string url)
         {
             try
             {
