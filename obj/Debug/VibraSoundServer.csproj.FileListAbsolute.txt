@@ -1,0 +1,3 @@
+C:\LTMCB-Project\Login or Signup\obj\Debug\VibraSoundServer.csproj.AssemblyReference.cache
+C:\LTMCB-Project\Login or Signup\obj\Debug\VibraSoundServer.csproj.SuggestedBindingRedirects.cache
+C:\LTMCB-Project\Login or Signup\obj\Debug\VibraSoundServer.exe.config
